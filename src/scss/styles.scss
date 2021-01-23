@@ -1,0 +1,16 @@
+@import "./fonts";
+@import "./mixins";
+@import "./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+}
+a {
+  font-family: ProximaNova-Bold, tahoma, verdana, arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.15rem;
+}

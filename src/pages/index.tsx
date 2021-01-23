@@ -1,10 +1,11 @@
 import React from 'react';
+import DefaultLayout from '../layouts/default';
 
 const index = () => {
   return (
-    <div>
-      Index
-    </div>
+    <DefaultLayout>
+      <div>Index</div>
+    </DefaultLayout>
   );
 };
 
