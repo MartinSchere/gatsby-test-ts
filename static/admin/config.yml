@@ -1,11 +1,15 @@
 backend:
-  name: test-repo
+  name: git-gateway
+  branch: master
+
+site_url: https://codingdojo-test.netlify.app/
+
 media_folder: static/assets
 public_folder: /assets
 collections:
   - name: blog
     label: Blog
-    folder: blog
+    folder: content/blog
     create: true
     fields:
       - { name: path, label: Path }
