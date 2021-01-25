@@ -6,7 +6,7 @@ locale: "es"
 
 site_url: https://codingdojo-test.netlify.app/
 
-media_folder: static/assets
+media_folder: static/assets/img
 public_folder: /assets
 
 collections:
@@ -15,8 +15,7 @@ collections:
     label: Lenguaje de programación
     folder: content/languages
     create: true
-    editor:
-      preview: true
+
     fields:
       - name: name
         label: Nombre del lenguaje/tecnología
