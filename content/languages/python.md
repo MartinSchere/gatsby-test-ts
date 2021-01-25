@@ -1,7 +1,7 @@
 ---
 name: Python
 languageImg: /assets/768px-python-logo-notext.svg.png
-featuredImg: /assets/banner.jpg
+featuredImg: /assets/banner.png
 "technologies,":
   - name: Django
     icon: /assets/768px-python-logo-notext.svg.png
