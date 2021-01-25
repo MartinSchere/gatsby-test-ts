@@ -4,14 +4,18 @@ import "./styles.scss"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars } from "@fortawesome/free-solid-svg-icons"
 
-import { Link } from "gatsby"
+import { Link, graphql, useStaticQuery } from "gatsby"
 
 import Button from "../button"
 
 import ResponsiveLogo from "../../../static/images/responsive-logo.png"
+import Dropdown from "../dropdown"
+import Accordeon from "../accordeon"
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false)
+  const { allMarkdownRemark } = useStaticQuery(query)
+  const languages = allMarkdownRemark.edges
   const toggleMenu = () => {
     setShowMenu(!showMenu)
   }
@@ -45,11 +49,7 @@ const Navbar = () => {
             Mock Link
           </Link>
         </li>
-        <li>
-          <Link to="/" className="nav-link">
-            Mock Link
-          </Link>
-        </li>
+        <Dropdown items={languages}>Currículum</Dropdown>
       </ul>
       <Button text="¿Quieres aclarar dudas? Agenda aquí" />
       <FontAwesomeIcon
@@ -76,14 +76,27 @@ const Navbar = () => {
             Mock Link
           </Link>
         </li>
-        <li>
-          <Link to="/" className="nav-link">
-            Mock Link
-          </Link>
-        </li>
+        <Accordeon items={languages}>Currículum</Accordeon>
       </ul>
     </nav>
   )
 }
 
 export default Navbar
+
+const query = graphql`
+  query {
+    allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/languages/" } }) {
+      edges {
+        node {
+          frontmatter {
+            name
+          }
+          fields {
+            slug
+          }
+        }
+      }
+    }
+  }
+`

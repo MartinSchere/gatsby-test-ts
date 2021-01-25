@@ -1,0 +1,31 @@
+.accordeon {
+  cursor: pointer;
+  transition: 0.1s;
+  color: white;
+  padding: 0.5rem 0;
+
+  .text-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .drop {
+    display: none;
+
+    a {
+      margin-left: 1rem;
+      display: inline-block;
+      padding-top: 0.75rem;
+      color: white;
+    }
+
+    &.show {
+      display: block;
+    }
+  }
+  .drop-icon {
+    float: right;
+    transition: 0.2s;
+  }
+}

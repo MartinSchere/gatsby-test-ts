@@ -2,17 +2,86 @@ backend:
   name: git-gateway
   branch: master
 
+locale: "es"
+
 site_url: https://codingdojo-test.netlify.app/
 
 media_folder: static/assets
 public_folder: /assets
+
 collections:
-  - name: blog
-    label: Blog
-    folder: content/blog
+  - name: language
+    identifier_field: name
+    label: Lenguaje de programación
+    folder: content/languages
     create: true
+    editor:
+      preview: true
     fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: datetime }
-      - { name: title, label: Title }
-      - { name: body, label: Body, widget: markdown }
+      - name: name
+        label: Nombre del lenguaje/tecnología
+        widget: string
+
+      - name: languageImg
+        label: Imagen del lenguaje
+        hint: Esto es el logo del lenguaje, alrededor de un 160x160
+        widget: image
+
+      - name: featuredImg
+        label: Imagen de portada
+        widget: image
+
+      - name: technologies,
+        label: Tecnologías,
+        widget: list
+        fields:
+          - name: name
+            label: Nombre
+            widget: string
+          - name: icon
+            label: Ícono
+            widget: image
+            allow_multiple: false
+
+      - name: companies
+        label: Compañías
+        hint: Subir fotos de los logos de las compañías que usan este lenguaje
+        widget: image
+        allow_multiple: false
+
+      - name: commonUseCases
+        label: Usos comunes
+        hint: Insertar imagen y texto de los usos comunes del lenguaje
+        widget: list
+        fields:
+          - name: title
+            label: Título
+            widget: string
+          - name: image
+            label: Imagen
+            widget: image
+
+      - name: features
+        label: Características
+        hint: Insertar imagen y texto de las características del lenguaje
+        widget: list
+        fields:
+          - name: title
+            label: Título
+            widget: string
+          - name: description
+            label: Descripción
+            widget: text
+          - name: image
+            label: Imagen
+            widget: image
+
+      - name: bottomImage
+        label: Imagen inferior
+        hint: Imagen que se adjuntará después de la sección de características
+        widget: image
+
+      - name: topics
+        label: Temas abordados
+        hint: Una lista de cada tema que se aborda en el curso
+        widget: list

@@ -9,7 +9,20 @@
 }
 body {
 }
-a {
+a,
+span {
+  font-family: ProximaNova-Bold, tahoma, verdana, arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.15rem;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.text-light {
+  font-family: ProximaNova-Light, tahoma, verdana, arial, sans-serif;
+}
+.text-bold {
   font-family: ProximaNova-Bold, tahoma, verdana, arial, sans-serif;
   font-weight: 400;
   font-size: 1.15rem;

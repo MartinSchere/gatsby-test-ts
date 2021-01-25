@@ -1,0 +1,29 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+  ul {
+    display: none;
+    position: absolute;
+    background-color: inherit;
+    padding-top: 18px;
+    left: 0;
+    width: 100%;
+
+    a {
+      display: block;
+      color: white;
+      padding: 15px;
+      font-size: 1rem;
+      &:hover {
+        background-color: gray;
+      }
+    }
+  }
+
+  &:hover {
+    ul {
+      display: block;
+    }
+  }
+}

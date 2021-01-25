@@ -1,26 +1,24 @@
 import React from "react"
 import "./styles.scss"
-
+import DefaultLayout from "../../layouts/default"
 import { graphql } from "gatsby"
 
-import DefaultLayout from "../../layouts/default"
-
-const BlogPost = ({ data }) => {
+const LanguagePage = ({ data }) => {
+  const language = data.markdownRemark.frontmatter
   return (
     <DefaultLayout>
-      <pre>{JSON.stringify(data, null, 2)}</pre>
+      <h1>{language.name}</h1>
     </DefaultLayout>
   )
 }
 
-export default BlogPost
+export default LanguagePage
 
 export const query = graphql`
   query($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
-      html
       frontmatter {
-        title
+        name
       }
     }
   }
