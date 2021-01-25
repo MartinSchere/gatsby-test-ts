@@ -1,17 +1,21 @@
 import React from "react"
 import "./styles.scss"
+
 import DefaultLayout from "../../layouts/default"
+
 import { graphql } from "gatsby"
+import Img from "gatsby-image"
 
 const LanguagePage = ({ data }) => {
   const language = data.markdownRemark.frontmatter
+  const featuredImageFluid = language.featuredImg.childImageSharp.fluid
 
   return (
     <DefaultLayout>
       <div className="background">
         <h1 className="text-white">Tu guía de {language.name}</h1>
       </div>
-      <img src="" alt="" />
+      <Img fluid={featuredImageFluid} />
     </DefaultLayout>
   )
 }
@@ -22,22 +26,64 @@ export const query = graphql`
   query($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       frontmatter {
-        bottomImage
+        bottomImage {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         commonUseCases {
           title
-          image
+          image {
+            childImageSharp {
+              fluid(maxWidth: 800) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
         }
-        companies
-        featuredImg
+        companies {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        featuredImg {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         features {
           description
-          image
+          image {
+            childImageSharp {
+              fluid(maxWidth: 800) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           title
         }
-        languageImg
+        languageImg {
+          childImageSharp {
+            fluid(maxWidth: 800) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
         name
         technologies_ {
-          icon
+          icon {
+            childImageSharp {
+              fluid(maxWidth: 800) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           name
         }
         title

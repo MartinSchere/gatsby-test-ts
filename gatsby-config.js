@@ -1,4 +1,3 @@
-const path = require("path")
 module.exports = {
   siteMetadata: {
     title: "Coding Dojo",
@@ -10,11 +9,30 @@ module.exports = {
   plugins: [
     "gatsby-plugin-typescript",
     "gatsby-plugin-netlify-cms",
-    "gatsby-plugin-graphql-codegen",
     "gatsby-image",
     "gatsby-transformer-sharp",
-    "gatsby-transformer-remark",
     "gatsby-plugin-sharp",
+    "gatsby-remark-images",
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-plugin-netlify-cms-paths`,
+            options: {
+              cmsConfig: `/static/admin/config.yml`,
+            },
+          }, // Including in your Remark plugins will transform any paths in your markdown body
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 930,
+              backgroundColor: "transparent", // required to display blurred image first
+            },
+          },
+        ],
+      },
+    },
     {
       resolve: "gatsby-plugin-sass",
       options: {
