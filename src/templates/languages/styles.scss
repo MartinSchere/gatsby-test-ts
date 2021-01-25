@@ -1,3 +1,15 @@
-.background {
-  background-color: rgb(27, 90, 161);
+.banner {
+  display: flex;
+  align-items: center;
+  max-height: 333px;
+  overflow: hidden;
+  h1 {
+    margin-left: 5%;
+    word-break: break-all;
+  }
+}
+
+.featured-img {
+  width: 100%;
+  z-index: -1;
 }

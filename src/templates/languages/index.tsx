@@ -12,10 +12,13 @@ const LanguagePage = ({ data }) => {
 
   return (
     <DefaultLayout>
-      <div className="background">
-        <h1 className="text-white">Tu guía de {language.name}</h1>
+      <div className="banner">
+        <h1 className="text-white">
+          Tu guía de <br />
+          {language.name}
+        </h1>
+        <Img fluid={featuredImageFluid} className="featured-img" />
       </div>
-      <Img fluid={featuredImageFluid} />
     </DefaultLayout>
   )
 }
@@ -52,7 +55,7 @@ export const query = graphql`
         }
         featuredImg {
           childImageSharp {
-            fluid(maxWidth: 800) {
+            fluid(maxWidth: 1206) {
               ...GatsbyImageSharpFluid
             }
           }
