@@ -28,10 +28,11 @@ collections:
 
       - name: featuredImg
         label: Imagen de portada
+        hint: Tiene que tener un ancho de 1920 píxeles
         widget: image
 
-      - name: technologies,
-        label: Tecnologías,
+      - name: technologies
+        label: Tecnologías
         widget: list
         fields:
           - name: name
