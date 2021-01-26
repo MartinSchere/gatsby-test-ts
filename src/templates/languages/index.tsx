@@ -5,15 +5,13 @@ import DefaultLayout from "../../layouts/default"
 
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
-
-import Scrollspy from "react-scrollspy"
+import LanguageScrollspy from "../../components/languageScrollspy"
 
 const LanguagePage = ({ data }) => {
   const language = data.markdownRemark.frontmatter
   const featuredImageFluid = language.featuredImg.childImageSharp.fluid
   const [fixScrollspyNav, setFixScrollspyNav] = useState(false)
 
-  const scrollspyWrapperRef = useRef<HTMLInputElement>()
   const bannerRef = useRef<HTMLInputElement>()
 
   useEffect(() => {
@@ -48,58 +46,31 @@ const LanguagePage = ({ data }) => {
       </div>
       <div className="scrollspy">
         <div className="scrollspy-content">
-          <section id="section-1">One</section>
+          <section id="section-1">
+            <h1>¿Qué es {language.name}?</h1>
+            <p>{language.whatis}</p>
+
+            <div className="technologies-container">
+              <h4>Tecnologías cubiertas por {language.name}</h4>
+              <ul className="technologies-list">
+                {language.technologies.map((tech, index) => (
+                  <div key={index} className="tech">
+                    {tech.name}
+                    <Img fixed={tech.icon.childImageSharp.fixed} />
+                  </div>
+                ))}
+              </ul>
+            </div>
+          </section>
           <section id="section-2">Two</section>
           <section id="section-3">Three</section>
           <section id="section-4">Four</section>
           <section id="section-5">Five</section>
         </div>
-        <div
-          className="nav-wrapper"
-          ref={scrollspyWrapperRef}
-          style={{
-            position: fixScrollspyNav ? "fixed" : "absolute",
-            top: fixScrollspyNav ? 56 : undefined,
-          }}
-        >
-          <Scrollspy
-            offset={-250}
-            items={[
-              "section-1",
-              "section-2",
-              "section-3",
-              "section-4",
-              "section-5",
-            ]}
-            currentClassName="is-current"
-          >
-            <li>
-              <a href="#section-1" className="text-light">
-                ¿Qué es {language.name}?
-              </a>
-            </li>
-            <li>
-              <a href="#section-2" className="text-light">
-                Usos más comunes de {language.name}
-              </a>
-            </li>
-            <li>
-              <a href="#section-3" className="text-light">
-                Características de {language.name}
-              </a>
-            </li>
-            <li>
-              <a href="#section-4" className="text-light">
-                Nuestra aproximación a {language.name}
-              </a>
-            </li>
-            <li>
-              <a href="#section-5" className="text-light">
-                ¿Estás listo para aprender {language.name}?
-              </a>
-            </li>
-          </Scrollspy>
-        </div>
+        <LanguageScrollspy
+          fixNav={fixScrollspyNav}
+          languageName={language.name}
+        />
       </div>
     </DefaultLayout>
   )
@@ -111,6 +82,7 @@ export const query = graphql`
   query($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       frontmatter {
+        whatis
         bottomImage {
           childImageSharp {
             fluid(maxWidth: 800) {
@@ -161,11 +133,11 @@ export const query = graphql`
           }
         }
         name
-        technologies_ {
+        technologies {
           icon {
             childImageSharp {
-              fluid(maxWidth: 800) {
-                ...GatsbyImageSharpFluid
+              fixed(width: 30, height: 33) {
+                ...GatsbyImageSharpFixed
               }
             }
           }

@@ -21,6 +21,11 @@ collections:
         label: Nombre del lenguaje/tecnología
         widget: string
 
+      - name: whatis
+        label: ¿Qué es el lenguaje?
+        widget: text
+        hint: Un texto descriptivo que responda a la pregunta, por ejemplo ¿Qué es Python?
+
       - name: languageImg
         label: Imagen del lenguaje
         hint: Esto es el logo del lenguaje, alrededor de un 160x160
@@ -46,8 +51,8 @@ collections:
       - name: companies
         label: Compañías
         hint: Subir fotos de los logos de las compañías que usan este lenguaje
-        widget: image
-        allow_multiple: false
+        widget: list
+        field: { name: imagen, label: Imagen, widget: image }
 
       - name: commonUseCases
         label: Usos comunes
