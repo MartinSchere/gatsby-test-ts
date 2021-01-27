@@ -1,16 +1,11 @@
 import React from "react"
 import "./styles.scss"
 
-import { LanguageFrontmatter } from "../../../../typescript/types"
+import { LangSectionProps } from "../../../../typescript/types"
 
 import Img from "gatsby-image"
 
-interface ApproachSectionProps {
-  id: string
-  language: LanguageFrontmatter
-}
-
-const IntroSection = ({ id, language }: ApproachSectionProps) => {
+const IntroSection = ({ id, language }: LangSectionProps) => {
   return (
     <section id={id}>
       <div className="intro">
@@ -43,16 +38,6 @@ const IntroSection = ({ id, language }: ApproachSectionProps) => {
           <h1>{language.name}</h1>
         </div>
         <div className="company-images">
-          {language.companies.map((comp, index) => (
-            <Img
-              key={index}
-              fluid={comp.childImageSharp.fluid}
-              className="companyImage"
-              imgStyle={{
-                objectFit: "scale-down",
-              }}
-            />
-          ))}
           {language.companies.map((comp, index) => (
             <Img
               key={index}

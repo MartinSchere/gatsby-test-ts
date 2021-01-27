@@ -8,6 +8,10 @@ import Img from "gatsby-image"
 import LanguageScrollspy from "../../components/languageScrollspy"
 import { LanguageFrontmatter } from "../../typescript/types"
 import IntroSection from "./sections/intro"
+import UseCasesSection from "./sections/useCases"
+import FeaturesSection from "./sections/features"
+import ApproachSection from "./sections/approach"
+import Button from "../../components/button"
 
 const LanguagePage = ({ data }) => {
   const language: LanguageFrontmatter = data.markdownRemark.frontmatter
@@ -44,10 +48,13 @@ const LanguagePage = ({ data }) => {
       <div className="scrollspy">
         <div className="scrollspy-content">
           <IntroSection id={"section-1"} language={language} />
-          <section id="section-2">Two</section>
-          <section id="section-3">Three</section>
-          <section id="section-4">Four</section>
-          <section id="section-5">Five</section>
+          <UseCasesSection id={"section-2"} language={language} />
+          <FeaturesSection id={"section-3"} language={language} />
+          <ApproachSection id={"section-4"} language={language} />
+          <section id="section-5">
+            <h1>¿Estás listo para aprender {language.name}?</h1>
+            <Button text={"Postula ahora"} />
+          </section>
         </div>
         <LanguageScrollspy
           fixNav={fixScrollspyNav}

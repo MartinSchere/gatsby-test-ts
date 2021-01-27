@@ -21,3 +21,8 @@ export type LanguageFrontmatter = {
   }[]
   bottomImage: any
 }
+
+export type LangSectionProps = {
+  id: string
+  language: LanguageFrontmatter
+}
