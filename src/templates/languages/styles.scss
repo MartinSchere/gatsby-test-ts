@@ -1,3 +1,9 @@
+h1 {
+  font-family: ProximaNova-Bold, tahoma, verdana, arial, sans-serif !important;
+  color: $darkgray;
+  font-size: 1.95rem !important;
+}
+
 .banner {
   max-height: 333px;
   overflow: hidden;
@@ -8,6 +14,8 @@
     position: absolute;
     margin-left: 5%;
     word-break: break-all;
+    font-family: ProximaNova-Extrabld, tahoma, verdana, arial, sans-serif !important;
+    font-size: 2.25rem !important;
   }
 }
 .scrollspy {
@@ -16,19 +24,16 @@
   background-color: $black;
 
   .scrollspy-content {
-    width: 80%;
+    width: 85%;
     background-color: white;
+    min-height: 900px; // twitch fix
 
     @include respond-to("large") {
-      width: 70%;
+      width: 80%;
     }
 
     @include respond-to("small") {
       width: 100%;
-    }
-
-    section {
-      height: 500px;
     }
   }
 

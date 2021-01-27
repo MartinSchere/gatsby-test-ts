@@ -50,8 +50,9 @@ collections:
 
       - name: companies
         label: Compañías
-        hint: Subir fotos de los logos de las compañías que usan este lenguaje
+        hint: Subir fotos de los logos de las compañías que usan este lenguaje (idealmente logos horizontales)
         widget: list
+        max: 6
         field: { name: imagen, label: Imagen, widget: image }
 
       - name: commonUseCases

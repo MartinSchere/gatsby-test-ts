@@ -18,7 +18,7 @@ const LanguageScrollspy = (props: LanguageScrollspyProps) => {
       }}
     >
       <Scrollspy
-        offset={-250}
+        offset={0}
         items={[
           "section-1",
           "section-2",

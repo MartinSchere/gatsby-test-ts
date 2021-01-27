@@ -17,6 +17,11 @@ h3 {
 h1 {
   font-size: 2.25rem;
 }
+h4,
+h5,
+h6 {
+  font-family: ProximaNova-bold, tahoma, verdana, arial, sans-serif;
+}
 
 a,
 span {
@@ -25,9 +30,13 @@ span {
   font-size: 1.15rem;
   text-decoration: none;
 }
+p {
+  font-family: ProximaNova-Light, tahoma, verdana, arial, sans-serif;
+}
 li {
   list-style: none;
 }
+
 .text-light {
   font-family: ProximaNova-Light, tahoma, verdana, arial, sans-serif;
 }

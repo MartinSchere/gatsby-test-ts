@@ -6,9 +6,11 @@ import DefaultLayout from "../../layouts/default"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import LanguageScrollspy from "../../components/languageScrollspy"
+import { LanguageFrontmatter } from "../../typescript/types"
+import IntroSection from "./sections/intro"
 
 const LanguagePage = ({ data }) => {
-  const language = data.markdownRemark.frontmatter
+  const language: LanguageFrontmatter = data.markdownRemark.frontmatter
   const featuredImageFluid = language.featuredImg.childImageSharp.fluid
   const [fixScrollspyNav, setFixScrollspyNav] = useState(false)
 
@@ -23,12 +25,7 @@ const LanguagePage = ({ data }) => {
   }, [])
 
   const handleScroll = () => {
-    const navbarHeight = 56
-
-    if (
-      window.pageYOffset + navbarHeight >
-      bannerRef.current.offsetHeight + navbarHeight
-    ) {
+    if (window.pageYOffset > bannerRef.current.offsetHeight) {
       setFixScrollspyNav(true)
     } else {
       setFixScrollspyNav(false)
@@ -46,22 +43,7 @@ const LanguagePage = ({ data }) => {
       </div>
       <div className="scrollspy">
         <div className="scrollspy-content">
-          <section id="section-1">
-            <h1>¿Qué es {language.name}?</h1>
-            <p>{language.whatis}</p>
-
-            <div className="technologies-container">
-              <h4>Tecnologías cubiertas por {language.name}</h4>
-              <ul className="technologies-list">
-                {language.technologies.map((tech, index) => (
-                  <div key={index} className="tech">
-                    {tech.name}
-                    <Img fixed={tech.icon.childImageSharp.fixed} />
-                  </div>
-                ))}
-              </ul>
-            </div>
-          </section>
+          <IntroSection id={"section-1"} language={language} />
           <section id="section-2">Two</section>
           <section id="section-3">Three</section>
           <section id="section-4">Four</section>
@@ -102,7 +84,7 @@ export const query = graphql`
         }
         companies {
           childImageSharp {
-            fluid(maxWidth: 800) {
+            fluid(maxWidth: 125) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -127,7 +109,7 @@ export const query = graphql`
         }
         languageImg {
           childImageSharp {
-            fluid(maxWidth: 800) {
+            fluid(maxWidth: 121) {
               ...GatsbyImageSharpFluid
             }
           }
