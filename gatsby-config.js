@@ -7,12 +7,6 @@ module.exports = {
     url: "https://codingdojo-test.netlify.app",
   },
   plugins: [
-    "gatsby-plugin-typescript",
-    "gatsby-plugin-netlify-cms",
-    "gatsby-image",
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-sharp",
-    "gatsby-remark-images",
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -20,6 +14,12 @@ module.exports = {
         name: "images",
       },
     },
+    "gatsby-plugin-typescript",
+    "gatsby-plugin-netlify-cms",
+    "gatsby-image",
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
+    "gatsby-remark-images",
     {
       resolve: `gatsby-transformer-remark`,
       options: {
