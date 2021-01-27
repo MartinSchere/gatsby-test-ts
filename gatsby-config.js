@@ -14,21 +14,17 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-remark-images",
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/static/assets`,
+        name: "images",
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          {
-            resolve: `gatsby-source-filesystem`,
-            options: {
-              path: `${__dirname}/static/assets`,
-            },
-          },
-          {
-            resolve: `gatsby-plugin-netlify-cms-paths`,
-            options: {
-              cmsConfig: `/static/admin/config.yml`,
-            },
-          }, // Including in your Remark plugins will transform any paths in your markdown body
+          `gatsby-remark-relative-images`,
           {
             resolve: `gatsby-remark-images`,
             options: {
