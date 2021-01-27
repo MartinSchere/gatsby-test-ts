@@ -42,12 +42,10 @@ const LanguagePage = ({ data }) => {
           Tu guía de <br />
           {language.name}
         </h1>
-        {language.featuredImg && (
-          <Img
-            fluid={language.featuredImg.childImageSharp.fluid}
-            className="featured-img"
-          />
-        )}
+        <Img
+          fluid={language.featuredImg.childImageSharp.fluid}
+          className="featured-img"
+        />
       </div>
       <div className="scrollspy">
         <div className="scrollspy-content">
