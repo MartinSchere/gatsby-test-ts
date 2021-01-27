@@ -18,6 +18,12 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+              path: `${__dirname}/static/assets`,
+            },
+          },
+          {
             resolve: `gatsby-plugin-netlify-cms-paths`,
             options: {
               cmsConfig: `/static/admin/config.yml`,
@@ -44,12 +50,6 @@ module.exports = {
       options: {
         name: `src`,
         path: `${__dirname}/content`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/static/assets`,
       },
     },
   ],

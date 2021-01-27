@@ -34,23 +34,29 @@ commonUseCases:
     image: /assets/abaqus-python-scripting.png
 features:
   - title: Fácil de aprender
-    description: Python, conocido por su simplicidad y elegante sintaxis, es mucho
-      más fácil de leer y escribir que otros lenguajes de programación.
+    description:
+      Python, conocido por su simplicidad y elegante sintaxis, es mucho
+      más f leer y escribir que otros lenguajes de programación.
     image: /assets/frame-8.png
+
   - title: Código abierto y gratuito
     description: Python se puede descargar y utilizar comercialmente de forma
       gratuita. Incluso puedes editar el código fuente y contribuir a su
-      comunidad.
+      comun
     image: /assets/frame-9.png
+
   - title: Altamente versátil
-    description: Python se utiliza en una amplia gama de aplicaciones y campos de
-      estudio, lo que contribuye a la creciente demanda de desarrolladores que
+    description:
+      Python se utiliza en una amplia gama de aplicaciones y campos de
+      estudque contribuye a la creciente demanda de desarrolladores que
       dominen este lenguaje.
     image: /assets/frame-11.png
+
   - title: Menos líneas de código
     description: Python es muy expresivo y permite mayor funcionalidad. Te
-      sorprenderás de lo que puedes lograr con solo 500 líneas de código.
+      sorprende lo que puedes lograr con solo 500 líneas de código.
     image: /assets/frame-7.png
+
 bottomImage: /assets/python_inferior.png
 topics:
   - POO en Python
