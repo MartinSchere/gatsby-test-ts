@@ -15,7 +15,6 @@ import Button from "../../components/button"
 
 const LanguagePage = ({ data }) => {
   const language: LanguageFrontmatter = data.markdownRemark.frontmatter
-  const featuredImageFluid = language.featuredImg.childImageSharp.fluid
   const [fixScrollspyNav, setFixScrollspyNav] = useState(false)
 
   const bannerRef = useRef<HTMLInputElement>()
@@ -43,7 +42,12 @@ const LanguagePage = ({ data }) => {
           Tu guía de <br />
           {language.name}
         </h1>
-        <Img fluid={featuredImageFluid} className="featured-img" />
+        {language.featuredImg && (
+          <Img
+            fluid={language.featuredImg.childImageSharp.fluid}
+            className="featured-img"
+          />
+        )}
       </div>
       <div className="scrollspy">
         <div className="scrollspy-content">
