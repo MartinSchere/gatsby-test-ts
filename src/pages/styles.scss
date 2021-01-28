@@ -1,0 +1,15 @@
+.hero {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  transform: translateY(-55%);
+
+  h1 {
+    font-size: 72px !important;
+    text-transform: initial !important;
+    color: black;
+  }
+  h3 {
+    color: $darkgray;
+  }
+}
