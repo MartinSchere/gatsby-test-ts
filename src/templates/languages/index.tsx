@@ -46,6 +46,7 @@ const LanguagePage = ({ data }) => {
           fluid={language.featuredImg.childImageSharp.fluid}
           className="featured-img"
         />
+        )
       </div>
       <div className="scrollspy">
         <div className="scrollspy-content">

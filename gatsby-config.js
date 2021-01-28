@@ -11,12 +11,17 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/static/assets`,
-        name: "images",
+        name: "assets",
       },
     },
-    "gatsby-plugin-typescript",
-    "gatsby-plugin-netlify-cms",
-    "gatsby-image",
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/content`,
+        name: "content",
+      },
+    },
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
     "gatsby-remark-images",
@@ -24,7 +29,12 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          `gatsby-remark-relative-images`,
+          {
+            resolve: `gatsby-remark-relative-images`,
+            options: {
+              name: "assets",
+            },
+          },
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -41,12 +51,8 @@ module.exports = {
         additionalData: `@import "${__dirname}/src/scss/styles";`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `src`,
-        path: `${__dirname}/content`,
-      },
-    },
+    "gatsby-plugin-typescript",
+    "gatsby-image",
+    "gatsby-plugin-netlify-cms",
   ],
 }

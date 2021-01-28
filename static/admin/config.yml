@@ -6,7 +6,7 @@ locale: "es"
 
 site_url: https://codingdojo-test.netlify.app/
 
-media_folder: static/assets/
+media_folder: static/assets
 public_folder: /assets
 
 collections:

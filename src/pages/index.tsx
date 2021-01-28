@@ -1,12 +1,12 @@
-import React from 'react';
-import DefaultLayout from '../layouts/default';
+import React from "react"
+import DefaultLayout from "../layouts/default"
 
 const index = () => {
   return (
-    <DefaultLayout>
-      <div>Index</div>
-    </DefaultLayout>
-  );
-};
+    // <DefaultLayout>
+    <div>Index</div>
+    // </DefaultLayout>
+  )
+}
 
-export default index;
+export default index
