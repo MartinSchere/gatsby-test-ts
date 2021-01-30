@@ -5,13 +5,16 @@ import DefaultLayout from "../../layouts/default"
 
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
-import LanguageScrollspy from "../../components/languageScrollspy"
+
 import { LanguageFrontmatter } from "../../typescript/types"
+
 import IntroSection from "./sections/intro"
 import UseCasesSection from "./sections/useCases"
 import FeaturesSection from "./sections/features"
 import ApproachSection from "./sections/approach"
+
 import Button from "../../components/button"
+import LanguageScrollspy from "../../components/languageScrollspy"
 
 const LanguagePage = ({ data }) => {
   const language: LanguageFrontmatter = data.markdownRemark.frontmatter
