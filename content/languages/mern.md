@@ -11,19 +11,19 @@ languageImg: /assets/mern.png
 featuredImg: /assets/mern-logo.png
 technologies:
   - name: MongoDB
-    icon: /assets/frame-1.svg
+    icon: /assets/mongodb.png
   - name: Express
-    icon: /assets/frame-2.svg
+    icon: /assets/express.png
   - name: React
-    icon: /assets/frame-3.svg
+    icon: /assets/react.png
   - name: Node.js
-    icon: /assets/frame-4.svg
+    icon: /assets/node.png
   - name: JS
-    icon: /assets/frame-5.svg
+    icon: /assets/js.png
   - name: Socket.IO
-    icon: /assets/frame-7.svg
+    icon: /assets/socket.png
   - name: NPM
-    icon: /assets/frame-6.svg
+    icon: /assets/npm.png
 companies:
   - /assets/paypal-2-.png
   - /assets/google.png
@@ -39,7 +39,7 @@ features:
   - title: Empleabilidad
     description: Cada vez más empleadores necesitan ingenieros familiarizados con el
       stack MERN y otras tecnologías basadas en JavaScript.
-    image: /assets/frame1.svg
+    image: /assets/empleabilidad.png
   - title: Simple y rápido
     description: Crear sitios web y aplicaciones en torno a un idioma, JavaScript,
       es relativamente sencillo.
