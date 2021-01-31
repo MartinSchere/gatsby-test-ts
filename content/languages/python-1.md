@@ -1,6 +1,6 @@
 ---
 name: Python
-whatis: "Python es uno de los lenguajes de programación más requeridos por la
+whatis: "Python es uno de los lenguajes de programación más solicitados por la
   industria. Es preferido por empresas como Instagram, YouTube y Spotify. Su
   diversidad, versatilidad y elegancia en los conceptos básicos y fáciles de
   dominar que posee lo distinguen de otros lenguajes de programación. Por esa
