@@ -8,7 +8,7 @@ whatis: MERN es un framework de JavaScript fullstack, amigable para el usuario e
   JavaScript, se ejecuta en todos los niveles de la aplicación. Esto lo
   convierte en un stack eficiente y moderno para el desarrollo web.
 languageImg: /assets/mern.png
-featuredImg: /assets/mern-logo.png
+featuredImg: /assets/mern-banner.png
 technologies:
   - name: MongoDB
     icon: /assets/mongodb.png
