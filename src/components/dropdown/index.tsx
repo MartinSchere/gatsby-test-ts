@@ -27,13 +27,13 @@ const Dropdown = (props: DropdownProps) => {
       <span className="nav-link">
         {props.children} <FaCaretDown className="dropdown-icon" />
       </span>
-      <ul>
+      <div className="drop-list">
         {props.items.map(({ node }, idx) => (
           <Link to={node.fields.slug} key={idx} className="text-light">
             {node.frontmatter.name}
           </Link>
         ))}
-      </ul>
+      </div>
     </li>
   )
 }

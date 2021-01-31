@@ -6,9 +6,9 @@ import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
 
 interface SEOProps {
-  title?: string,
-  description?: string,
-  image?: string,
+  title?: string
+  description?: string
+  image?: string
   article?: boolean
 }
 
@@ -29,7 +29,12 @@ const SEO = ({ title, description, image, article }: SEOProps) => {
     url: `${siteUrl}${pathname}`,
   }
   return (
-    <Helmet title={seo.title}>
+    <Helmet
+      title={seo.title}
+      htmlAttributes={{
+        lang: "es",
+      }}
+    >
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
       {seo.url && <meta property="og:url" content={seo.url} />}

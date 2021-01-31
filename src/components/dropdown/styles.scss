@@ -2,7 +2,7 @@
   position: relative;
   display: inline-block;
 
-  ul {
+  .drop-list {
     display: none;
     position: absolute;
     background-color: inherit;
@@ -22,7 +22,7 @@
   }
 
   &:hover {
-    ul {
+    .drop-list {
       display: block;
     }
   }
