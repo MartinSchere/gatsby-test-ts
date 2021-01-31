@@ -27,5 +27,8 @@
   .drop-icon {
     float: right;
     transition: 0.2s;
+    &.rotate {
+      transform: rotate(-90deg);
+    }
   }
 }

@@ -15,6 +15,7 @@ import ApproachSection from "./sections/approach"
 
 import Button from "../../components/button"
 import LanguageScrollspy from "../../components/languageScrollspy"
+import SEO from "../../components/seo"
 
 const LanguagePage = ({ data }) => {
   const language: LanguageFrontmatter = data.markdownRemark.frontmatter
@@ -39,34 +40,40 @@ const LanguagePage = ({ data }) => {
   }
 
   return (
-    <DefaultLayout>
-      <div className="banner" ref={bannerRef}>
-        <h1 className="text-white">
-          Tu guía de <br />
-          {language.name}
-        </h1>
-        <Img
-          fluid={language.featuredImg.childImageSharp.fluid}
-          className="featured-img"
-        />
-      </div>
-      <div className="scrollspy">
-        <div className="scrollspy-content">
-          <IntroSection id={"section-1"} language={language} />
-          <UseCasesSection id={"section-2"} language={language} />
-          <FeaturesSection id={"section-3"} language={language} />
-          <ApproachSection id={"section-4"} language={language} />
-          <section id="section-5">
-            <h1>¿Estás listo para aprender {language.name}?</h1>
-            <Button text={"Postula ahora"} />
-          </section>
+    <>
+      <SEO
+        title={`Tu guía de ${language.name}`}
+        description={language.whatis}
+      />
+      <DefaultLayout>
+        <div className="banner" ref={bannerRef}>
+          <h1 className="text-white">
+            Tu guía de <br />
+            {language.name}
+          </h1>
+          <Img
+            fluid={language.featuredImg.childImageSharp.fluid}
+            className="featured-img"
+          />
         </div>
-        <LanguageScrollspy
-          fixNav={fixScrollspyNav}
-          languageName={language.name}
-        />
-      </div>
-    </DefaultLayout>
+        <div className="scrollspy">
+          <div className="scrollspy-content">
+            <IntroSection id={"section-1"} language={language} />
+            <UseCasesSection id={"section-2"} language={language} />
+            <FeaturesSection id={"section-3"} language={language} />
+            <ApproachSection id={"section-4"} language={language} />
+            <section id="section-5">
+              <h1>¿Estás listo para aprender {language.name}?</h1>
+              <Button text={"Postula ahora"} />
+            </section>
+          </div>
+          <LanguageScrollspy
+            fixNav={fixScrollspyNav}
+            languageName={language.name}
+          />
+        </div>
+      </DefaultLayout>
+    </>
   )
 }
 
@@ -88,8 +95,8 @@ export const query = graphql`
           title
           image {
             childImageSharp {
-              fluid(maxWidth: 800) {
-                ...GatsbyImageSharpFluid
+              fixed(width: 180, height: 180) {
+                ...GatsbyImageSharpFixed
               }
             }
           }
@@ -112,8 +119,8 @@ export const query = graphql`
           description
           image {
             childImageSharp {
-              fluid(maxWidth: 800) {
-                ...GatsbyImageSharpFluid
+              fixed(width: 100, height: 100) {
+                ...GatsbyImageSharpFixed
               }
             }
           }
@@ -121,8 +128,8 @@ export const query = graphql`
         }
         languageImg {
           childImageSharp {
-            fluid(maxWidth: 121) {
-              ...GatsbyImageSharpFluid
+            fixed(width: 120, height: 120) {
+              ...GatsbyImageSharpFixed
             }
           }
         }

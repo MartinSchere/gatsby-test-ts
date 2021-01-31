@@ -10,7 +10,7 @@ const IntroSection = ({ id, language }: LangSectionProps) => {
     <section id={id}>
       <div className="intro">
         <Img
-          fluid={language.languageImg.childImageSharp.fluid}
+          fixed={language.languageImg.childImageSharp.fixed}
           className="lang-image"
         />
         <div className="content-wrapper">

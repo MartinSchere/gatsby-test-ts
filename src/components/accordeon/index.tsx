@@ -24,7 +24,7 @@ const Accordeon = ({ items, children }: AccordeonProps) => {
         }}
       >
         <span className="text-bold">{children}</span>
-        <FaCaretLeft rotate={isDropped ? 270 : null} className="drop-icon" />
+        <FaCaretLeft className={isDropped ? "drop-icon rotate" : "drop-icon"} />
       </div>
       <div className={isDropped ? "drop show" : "drop"}>
         {items.map(({ node }, idx) => (

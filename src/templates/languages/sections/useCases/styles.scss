@@ -1,7 +1,7 @@
-$lg-img-diameter: 180px;
-$md-img-diameter: 140px;
-$sm-img-diameter: 120px;
-$x-sm-img-diameter: 100px;
+$lg-img-diameter: 180px !important;
+$md-img-diameter: 140px !important;
+$sm-img-diameter: 120px !important;
+$x-sm-img-diameter: 100px !important;
 
 #section-2 {
   padding: 2em;
@@ -18,10 +18,10 @@ $x-sm-img-diameter: 100px;
     .use-case {
       width: $lg-img-diameter;
       margin: 0 4em;
+
       @include respond-to("large") {
         margin: 0 2em;
       }
-
       @include respond-to("medium") {
         width: $md-img-diameter;
         margin: 0 1em;

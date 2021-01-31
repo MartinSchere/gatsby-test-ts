@@ -13,7 +13,7 @@ const UseCasesSection = ({ id, language }: LangSectionProps) => {
         {language.commonUseCases.map((useCase, index) => (
           <div className="use-case" key={index}>
             <Img
-              fluid={useCase.image.childImageSharp.fluid}
+              fixed={useCase.image.childImageSharp.fixed}
               className="use-case-img"
             />
             <h3 className="text-light">{useCase.title}</h3>

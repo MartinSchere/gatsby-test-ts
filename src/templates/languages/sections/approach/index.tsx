@@ -15,7 +15,7 @@ const ApproachSection = ({ id, language }: LangSectionProps) => {
       </h4>
       <div className="block-wrapper">
         <Img
-          fluid={language.languageImg.childImageSharp.fluid}
+          fixed={language.languageImg.childImageSharp.fixed}
           className="lang-image"
         />
         <div className="info">

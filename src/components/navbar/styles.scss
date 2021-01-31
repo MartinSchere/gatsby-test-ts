@@ -79,8 +79,10 @@ nav {
       .nav-link {
         color: white;
         text-decoration: none;
-        @include respond-to("large") {
-          font-size: 1rem;
+        font-size: 0.975rem;
+        vertical-align: middle;
+        svg {
+          padding-top: 2.5px;
         }
       }
     }
@@ -96,6 +98,9 @@ nav {
     }
     @include respond-to("x-small") {
       margin-left: auto;
+    }
+    &.rotate {
+      transform: rotate(90deg);
     }
   }
 

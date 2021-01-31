@@ -13,7 +13,7 @@ const FeaturesSection = ({ id, language }: LangSectionProps) => {
         {language.features.map((feature, index) => (
           <div className="feature" key={index}>
             <Img
-              fluid={feature.image.childImageSharp.fluid}
+              fixed={feature.image.childImageSharp.fixed}
               className="feature-img"
               imgStyle={{ objectFit: "contain" }}
             />

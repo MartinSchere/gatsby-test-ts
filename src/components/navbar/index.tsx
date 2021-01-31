@@ -53,9 +53,9 @@ const Navbar = () => {
       <Button text="¿Quieres aclarar dudas? Agenda aquí" />
       <FaBars
         color="white"
-        className="burger-icon"
+        className={showMenu ? "burger-icon rotate" : "burger-icon"}
         onClick={toggleMenu}
-        rotate={showMenu ? 90 : null}
+        rotate={90}
       />
       <ul className={showMenu ? "nav-option-mobile show" : "nav-option-mobile"}>
         <li>
