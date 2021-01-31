@@ -1,8 +1,7 @@
 import React, { useState } from "react"
 import "./styles.scss"
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBars } from "@fortawesome/free-solid-svg-icons"
+import { FaBars } from "react-icons/fa"
 
 import { Link, graphql, useStaticQuery } from "gatsby"
 
@@ -52,13 +51,11 @@ const Navbar = () => {
         <Dropdown items={languages}>Currículum</Dropdown>
       </ul>
       <Button text="¿Quieres aclarar dudas? Agenda aquí" />
-      <FontAwesomeIcon
-        icon={faBars}
+      <FaBars
         color="white"
         className="burger-icon"
         onClick={toggleMenu}
-        rotation={showMenu ? 90 : null}
-        size={"lg"}
+        rotate={showMenu ? 90 : null}
       />
       <ul className={showMenu ? "nav-option-mobile show" : "nav-option-mobile"}>
         <li>

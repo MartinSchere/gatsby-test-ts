@@ -56,24 +56,32 @@ exports[`Language page renders correctly 1`] = `
           Currículum
            
           <svg
-            aria-hidden="true"
-            className="svg-inline--fa fa-caret-down fa-w-10 fa-sm dropdown-icon"
-            data-icon="caret-down"
-            data-prefix="fas"
-            focusable="false"
-            role="img"
-            style={Object {}}
+            className="dropdown-icon"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
             viewBox="0 0 320 512"
+            width="1em"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
-              fill="currentColor"
-              style={Object {}}
             />
           </svg>
         </span>
         <ul>
+          <a
+            className="text-light"
+            href="/languages/mern/"
+          >
+            MERN
+          </a>
           <a
             className="text-light"
             href="/languages/python-1/"
@@ -87,22 +95,25 @@ exports[`Language page renders correctly 1`] = `
       ¿Quieres aclarar dudas? Agenda aquí
     </button>
     <svg
-      aria-hidden="true"
-      className="svg-inline--fa fa-bars fa-w-14 fa-lg burger-icon"
+      className="burger-icon"
       color="white"
-      data-icon="bars"
-      data-prefix="fas"
-      focusable="false"
+      fill="currentColor"
+      height="1em"
       onClick={[Function]}
-      role="img"
-      style={Object {}}
+      rotate={null}
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": "white",
+        }
+      }
       viewBox="0 0 448 512"
+      width="1em"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
         d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
-        fill="currentColor"
-        style={Object {}}
       />
     </svg>
     <ul
@@ -145,26 +156,2264 @@ exports[`Language page renders correctly 1`] = `
             Currículum
           </span>
           <svg
-            aria-hidden="true"
-            className="svg-inline--fa fa-caret-left fa-w-6 drop-icon"
-            data-icon="caret-left"
-            data-prefix="fas"
-            focusable="false"
-            role="img"
-            style={Object {}}
+            className="drop-icon"
+            fill="currentColor"
+            height="1em"
+            rotate={null}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
             viewBox="0 0 192 512"
+            width="1em"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"
-              fill="currentColor"
-              style={Object {}}
             />
           </svg>
         </div>
         <div
           className="drop"
         >
+          <a
+            className="text-light"
+            href="/languages/mern/"
+          >
+            MERN
+          </a>
+          <a
+            className="text-light"
+            href="/languages/python-1/"
+          >
+            Python
+          </a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+  <div
+    className="content"
+  >
+    <div
+      className="banner"
+    >
+      <h1
+        className="text-white"
+      >
+        Tu guía de 
+        <br />
+        MERN
+      </h1>
+      <div
+        className="featured-img gatsby-image-wrapper"
+        style={
+          Object {
+            "maxHeight": null,
+            "maxWidth": null,
+            "overflow": "hidden",
+            "position": "relative",
+          }
+        }
+      >
+        <div
+          aria-hidden={true}
+          style={
+            Object {
+              "paddingBottom": "17.916666666666668%",
+              "width": "100%",
+            }
+          }
+        />
+        <img
+          alt=""
+          aria-hidden={true}
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsTAAALEwEAmpwYAAAArUlEQVQY05WOuw7BABhGPZ93sBsMIjT0FsQqXbFYzAbxAgY7idZAU7dWCUoiIXE5WiERIWI4+ZfvPzkhxYV35Pn1jrKA9HCN0BtRNFzk/oZ4f0d+aqPae+RgH+xefkNfhc6Z7BaijToRLUmrVEasNgnX2midCgWrh7QIhJffQuVRqC5BGLgkdBNNdxGNFbGuR2Fq/Vf4rAxuZrZHmPiS8QHJJ2UeyTkeinP6KLwBkwUIiGCcEicAAAAASUVORK5CYII="
+          style={
+            Object {
+              "height": "100%",
+              "left": 0,
+              "objectFit": "cover",
+              "objectPosition": "center",
+              "opacity": 1,
+              "position": "absolute",
+              "top": 0,
+              "transitionDelay": "500ms",
+              "width": "100%",
+            }
+          }
+        />
+        <picture>
+          <source
+            sizes="(max-width: 1920px) 100vw, 1920px"
+            srcSet="/static/9d841692cd42968107367b2c2e372fae/19ca5/mern-banner.png 480w,
+/static/9d841692cd42968107367b2c2e372fae/40ffe/mern-banner.png 960w,
+/static/9d841692cd42968107367b2c2e372fae/eeb1b/mern-banner.png 1920w"
+          />
+          <img
+            alt=""
+            loading="lazy"
+            onLoad={[Function]}
+            sizes="(max-width: 1920px) 100vw, 1920px"
+            src="/static/9d841692cd42968107367b2c2e372fae/eeb1b/mern-banner.png"
+            srcSet="/static/9d841692cd42968107367b2c2e372fae/19ca5/mern-banner.png 480w,
+/static/9d841692cd42968107367b2c2e372fae/40ffe/mern-banner.png 960w,
+/static/9d841692cd42968107367b2c2e372fae/eeb1b/mern-banner.png 1920w"
+            style={
+              Object {
+                "height": "100%",
+                "left": 0,
+                "objectFit": "cover",
+                "objectPosition": "center",
+                "opacity": 0,
+                "position": "absolute",
+                "top": 0,
+                "transition": "opacity 500ms",
+                "width": "100%",
+              }
+            }
+          />
+        </picture>
+        <noscript
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<picture><source srcset=\\"/static/9d841692cd42968107367b2c2e372fae/19ca5/mern-banner.png 480w,
+/static/9d841692cd42968107367b2c2e372fae/40ffe/mern-banner.png 960w,
+/static/9d841692cd42968107367b2c2e372fae/eeb1b/mern-banner.png 1920w\\" sizes=\\"(max-width: 1920px) 100vw, 1920px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 1920px) 100vw, 1920px\\" srcset=\\"/static/9d841692cd42968107367b2c2e372fae/19ca5/mern-banner.png 480w,
+/static/9d841692cd42968107367b2c2e372fae/40ffe/mern-banner.png 960w,
+/static/9d841692cd42968107367b2c2e372fae/eeb1b/mern-banner.png 1920w\\" src=\\"/static/9d841692cd42968107367b2c2e372fae/eeb1b/mern-banner.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="scrollspy"
+    >
+      <div
+        className="scrollspy-content"
+      >
+        <section
+          id="section-1"
+        >
+          <div
+            className="intro"
+          >
+            <div
+              className="lang-image gatsby-image-wrapper"
+              style={
+                Object {
+                  "maxHeight": null,
+                  "maxWidth": null,
+                  "overflow": "hidden",
+                  "position": "relative",
+                }
+              }
+            >
+              <div
+                aria-hidden={true}
+                style={
+                  Object {
+                    "paddingBottom": "93.33333333333334%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <img
+                alt=""
+                aria-hidden={true}
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEVklEQVQ4y3WT21NTVxTGV5LHPsh7+090+tROq2+d6fS104fOVGvHS7kHULmFWkY7CtrWwY5CQEFT1ClUJCiGnJBALpAbBEHEERWkChq5qAmBnJO9vu4Tgeq0rplv1j57r/3ba521N9Eb5ne5yCele6/iNEnRgHLz/UGlr/aTxh1y7NDnjT5FoU290/xy0b8Bk4EmCSG30psTcPWPBF0DkPNtkX4v9Tt79XXjRtz/Q1tRSfbpFnKOdJAS7TAFbnpIcfbkDLs8MYezC3X22jWvokDCbSNuL7Vfn6OpAZvxoddKieBhQsT8BowrqQ1VdGW5nrofWk1KpJO8Lue2QVdfLOzy4kiPRd1u+xhnrzWo4X4vvEqfLdJvpxlfI8UDJ4zpUPnbwDZsAFfqTJdfHKOue43bZBmjfsUF6dV9nXuwo/UzlLQX86jbrw1mM3XaTl0VhMlPKR2qMCJSQpuiC6iWqjK1ooLOrhzcJg8Y7Z5pgr/XrQb7B2C+WswfNn3EP122IOoO8IA8JB6oByKFf2LyC0K0WAdtQfXsTBclVCrHBkusOX0IzShT7Y+sCDt83Om4xAXt+/lG7zUMuTwcDxxnRPNVES6BCJk7F/ryCaOlG1DzZobVOfJfxn6LF6FuLlete5SHhmQRy0w56BjkkNsnu+zmxaE6xkiBzK5U+hJVgrLQp878jZLNBmpOl39wEZaRhmUzfn6wX/31WaHuuXZqD1tFGXfPyvIdPfxch0ULEPxjLzwtuzH51z4OXPheXQsUQ8I7Vn1F72VLbhWVtTJDnFosXjs5X4CK6LeojO2UwL1sXS/DORzmiVk7I1yIVX8R2o59w/bTO/nGmV04XfO1kBBNChw2f5UF6iYzvHAmUQbL+HeaLJmPz+ah5vYunNMOcTA9znfWgWdzbiCcxzPXc/lu1w944sgTciySviLI0qsweYAQLjFkr8wl/Kh32taYOoD6v/O1+se53Kwe5IH0BA++BIZeaVCS4MdzHr0hQKxUSIiQXi/XgjHZFNza6rLxnFZOV1BLNtTYznM5zqNCC6m3eUjCjsYzXPlU8AnpB1eB+JxH8HCukCUiE5KwmIRNlBnUoNmQ7bKeoeywsR6fkx2nqI0tbd71MdxKQDuzlGHzAqNggblU+paljIisQSzo5QfzqjG8l9bHjmZBWYU3gLo6M1ZDC4qpA0doKomm0aRA0xJrufPMu58wChdYtC4JEZPz4+uoXp7pofvPZ4ypiZObV+Y1cPP5dWtXyJX2GXAXpK2BHqSE1feK8ctz1o7EWTQssvDL75mUqJnNgDLjx41PZx2GxOTvb7/lLJCryLMepVDqMQVT8wYkQDJDiiXZ6nrJGE5wRvdjSWGZXBV058WKcTo+bZibH6Hle+20dV3etIkk08SqLrlhVRigCQommKZToklCcD8lqsdkTCTBhim5rsdl90i908YlcFwG3pPSN0kIlS2w8VaSv9QPQObf+deH/xf2D/BjrOMvm66zAAAAAElFTkSuQmCC"
+                style={
+                  Object {
+                    "height": "100%",
+                    "left": 0,
+                    "objectFit": "cover",
+                    "objectPosition": "center",
+                    "opacity": 1,
+                    "position": "absolute",
+                    "top": 0,
+                    "transitionDelay": "500ms",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <source
+                  sizes="(max-width: 121px) 100vw, 121px"
+                  srcSet="/static/722938e0e4fb99f5b518095c0e3fd8f6/a74cd/mern.png 30w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/e4945/mern.png 61w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/e6da4/mern.png 121w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/3df8b/mern.png 182w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/34b50/mern.png 242w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/c8fbe/mern.png 447w"
+                />
+                <img
+                  alt=""
+                  loading="lazy"
+                  onLoad={[Function]}
+                  sizes="(max-width: 121px) 100vw, 121px"
+                  src="/static/722938e0e4fb99f5b518095c0e3fd8f6/e6da4/mern.png"
+                  srcSet="/static/722938e0e4fb99f5b518095c0e3fd8f6/a74cd/mern.png 30w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/e4945/mern.png 61w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/e6da4/mern.png 121w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/3df8b/mern.png 182w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/34b50/mern.png 242w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/c8fbe/mern.png 447w"
+                  style={
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "objectFit": "cover",
+                      "objectPosition": "center",
+                      "opacity": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "transition": "opacity 500ms",
+                      "width": "100%",
+                    }
+                  }
+                />
+              </picture>
+              <noscript
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<picture><source srcset=\\"/static/722938e0e4fb99f5b518095c0e3fd8f6/a74cd/mern.png 30w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/e4945/mern.png 61w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/e6da4/mern.png 121w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/3df8b/mern.png 182w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/34b50/mern.png 242w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/c8fbe/mern.png 447w\\" sizes=\\"(max-width: 121px) 100vw, 121px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 121px) 100vw, 121px\\" srcset=\\"/static/722938e0e4fb99f5b518095c0e3fd8f6/a74cd/mern.png 30w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/e4945/mern.png 61w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/e6da4/mern.png 121w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/3df8b/mern.png 182w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/34b50/mern.png 242w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/c8fbe/mern.png 447w\\" src=\\"/static/722938e0e4fb99f5b518095c0e3fd8f6/e6da4/mern.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                  }
+                }
+              />
+            </div>
+            <div
+              className="content-wrapper"
+            >
+              <h1>
+                ¿Qué es 
+                MERN
+                ?
+              </h1>
+              <p>
+                MERN es un framework de JavaScript fullstack, amigable para el usuario e ideal para crear sitios web y aplicaciones dinámicas. Es un stack gratuito y de código abierto diseñado para proporcionar a los desarrolladores un método rápido y organizado de crear prototipos rápidos de aplicaciones web basadas en MERN. Uno de los principales beneficios de MERN es que un solo lenguaje, JavaScript, se ejecuta en todos los niveles de la aplicación. Esto lo convierte en un stack eficiente y moderno para el desarrollo web.
+              </p>
+              <div
+                className="technologies-container"
+              >
+                <h6>
+                  Tecnologías cubiertas por 
+                  MERN
+                  :
+                </h6>
+                <ul
+                  className="technologies-list"
+                >
+                  <div
+                    className="tech text-light"
+                  >
+                    <div
+                      className="tech-icon gatsby-image-wrapper"
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "height": 33,
+                          "overflow": "hidden",
+                          "position": "relative",
+                          "width": 29,
+                        }
+                      }
+                    >
+                      <img
+                        alt=""
+                        aria-hidden={true}
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFdElEQVQ4y22Ue0xTdxTHz8a2LCbbX0vwH59T6RNbikB4OJ3CeI3F/bHF+Ygu6gau7W1LW1qECQo4Y9TFvWdcfGxxiSZzY+ILQd7c29LSFsamTpE5QwUEEQV67z07twUkZrc9+SVN++n3e873dyCp2eGL99hFOWsYVXLM2OxSTJ0qzhQ+5axxTM79fyk442M1ZxqEhPaiczGcEWUsI8pY6XxaCs6ECpcJF7frMaadwaTOYkzodD5TDvrciRqPDVVtn9yE1FbLIQko55gQlThdBBRVbrO4gCsQK/78Rdzi/1KM81jFd7v2izmBSjF3Vr0dqBKyuiowoanICxnsVscylkGyMw2cUseQsp1o7/oJcQyxd6Qf13rLMc1fgrmBKsz2V8xUjr9SSA+Uoa62tBESrxQ4lG6zBAhNW13uLsQFbD5u6v4KxeEQ/jv0AFFEbOn/C+M9DswK7CVo5QwwL7CPT/EWo67F/iOoq4vWqwlIynjJJilFJfVNasOFu504OTyOvQND+JjnUXqO3LyMCR4n5nXtmwaKEjDNWyIBT0BqHbNK2a6fkHFh28K01Qx3BfIPxjFIsHuDD3AyJISBtx8O4WpfGab7y6dVSj0MJXqK8Y22raWgPevUKJvMYzIXDYZlBGmyC9rz8fPrF1EcmcC++/dxcIAsTwooSL7pXXr9THiypCyiMlAZWu61oua83gJv/nZIpm62BmM4QxioJOC8to/x9J2WiN1gP/YPDmMoJKL0kp5Tfc2YSHGZAtKkq4RU6qHsEpMNCzMNc2NrrT2KjvB0eQVNfBG3E8/3dmCIgLfvB3FotkJ6fuhrmAFKE86kIcWyzETSZf1KAJg7R3PJ0qL0mCVgiIDiEpceq/vcYYV3gkG8NzSCE/xThcf/aXwKDFQKGf49FGrjaHKtKR4QIUrHFVwNZ5EzhsiyOJ8sH/27DieGn5DlIAbJMh8SZoBHe+tnA/l0XzlqWWtPvuvoXNiI1bCqtbSGbkVEIfVwEU15c+AI4giPdwcGcOCZoRgCJzHFt4uAVSJZ5rN7KlBdY+2GVzdGg+LWVtC2mg5K+aPo8FPXTrrb2HrvDxQk24OUw1Akhx39vZjsKSFl4RuCuf7K0OquMtTWMw3rAF4EXY0T4i7ZTVqXjYBGQQIqp6Lznu8Qjg89xn7qoRRDYVLEDb4vMcW7a2bCUgZX0NLQcflXkYcXIK6uEOKuFto1LusMUFIoQee35SPTcxwfDo3i6KMnWHbjLKq9FiRIWF0kMpV8ko+A7fqz0kBAc65MKkbeaooAZ60xFWfG11o/xMM3q/HY7Vpc6CqYjsrMtSM4n0IKYxuZPbHebQBZTU7IaXJmKFlmUhZZY9MrLLwPF9KSeKfjABZ0H8P4TntEHV05OiWYmBHYI6zxUg8v2szaGgdAQeM6MDbkyVVu40QMqaPhTJI6IbwopFXGGUUta8dkdwmu9ZdLFnGVf7eY7C0W4t32kLLDPKHiLKi9YnNoa20AcSYnaI2OaF2T7YbGUxjeMnLaNqROgkobSIhhDeJSVi8meJ0CrTY+hv5sGX2PPiNHBlQ1W8Y1p8s3a34uB3jrSSFkDnwE83a8vzj+mm1XYovxxArW6lNOLVp1hwUVbin0DAHox5RXDe1LdZu+X9tia1ZdYYoy6z9dIZPtf1n30tcA6SNWSKs3Pjdv0wZYyRcC4GFYW+14JattW15iXcmB2AYrG3PNyCvbzcJyl+GW/KThi+zf87NTOguijd9/Oyf24XZI/3U3LIVvQAenCIgOSOo2w5LSbc+nipYoCZhz2QHyjp3w+hkDBUs/Z57dlLOmYW9uxYX10Qn4AaRx5ZDYsAP0x78D9aPtUSvPl0SptnwG2vUH4T8rIXuqxYO7WgAAAABJRU5ErkJggg=="
+                        style={
+                          Object {
+                            "height": "100%",
+                            "left": 0,
+                            "objectFit": "cover",
+                            "objectPosition": "center",
+                            "opacity": 1,
+                            "position": "absolute",
+                            "top": 0,
+                            "transitionDelay": "500ms",
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <picture>
+                        <source
+                          srcSet="/static/3be0e8fabbef2881ea0333050d28f280/9735e/mongodb.png 1x"
+                        />
+                        <img
+                          alt=""
+                          height={33}
+                          loading="lazy"
+                          onLoad={[Function]}
+                          src="/static/3be0e8fabbef2881ea0333050d28f280/9735e/mongodb.png"
+                          srcSet="/static/3be0e8fabbef2881ea0333050d28f280/9735e/mongodb.png 1x"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "left": 0,
+                              "objectFit": "cover",
+                              "objectPosition": "center",
+                              "opacity": 0,
+                              "position": "absolute",
+                              "top": 0,
+                              "transition": "opacity 500ms",
+                              "width": "100%",
+                            }
+                          }
+                          width={29}
+                        />
+                      </picture>
+                      <noscript
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<picture><source srcset=\\"/static/3be0e8fabbef2881ea0333050d28f280/9735e/mongodb.png 1x\\" /><img loading=\\"lazy\\" width=\\"29\\" height=\\"33\\" srcset=\\"/static/3be0e8fabbef2881ea0333050d28f280/9735e/mongodb.png 1x\\" src=\\"/static/3be0e8fabbef2881ea0333050d28f280/9735e/mongodb.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                          }
+                        }
+                      />
+                    </div>
+                    MongoDB
+                  </div>
+                  <div
+                    className="tech text-light"
+                  >
+                    <div
+                      className="tech-icon gatsby-image-wrapper"
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "height": 33,
+                          "overflow": "hidden",
+                          "position": "relative",
+                          "width": 29,
+                        }
+                      }
+                    >
+                      <img
+                        alt=""
+                        aria-hidden={true}
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFPUlEQVQ4y32UWUxUZxTHv2L70NSH1mofsa4oMMyiQlRWwQ1cihFRQWbuLIwww7CIA2hb+1CjMWkTExOMSZvU9sEuxsTKwNx7ZwWGkVnY3CNdSCsyAmkMapjlOz33DtipNv2Sf843c3N/9+yE4eQxNa+g8zZRic8YTvZ/ijKcAtR8up/gC/ASxinwofw1qM6RSWv7cmiNJ/u/1btZBNbYU28QFSebmocyvAiLxcEK4SMxFSuLHXVvom2De6EtuAfaBuaE99bgbvHe7N+JQDnU2jIukkqr9EGCl7EjrISWWpbT/ZYVovZZltFD1jXU6Mmhdd5cQFEjetvk20YRKKrBv00E1thkFwjDSQYFICqK3sbKulKoZewS3Jl0wWDImig6b4fRfjlSDfW+Qnpy4CMw9RdGMI9Q7cg7RTDuznhC48ADnSvpw2kv4KFzSjwvf399/yTUeLPpx4P7hPzGqlgpVHQUlJMaW8alOWBEhWHvx3CHJljx5RfRGRgO8XToCUvvTnbDnScutG649cQO50bU0OArEjyMGbx5oOIkTw9dLcontTZpeyKwDIHDIU4ETjx7ABXWVLrHupSafFupwVcIRoTU+grgmH+7UBiKRYnp3ZtBy6ePN9glElLtyP1MSCgCw68Cx2fu0SqbBPbhf02eAtrgzYeGvjxa70VgoBhaA7vp8WBJTOPIRKBkzNybvIww1i21al4EziKQCsCREC8Cn4f/Av8kSwennDA6dRMeTPXRh2jvTfbAmWFGDLllYHdU49gAOk46cNazdhGp/Dm/lOH/7eFIyAavFCSxQKK9cMsAxpv5Qn9GtAhUcxuclx7Z3iLlXWlZVawsosGp+AcY9/BZeJq6J65C7+PrcDtkx1TwaB0QGL8BpwYOCHmkxwPFEbV9HWj4LMcVgAXE4FieruUzptX8OqyUPPpKDuEIl0bL2FXU7N8Bpr5cWufJARPmsjlYQoWiNPq2RhibHFRdWT8Y7hNC2rqTk3W2jFEmDowkAh/N3IVyyyq6t2sprfNvgaP9OVTfn4M2G5oDO+BEcC9tFKYEgYc65KeVnrcJOdub+q6OlwcYnBYBmNiHT2dDtOPXdvjx4TmwjLXTjrF2tBfB8ee3cHZYRZsDO2mjtyiqxKauZCWfHLbICTk/HXtTY8uyC5VGYFiYlPtTvYmFeK0gwvnq3glq7McW8hTGGDYDjM6UowbnSkJuz0CS1pblEIBKThY+iLPsG78O0y/GYXxmVNTjmV8g9Ow3ioIJ1OTz3+HCbROt8+VTgycfGFYabXCl7al3pBKyKEqIzrL+O6F1sMHD8Y2TQcs6U2h51xrsy9XY3DKhgcEc3EVRgHdqDpTQFtw0+p7NoGals8ecaUVNAlDtXEIOdsrnp2UWbTS+ZOPrjMF9qHNlIbAYWgK7qCBxD2KFzcGSqNa1QdifM/U9+Zkmdy4hR6wyomTTPmd4GczNtDjXeI+KG4iVRfWujTFsYNqKc4uQWFP/9qihLxequzdCPDJFuNquWaGzKwkxuVaSOufqNI018wu9TdKn4qTTcbBcFAJBAJr6CkDfvQl07iwQdh+uq7CWSxvS29dfq7DkGJesHUsiBAhp7P7wjUb3csJ4l5BPh957x/hTSrL5RsH2arvimJJVBLW84qla9F4aVVoVo4w19bLJqWhm7IWZZnfSQiw4qeomJO9MFyn9pg09RJjJtSKJ8S5ecNr7PqmwriWqrkxSc3MNOXzl+4UtvQqZlktRVtsyilt7Wxef+IMQpSWbVLLppMH5ARGAqh6SVHr5PKm4VkP+BlIXdpkSmljQAAAAAElFTkSuQmCC"
+                        style={
+                          Object {
+                            "height": "100%",
+                            "left": 0,
+                            "objectFit": "cover",
+                            "objectPosition": "center",
+                            "opacity": 1,
+                            "position": "absolute",
+                            "top": 0,
+                            "transitionDelay": "500ms",
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <picture>
+                        <source
+                          srcSet="/static/cbaccc41b4d0f376627e67de927819bd/9735e/express.png 1x"
+                        />
+                        <img
+                          alt=""
+                          height={33}
+                          loading="lazy"
+                          onLoad={[Function]}
+                          src="/static/cbaccc41b4d0f376627e67de927819bd/9735e/express.png"
+                          srcSet="/static/cbaccc41b4d0f376627e67de927819bd/9735e/express.png 1x"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "left": 0,
+                              "objectFit": "cover",
+                              "objectPosition": "center",
+                              "opacity": 0,
+                              "position": "absolute",
+                              "top": 0,
+                              "transition": "opacity 500ms",
+                              "width": "100%",
+                            }
+                          }
+                          width={29}
+                        />
+                      </picture>
+                      <noscript
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<picture><source srcset=\\"/static/cbaccc41b4d0f376627e67de927819bd/9735e/express.png 1x\\" /><img loading=\\"lazy\\" width=\\"29\\" height=\\"33\\" srcset=\\"/static/cbaccc41b4d0f376627e67de927819bd/9735e/express.png 1x\\" src=\\"/static/cbaccc41b4d0f376627e67de927819bd/9735e/express.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                          }
+                        }
+                      />
+                    </div>
+                    Express
+                  </div>
+                  <div
+                    className="tech text-light"
+                  >
+                    <div
+                      className="tech-icon gatsby-image-wrapper"
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "height": 33,
+                          "overflow": "hidden",
+                          "position": "relative",
+                          "width": 29,
+                        }
+                      }
+                    >
+                      <img
+                        alt=""
+                        aria-hidden={true}
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFmklEQVQ4y4WUa2xTZRjHXxiGkBBUmGQXWNe1p10va3tOz2lP27VbN0q79bKt7datu3Rdd3OA4MBIHIwhA8YYDFECuDhxEwYisBkUQoKKqGSI8QMmmPiNL3zSYEwQ1vZ9fM/ZMHxAbfLPSU76/M5z/aNCLpD8f/mTSvY/9UTF+SHfEJ5FlNGLKaYS/l0VQALSWkvoiYYPzj1Paj74REH+l2cM3URqc3VSCFQQ8PMkpyuwxhLC/PoObFrXRpR4Rm3Y7Epgbl08paArIdfXMIGkTPCuwihk4k0TACzAn0oAAsliPrA8ToLb5p8LIlAwlsWSAlDiCh9GefrQradASoAIZQpPAlIYPCA3eLDGGgazqx04ZwybnDEQoQtgkilorbWPxLjy2reQhH4GuACjaA9Q5mpQ2CNif9VGP+ZJMOvtASJsKmvFpvI4iECXAAw/Uhp9oFnX1IVyKxtOC9kQUEooU6Z3A+1qAm54CgrfnsD6nWOgd8XSlu0n09yhS8Afu4JdG4eAK2n+p6c6azgpNQQeSku7bEjirj0i1C8COT+mVKWg6d4L7JYRoNROoKNbseGze2DZdxZspU3Y1rIDmJFpTIBi6aS3aQ1fAwIwU92iQQWlwV0Lg0hSrB9kCjuoOveAoXcUNI46zPUdB+nFe5h//zq21m0Da+deTB+4gDlHI7CkdLu3O1VE2iOxVf26tH/HGlS0Ltom1E8yTKqYCszWdIN+6CyoJr4H3fGroB77Ehzde4AfnQHj1A9Af/ANGD6eBeemYWzzdADpYUrFVYHUFvhxyfjQS4j2tFYpyQuZtjzFRV/HzDCBhTeLUPPoBeA7d4F07AZY+z8E9+BHYD71LVg6BjE/eBo7+seh2J1IyvSVIDV5v14Jd15AKwubtVI2+FCpsIFsYCJdFN8JVJYO2MEJWDswCQX7zgG6D/DKtQeg3XQEmLM/QbEtAhZPJ+jGbmC9ozFJCTMwB74oQuSXaWzVFLDVv8l1LmB87WnDyKeg7RoE7dHLwBy7DHzXAGSP3QRz/ylwHjwPzNQdMPe+C6bRGVy27SgwxQ1zQsu0ttAnuRkqQhzemZ1fEvxFnLTBnVI6o8D0nQD15C0Rqj5zGyLHZ8B+Zhb0k0TjBD52HSxNfcJyA+tsmVNyAZCzof0yNojQ4lP7l8tsVbfFXeT8KUphx+r2AWBfOwAq/XrMb38Peh4ADpyfxTwZgqNlBzbtm8JccVQYCKZLGtNyxgdZuvoNWUURhJZcObxMbg18J2RI9jAp7mHPENC9h0FB9pCN9mLZ9D0w7Z4EvrQZFzf3gXHkkrjYZmIYBnt9WkZi12gjW3O1daRkACTnA9eEW1SwPjIxN2bIpdDD50C5exLTu8dB54qRTE9g+uBFoN+5jMs2DImLTa4krTHXJGWsF1b74g2rvTGEFCgDaezh6QWnSQr+qKA9WLhlSrhl8r6Q8ZL7jT29ZTCT3glmYXQ2J5XkwuQm39yqRIcrM55AKGutG8m5uiFiDmS5K/8iz9Q8VHQbYl8eUBM/FPpFTAEYRzSlK44ki6y1WMn5Hy9c2SNpbZuioKYVIaU9gihLeEBuDIjWJTiv6D7zZiE4ECaOnSKe+JhMU/DMlFgJ+ZA4SNoLBXzVfaqlZ7W8+VWElibi6OWutpVSvqm2sDR0QsLU/Cyj/X/OW1rl/EeMlZgSgyvEd0pWqKb6D0lJ6KsCU+iN5fU9OimKIwOqQGjV1i0o883NKFsfRlqUjzIKN62QOhq1eeWRhIwNXVOa/b/LaB/ITYGU0hS8m1MWPZQfqK+j1NEcdPXzpXnZLrSicSOSKhIk3odQbksnWhPrWJSjD2ZoUP6iZYaNaK0mhJTWKrScLEFOSyeVo62PrfLF3aqTIy8itALpSkJIamhAaGYaSbLLMzKD7YslKIbMqBD9DX0PBJt22pDJAAAAAElFTkSuQmCC"
+                        style={
+                          Object {
+                            "height": "100%",
+                            "left": 0,
+                            "objectFit": "cover",
+                            "objectPosition": "center",
+                            "opacity": 1,
+                            "position": "absolute",
+                            "top": 0,
+                            "transitionDelay": "500ms",
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <picture>
+                        <source
+                          srcSet="/static/af96bd4b18f65303fb8e5bbcec8a2584/9735e/react.png 1x"
+                        />
+                        <img
+                          alt=""
+                          height={33}
+                          loading="lazy"
+                          onLoad={[Function]}
+                          src="/static/af96bd4b18f65303fb8e5bbcec8a2584/9735e/react.png"
+                          srcSet="/static/af96bd4b18f65303fb8e5bbcec8a2584/9735e/react.png 1x"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "left": 0,
+                              "objectFit": "cover",
+                              "objectPosition": "center",
+                              "opacity": 0,
+                              "position": "absolute",
+                              "top": 0,
+                              "transition": "opacity 500ms",
+                              "width": "100%",
+                            }
+                          }
+                          width={29}
+                        />
+                      </picture>
+                      <noscript
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<picture><source srcset=\\"/static/af96bd4b18f65303fb8e5bbcec8a2584/9735e/react.png 1x\\" /><img loading=\\"lazy\\" width=\\"29\\" height=\\"33\\" srcset=\\"/static/af96bd4b18f65303fb8e5bbcec8a2584/9735e/react.png 1x\\" src=\\"/static/af96bd4b18f65303fb8e5bbcec8a2584/9735e/react.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                          }
+                        }
+                      />
+                    </div>
+                    React
+                  </div>
+                  <div
+                    className="tech text-light"
+                  >
+                    <div
+                      className="tech-icon gatsby-image-wrapper"
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "height": 33,
+                          "overflow": "hidden",
+                          "position": "relative",
+                          "width": 29,
+                        }
+                      }
+                    >
+                      <img
+                        alt=""
+                        aria-hidden={true}
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFgElEQVQ4y32U/VNUZRTHn/JH/4CacrKS3pgga2xyEtld3hRkdBjfShs1RDSzxjJnaqYxMclQ2FdAAjQne9FyzExESxTYe3fvvvAOFrgwCYgQC8tCGHt37zmds7w44w/tzJl753nO+ez3PM+5X2GW9e+bJN24WdKjWdZp9NRoDWaD9rTZp0lK/J+I5qEwOfVLTJL+llnSoUnWRx4E3ocmQbGyGixyMljlDLApmbRH745MsDnTgfeN0vIpYfIYFlBRIxWRQn1kTpGsY5jGT14rUdZAZcNOrGjYgSfbt2G5Nxcrm7bjybZtWOF9B8rcb2Ke/dlOUexKeoTUuUgdkrqwaabtKIjCKqcAt1RQvxRK3ZuhsjEXTzTnEGgLnGjZBhUN2+Hrji1asZKJRtnQKo4rKQTUu+n8WGHYzGdFCi3UglVK1r6QXtTMzmS43Pk5/NTxKZqcmXDcxeCdrDAKLffmaFZnOlqdmbXC5kp5lEDeaMuSLsIKCaYVSK9oh+VY7buOPdA50IAYRpwKT6C7/3v4yvsWneEGrGzMhpMt2QyMWJ0ZaHFknBNGd8pjpLBp9gz5pgvty6CsNQuaBn6BicAY+kdVUP8JAyJy4PC9Xqz2FRF0LR53b6W2d0RsBDxYv9QsLC7DU3TLf0yPjSFSKC2D8+1HYDw4jpMBFUaDKviGfWDv/xZ9ow7UtNAcuGesEU4174Qyz9ZwsXMVXUrqx6LYviKegEM8Q3T4kXxPPPiG3DhOqvoCfmwYugJXu23YO9YK3QEXXr9dQQpv48wPqn3H0KqsVS2OZLRWJ2eLPCk2vlB6fdQiGwi4PJLvjYPOQTtOBADahlxQ3/cN9o90Y1+wDfsn2tE3Yse63lMY1lQMgwo/d36GxcoGleu/rE3NEkYlPdYkJ/nvK2SgRO0iuPtqsHtMwcbBajz75wG81GPEDv91bPdfw4nQCPUNBMwDi2MVFMrLIgflmNdEuXtHjMWx4g5fyoNAT38Ndvm9BKzCqh4ztX8RlYEfsWX4Ck6qgSjwQmcejVkaWh0rJ0pcmxcLqzf7cbMjtYvnkIDhfG98FDgR0ODm381wudsKlwh2J9iKA+MdBP0VvXfPI0RC0ZYZaJZX0Mik9Vrcm54WcTXPzC+QEp3TZ5ioHvK8AF2DCk6OI/QN+6Ft0InOvh+g3V+DbUPV6Bm8gCE1OHcpF7sORxh4VNI7Y6tj5gvhw3kFcsp1S3QODepR6VXtTPte6B/pI5UhHA2EYXgkiK1DdXh3sgtmSVpkitaq4WTT7nCJkoXMEDdxnkAUwlifdDXasqxT+XM7Ir+kmd0G+K2nFEZGBzEQmILQvzg3f38Fm+Fs+34alyweagKuwaJ6/VVmCXPgSWGs1Z8x8bcs6UNsCGxRbAgH5UVQ3rQOGu5UQVgNY/BeP16+dQxsrrVY4tpIzpPDDqRanGlYdCPhTNHoo0IU2mPFIfnlA+RlM+YQdRo6aAM5TbJ21L5Ey3fEw9mO/XC67QMw0YiUe98mc9jF6hgYMTtSME+KO3CsPkaIYmW9KFXW7yODpEvRTZmnTZati1x42nX4T4ySgUwhG0807iJluVjm2YKl7o3kMhkhMlosVdbtsynrSKFjJcdec9QPE/mmo0oJFuGImiy1byPbKnNvIt9bQ7Ga1g1hUzQ/gfORGcwSu39fJN69tmhBfm3KIaMjvcrqSBuYcR6MemR04HUqj5SJj2XmTzmHc42OjCquZQazxB7qO+fGQnGu9TmxMYgPG13ZCz+pT8g2yqmnjVJSr0lOniA1PFLI77xmlNNOc47JvX0h13AtM5glPpLixHt1sQ+da3t+Xq7vpihzvyGK6pKEpWWxeKK8cL7JszXB6kj/kIPfeY33OIdzuYZrmcGs/wBS99oxx6uSqQAAAABJRU5ErkJggg=="
+                        style={
+                          Object {
+                            "height": "100%",
+                            "left": 0,
+                            "objectFit": "cover",
+                            "objectPosition": "center",
+                            "opacity": 1,
+                            "position": "absolute",
+                            "top": 0,
+                            "transitionDelay": "500ms",
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <picture>
+                        <source
+                          srcSet="/static/b28ae9add7425e11f74478833412bfaa/9735e/node.png 1x"
+                        />
+                        <img
+                          alt=""
+                          height={33}
+                          loading="lazy"
+                          onLoad={[Function]}
+                          src="/static/b28ae9add7425e11f74478833412bfaa/9735e/node.png"
+                          srcSet="/static/b28ae9add7425e11f74478833412bfaa/9735e/node.png 1x"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "left": 0,
+                              "objectFit": "cover",
+                              "objectPosition": "center",
+                              "opacity": 0,
+                              "position": "absolute",
+                              "top": 0,
+                              "transition": "opacity 500ms",
+                              "width": "100%",
+                            }
+                          }
+                          width={29}
+                        />
+                      </picture>
+                      <noscript
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<picture><source srcset=\\"/static/b28ae9add7425e11f74478833412bfaa/9735e/node.png 1x\\" /><img loading=\\"lazy\\" width=\\"29\\" height=\\"33\\" srcset=\\"/static/b28ae9add7425e11f74478833412bfaa/9735e/node.png 1x\\" src=\\"/static/b28ae9add7425e11f74478833412bfaa/9735e/node.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                          }
+                        }
+                      />
+                    </div>
+                    Node.js
+                  </div>
+                  <div
+                    className="tech text-light"
+                  >
+                    <div
+                      className="tech-icon gatsby-image-wrapper"
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "height": 33,
+                          "overflow": "hidden",
+                          "position": "relative",
+                          "width": 29,
+                        }
+                      }
+                    >
+                      <img
+                        alt=""
+                        aria-hidden={true}
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEqklEQVQ4y31VW2wUZRT+a4st2+3udNuFFotaSVWEghSEECAiUcQXEnwyJghIRB8w8QVNUCDyYIIJxgcNERKDMSFeIHIzLfVS2+7srd1tSy/Q0pQC1haK7W53273M/5/PM7NLWrQyyZczMzvzzTnfOedbAa9z4oHQ70UHoygb7wfpjnF+BvBqmwS8DvwvdDPyg3qR+TDgK2WUZGMGlL1HupOhbRB8QvfB6yQm4qgxXNY9foEo9CxR22qi8CrGczOwSlFomfnhcficS0Um1RngrMiKcwFPLn/VxtfFQEsl0PoU48kZqAJC1YoB8jgjssFV/R/CDJkdKvg0VMtLQGARXxeA2rdA9bwN1fUGY0cWu6DCmxXaliBVV3xz8IN5lbMQslaeOZD972FsAkj2vm9lKMcCIAWQkYYyzCghJYfBYxI+O9K/lLSENpY5ZidsnoP0lZ0YngLifQegvPMh450wD0rcAdLXGYOg1CiM7n0GWssweaHM87x4tUBYTbC6asbpDNM9OzASByZ79/O9UshYF6eTgurcxtqxDGHWLbyUVNsaAy2PIllffBEQQuAeoT47Ybz3wwxhvBsqlYIMvcwNehzUuoTjYkJ4pWGOj2x0nsAti9BBmXIdDyB0Q8W7mJAg/euA4EJQaAWj2iSU8M/n9ws/Ir1QmHMYNTOkB2bo5pI7QJKlGzgHeescjLGrMCZaSYbWKHhsMH4v3SsbNKvkXrI2QiNzG2YnnGdp+O+DZJJk21qoPwpw54vy10a/LBFCNWm6lZnHpshTaOkFTz4T7pwm9DFhRIcRuwk51AAa+py7PQyZvEEUeAzUZE9Gjpesi55wChH/wXXWnCO0VEmre80CaBI8Dq9nCQ9ww2yQ7RtYs+WZ/W22QUU7YUQGyNRPNRYlBg5VrB48XCbE5Onir6GbJW6Xo3f7kez7FkbnbiSvfYaRmDmHhywJoLsgw5ug+nbD6DsKaXb8r0ZCYAFUkyPSs2d9Ze+7K4WIfj//CLx5MNq3GnemQMOTwN0EcDsyhVt8Eu87aDmPcf04jGgEaoaG6vZPCv5ylsvRFzy0a27XkU1CjHxV/jH8bE8el5G+vBXJgX1IjfyMv6ODGGHyRP9h3hTu8uSgRWKM/8mZ1UMNHwf1bFMI8Ah57N1jJ4W4cnQtl3ym4h34zLEpMuDJIzTnWf6n2FnS3Xt5+V/gDFnDy2+Crm5nHVeBgotBgQo+r1EUfIJ1tdWijhv8W4EQqQb3Zljm6EyzCSgGeyAPuV7I5LmWjVlj5WMLC7KFhWt4mGs4si+GVvCWuJG4qP2IKI9gdvU2WqtnZWkZhDJBFrLkPnfGTEPLFbU+o4gnIvtxwG9H7LvSU1D5JmGOQEehy7jkPpiq1ZrYcccyVj79N8DXBkuQIn+Zyuy83ZQn81uz41rqkutk/EzpGqOjXMjwvByRPFsuMCVE2zItf6JuYVXkm9I9qdri0+TRbqhGZ3radFnXJuc4b1L9+EnX/uFjC9aj366ZZeLCwwKxbMnJc+U5iIvc9heZOKAJ+B0ieb5YtFW/4oid0rbA79zHWX4CXXtr6NNHFpkvJX5187MOboJmlUnn8x9COkP4D6UjInQYCn8BAAAAAElFTkSuQmCC"
+                        style={
+                          Object {
+                            "height": "100%",
+                            "left": 0,
+                            "objectFit": "cover",
+                            "objectPosition": "center",
+                            "opacity": 1,
+                            "position": "absolute",
+                            "top": 0,
+                            "transitionDelay": "500ms",
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <picture>
+                        <source
+                          srcSet="/static/bc5e5d6b8a795935921ef04d572cabd2/9735e/js.png 1x"
+                        />
+                        <img
+                          alt=""
+                          height={33}
+                          loading="lazy"
+                          onLoad={[Function]}
+                          src="/static/bc5e5d6b8a795935921ef04d572cabd2/9735e/js.png"
+                          srcSet="/static/bc5e5d6b8a795935921ef04d572cabd2/9735e/js.png 1x"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "left": 0,
+                              "objectFit": "cover",
+                              "objectPosition": "center",
+                              "opacity": 0,
+                              "position": "absolute",
+                              "top": 0,
+                              "transition": "opacity 500ms",
+                              "width": "100%",
+                            }
+                          }
+                          width={29}
+                        />
+                      </picture>
+                      <noscript
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<picture><source srcset=\\"/static/bc5e5d6b8a795935921ef04d572cabd2/9735e/js.png 1x\\" /><img loading=\\"lazy\\" width=\\"29\\" height=\\"33\\" srcset=\\"/static/bc5e5d6b8a795935921ef04d572cabd2/9735e/js.png 1x\\" src=\\"/static/bc5e5d6b8a795935921ef04d572cabd2/9735e/js.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                          }
+                        }
+                      />
+                    </div>
+                    JS
+                  </div>
+                  <div
+                    className="tech text-light"
+                  >
+                    <div
+                      className="tech-icon gatsby-image-wrapper"
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "height": 33,
+                          "overflow": "hidden",
+                          "position": "relative",
+                          "width": 29,
+                        }
+                      }
+                    >
+                      <img
+                        alt=""
+                        aria-hidden={true}
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAACXBIWXMAAAsTAAALEwEAmpwYAAAGHElEQVQ4y4VVa0yTZxR+ncbNEd0GqKCFfm25ioogFTUxczOZmzPLNo2LmzNxi24OL4AiFEpb2iIyRbmo8zpRt+mM02Tq1GmEUnovFKRAofWGiga84AQjtN85Ox/Ir/3YjycnX3P6fM/7nuc8H1PbIxcRUOOI6KfKaxyRMAy1PUKovFAJ/P9B+A8josUEJLKXVIdJhqo9cggOMa+rk0GRO5oQ9R9so9/1DZLBlzKVhXtPbRtU6H+lcFBRAZFoHRw9R/BbTG+D2jUJSr2JWN4+Eyu8s7CMall78iAqvCm43Z0AKpuICKujU9VWsV9QR2pekUn4fFs4n2F8A7KMobDzuhwO+hbgT975oHNHQnGrDIiQkAylbUlQ2p6EhY1SUNtI4eaqmOR8K9c3dOyIgNYp4XMs74DSNhGqOyrA98SFN3tccK+nmdCK7T3X4PjN5VjULHmlcCYRzkB9IyccGdmKSwlRCgt3v4AIiSyQYw6GrfYUuN/rxtan53Ff8yLINcpgqysJDvsW44X7mdDddxtN3btB7xZBeXsKKU0CIkS1RdzJvj0/N1RplVwvcIox1zLer7KL4WHvbTzlyYW1VQw2m4JAaQ3jt7lloG+OwH1tH8F+3wK4808Dmrt3o655EpZ6koW7xjyTpJ6t+nNesNLKNeicElxvGOG3dVWi6V4lplUz0DmlvN4ZxQvDyrG9BVfuloHnaRXq3RFEIofegR44ekM4vpTXOjnMrJVeZZLTT0erHPEGhTkYdc44f9fLZihyxYPCEgpaIswxh8CGmpFw+dZO6OrthBK3nO5sOmoawsD8oBLcPWdQ3RQiOAKzamXnmAcZ09innd9keh1PtKb7fU9qMMsSBFqHlJSJeG09B266S3/Aj4e8i7GohYPd3tk06Wg8eedLvPPMgYWuOL/aMRlzTTF72b4HjGltUysza0fjWZ/C39B1ATJqxgweV2WbzO9oSoSDDcvgxM2v4Y+O73Cvdx7sakvEEk8CHLv9GTx+0Y3FdbMGVPaJmG2Ta5nGGM/05gTV5tog3N+4InCjpwaybeMg3yoCXZ2U/4EGc/VuCWAA0fBwF/zYEid4EItbovH3jpVwt9dF7ogaEBTqa2asZ5uMsSzTGL8uxzQB1bQl3S9uQLFjDiqswbDJ+Cb82rIeu/se4qG2Jbi1RUxGnoF7vHNA4x6PTY/PgbP7COS5xvlpGbDskuwLtr4qlqVdi1lW4JABTRkMneVwq8cM39OUSxzzwPvIhXprCuTXh8Ie32wimw1adxge8H6Aj17chYrW90FVFwZqi8SvrIlOZZuqp7PMqunzNXauX2kNp4GMBd/zajR3Hsey1lRQmCfDBgOD4qYYKPbIUNU4ngz+MfT19+DZjnXkzUlQ6IqGfEtkv9IQM4ul1X7K1tYunaqyc88FL+VZwniFNRTan1/Ce08b8DfPaiipexfKGhfCydsrySpHsPflM7h0PxsKmyOF++T19RzmmMVdq/6eEs/SjZ+wjTWfT1HbuT6yCRY4OZ6UwkbjSDjq/gbrH/yFnc898KT3Jnof27G++wQc8H2IBe5wqGhPhRLP1EBBnYiESFpXXZSHs4Pbl7Ijuq+CNVauQz0UELwQXULyZFLapBvGQKEzlt/ZnAjbWxNQ2ySCHZ448mIqCqFAUw9onBGotHCu1edmhzAmJ2czHKEySc3DQSukjpCLQvLQjvPCLhe746DcOxOFMCBVuK0pFrT1YiKLfKFxiFBpi3IsPLM9iOU2TWFZ5hSWb5JWD30KRDhI7IgIELGflFKNDOgbpFB4XSaoDwyFsYjyc7BPOBXmWeNOoqBtrzOIbWthLL06IWmrQZqVZ4n7JdcsuUVEQ82E4awU7liA8KyxiQdyzNImjUl6TFsdtWrN1ekT11xbwFipZQI7fCqWKS5PY2mecPaM3rLmYmxItjl1cUZNjFplEderbOKXBCLjevPNMucWY8KWLaY58iVno8YqqT/DKWFZZ2ayjIvzR7BSeyj7+XQMy7uS8FpaW9ioPmpYe3kKo61hhUYpQ7Z/ZNrVqfOyDbLVmQa5fO5+W1ChZzzLN0Sz5RcSWTb1Z9ZxoxQXE0cQ2L+m+1ZJdJY83QAAAABJRU5ErkJggg=="
+                        style={
+                          Object {
+                            "height": "100%",
+                            "left": 0,
+                            "objectFit": "cover",
+                            "objectPosition": "center",
+                            "opacity": 1,
+                            "position": "absolute",
+                            "top": 0,
+                            "transitionDelay": "500ms",
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <picture>
+                        <source
+                          srcSet="/static/701bc4ec8b3b98063efe1ee5956b46cd/9735e/socket.png 1x"
+                        />
+                        <img
+                          alt=""
+                          height={33}
+                          loading="lazy"
+                          onLoad={[Function]}
+                          src="/static/701bc4ec8b3b98063efe1ee5956b46cd/9735e/socket.png"
+                          srcSet="/static/701bc4ec8b3b98063efe1ee5956b46cd/9735e/socket.png 1x"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "left": 0,
+                              "objectFit": "cover",
+                              "objectPosition": "center",
+                              "opacity": 0,
+                              "position": "absolute",
+                              "top": 0,
+                              "transition": "opacity 500ms",
+                              "width": "100%",
+                            }
+                          }
+                          width={29}
+                        />
+                      </picture>
+                      <noscript
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<picture><source srcset=\\"/static/701bc4ec8b3b98063efe1ee5956b46cd/9735e/socket.png 1x\\" /><img loading=\\"lazy\\" width=\\"29\\" height=\\"33\\" srcset=\\"/static/701bc4ec8b3b98063efe1ee5956b46cd/9735e/socket.png 1x\\" src=\\"/static/701bc4ec8b3b98063efe1ee5956b46cd/9735e/socket.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                          }
+                        }
+                      />
+                    </div>
+                    Socket.IO
+                  </div>
+                  <div
+                    className="tech text-light"
+                  >
+                    <div
+                      className="tech-icon gatsby-image-wrapper"
+                      style={
+                        Object {
+                          "display": "inline-block",
+                          "height": 33,
+                          "overflow": "hidden",
+                          "position": "relative",
+                          "width": 29,
+                        }
+                      }
+                    >
+                      <img
+                        alt=""
+                        aria-hidden={true}
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFEUlEQVQ4y4VUbWxTVRh+hZAQIPLLqIlfkWgiGeDUsAw299Gvtbe9H21Zu62usHWdTEgcw4E4SIwfCRqjICDxh0I0YRjNGAECiUEBA2Qh7h/zB8zSbW3vve1te1voWHvP67m3ZSGgcpMn77kn5zzn/Xwg7hZKcc8jQM/E3GX7IMr7fDHucWPM2TIOoiCgzHGPAI8ZnxfTrV7D3o902WopnsebtuazIPLOjER/JJ4j1D4MliUpXyvJ9fYQtaeb5B5EOETUUFdJphzTrPMgSHbLuP4jcZym2wdBCZESIr2I9OJD0EnVzrZikkYyKTR9Cgka9z1CCrwf84St/0uIubd8RVHg8W+PYxtM2pp/k3mBhsxrsp5PQSCG1T10G/uotPkx39uDak8IaehlhCvrcA9J+1uJ5GIw1tHkgyknc9jwxOUqiTYbEa1WpNbwTGxpwYTZgjLDoNq9CfMbOzDb4Ue13YfZQDtm26jn3UEtQ/ckp0ON8HX1EHGb9kosh2Kb7242GMDs5jDJbgoa1c10dqDaFzaQo4TZbVswtf1dTO3agfmtb2NqaCfm+8JayuPFKYctda129SsQ9TgGRJMJpSPfzSH9SDRC7kxMYLI3jKXEDBZlCeeyKt7Zvx8zoyNI6JnS1C0sySIW0hmcPXVaS5maMco4or/XVL0I0z2eUNxsRvmHo0WdTxncTjIX/yDKwADRCnmUjh4hya8P4ezxYVR+OoakUED1ow8xe/ECpvbtx+KlS8Wk1YwxgbkyOrR8CcgeW53YUIfS8WH9cZIZ+gCzVy9jZucg9S5O8uPjeHviLywc/R6V0ROo0UP5zz5H5dfzePvQPlIau1pMNjfjlGC/8MaXsAjijGl1wmpS5V278O5J6n5vmMT27C6m+t4hRNNwTlHInRMjmHtvG6Y/+RhnR0Ywv2PQWKu738fCV3uLSVq8uMCeQ0CAm0011QmWycstdpTq12u02iRuNmlJjiXZgwdQ7u8nybpazHUFMUeLlvfzqNKi5ToD+h7JbuCLemvN+Ljh3EtdABdqqp6dZhyTSbcbJcFtjJAsuFHW26apiYg0v0p7m9FzdPRQ1fvvnqXjmA4ESpKTwaStcSjlaAAYHoQlMbfjsi4A9KVieYbLcy3rj1B7/+gZk6ET6ms6x+lAhya6nBhnLAMxuwXgl9dfXhZzOa9Wxq9E+49U1v86y7kKyoTdJNPu1xKUcNJS3z9prgfAF45Aws2eKXvIGfn4P3HIzc+x7ukmkvG5MeFitevmRicFJVwegulW548Vj4rz4f6X2ughV/KX7w4SxSugyLGFGxsa6m54dcKaesha675Isi49XwU9bKkStlzWQ4Mw3xtCQw+7OlGhYqD4fVrKKxQljtdEnitccVWtHHOtAZCc6yBpXzcosk5K6MYkX1YaI59UgXRZS3kEonZsILQTqCLxJfqIps8/JTO6QeKc0egW0xO3NpsBRoMAZ0KLl0cEqz/idxyO2E3XJNZ1e74w+iWOL2tlhYT2KFUgmxjjXecUwbJnxrR+1dza1TBnqgU43bcMTm5dChGmCfDVb+Dbp2GpGLBUTbbWbpzhmfNxD5uiDyAN6+6Ml52Yclr33rBarOk31zx1wv7konQtAzOOdZBzr3lsllkLMNb5HIwFn4coY1qI1YcW/LxqCSRsLZD0s3AWjsGf4RUrpm2N3bccpubrB6ofx8X9tCtaQKmrhlPMM6DUuhbGXA0LkF0J2Pga/AOHgXYlimMuDwAAAABJRU5ErkJggg=="
+                        style={
+                          Object {
+                            "height": "100%",
+                            "left": 0,
+                            "objectFit": "cover",
+                            "objectPosition": "center",
+                            "opacity": 1,
+                            "position": "absolute",
+                            "top": 0,
+                            "transitionDelay": "500ms",
+                            "width": "100%",
+                          }
+                        }
+                      />
+                      <picture>
+                        <source
+                          srcSet="/static/cd838b28be7c7e8a3311eb1992d1da17/9735e/npm.png 1x"
+                        />
+                        <img
+                          alt=""
+                          height={33}
+                          loading="lazy"
+                          onLoad={[Function]}
+                          src="/static/cd838b28be7c7e8a3311eb1992d1da17/9735e/npm.png"
+                          srcSet="/static/cd838b28be7c7e8a3311eb1992d1da17/9735e/npm.png 1x"
+                          style={
+                            Object {
+                              "height": "100%",
+                              "left": 0,
+                              "objectFit": "cover",
+                              "objectPosition": "center",
+                              "opacity": 0,
+                              "position": "absolute",
+                              "top": 0,
+                              "transition": "opacity 500ms",
+                              "width": "100%",
+                            }
+                          }
+                          width={29}
+                        />
+                      </picture>
+                      <noscript
+                        dangerouslySetInnerHTML={
+                          Object {
+                            "__html": "<picture><source srcset=\\"/static/cd838b28be7c7e8a3311eb1992d1da17/9735e/npm.png 1x\\" /><img loading=\\"lazy\\" width=\\"29\\" height=\\"33\\" srcset=\\"/static/cd838b28be7c7e8a3311eb1992d1da17/9735e/npm.png 1x\\" src=\\"/static/cd838b28be7c7e8a3311eb1992d1da17/9735e/npm.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                          }
+                        }
+                      />
+                    </div>
+                    NPM
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div
+            className="companies"
+          >
+            <div
+              className="title"
+            >
+              <h3>
+                Compañías que usan
+              </h3>
+              <h1>
+                MERN
+              </h1>
+            </div>
+            <div
+              className="company-images"
+            >
+              <div
+                className="companyImage gatsby-image-wrapper"
+                style={
+                  Object {
+                    "maxHeight": null,
+                    "maxWidth": null,
+                    "overflow": "hidden",
+                    "position": "relative",
+                  }
+                }
+              >
+                <div
+                  aria-hidden={true}
+                  style={
+                    Object {
+                      "paddingBottom": "25.806451612903224%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <img
+                  alt=""
+                  aria-hidden={true}
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA1ElEQVQY023QPwuBURTH8SeRIoOM8hIssimDxaC8BBaDf29ApEjKoFD+lSySWJnxGEzEZlQWGbwF1/fklpKnPv1O95xz6z6GUioF9fp8eUrjDys9yZj6fpWfGRfuUozQQZOlPRlEFmGE4NcLct7ChLkieSEDZE7PxnGQwRWNK2mSc6yp63ighA0KWGJIX853mOms4YYxpnLhXS/YUMVWP+3Gsh0n6ic81KZ+jQMZSC/K+ZlcoCsXNuDUz/JiwECPTMOCI5LS57xM+vSsG230If8+gcgbXedYhTMqrxEAAAAASUVORK5CYII="
+                  style={
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "objectFit": "scale-down",
+                      "objectPosition": "center",
+                      "opacity": 1,
+                      "position": "absolute",
+                      "top": 0,
+                      "transitionDelay": "500ms",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <source
+                    sizes="(max-width: 125px) 100vw, 125px"
+                    srcSet="/static/b12c43c0aa457c15cd0798cf3f9d7cc4/b44cd/paypal-2-.png 31w,
+/static/b12c43c0aa457c15cd0798cf3f9d7cc4/72176/paypal-2-.png 63w,
+/static/b12c43c0aa457c15cd0798cf3f9d7cc4/62d80/paypal-2-.png 125w,
+/static/b12c43c0aa457c15cd0798cf3f9d7cc4/231da/paypal-2-.png 188w,
+/static/b12c43c0aa457c15cd0798cf3f9d7cc4/e1953/paypal-2-.png 250w,
+/static/b12c43c0aa457c15cd0798cf3f9d7cc4/f3583/paypal-2-.png 1200w"
+                  />
+                  <img
+                    alt=""
+                    loading="lazy"
+                    onLoad={[Function]}
+                    sizes="(max-width: 125px) 100vw, 125px"
+                    src="/static/b12c43c0aa457c15cd0798cf3f9d7cc4/62d80/paypal-2-.png"
+                    srcSet="/static/b12c43c0aa457c15cd0798cf3f9d7cc4/b44cd/paypal-2-.png 31w,
+/static/b12c43c0aa457c15cd0798cf3f9d7cc4/72176/paypal-2-.png 63w,
+/static/b12c43c0aa457c15cd0798cf3f9d7cc4/62d80/paypal-2-.png 125w,
+/static/b12c43c0aa457c15cd0798cf3f9d7cc4/231da/paypal-2-.png 188w,
+/static/b12c43c0aa457c15cd0798cf3f9d7cc4/e1953/paypal-2-.png 250w,
+/static/b12c43c0aa457c15cd0798cf3f9d7cc4/f3583/paypal-2-.png 1200w"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "objectFit": "scale-down",
+                        "objectPosition": "center",
+                        "opacity": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "transition": "opacity 500ms",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </picture>
+                <noscript
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<picture><source srcset=\\"/static/b12c43c0aa457c15cd0798cf3f9d7cc4/b44cd/paypal-2-.png 31w,
+/static/b12c43c0aa457c15cd0798cf3f9d7cc4/72176/paypal-2-.png 63w,
+/static/b12c43c0aa457c15cd0798cf3f9d7cc4/62d80/paypal-2-.png 125w,
+/static/b12c43c0aa457c15cd0798cf3f9d7cc4/231da/paypal-2-.png 188w,
+/static/b12c43c0aa457c15cd0798cf3f9d7cc4/e1953/paypal-2-.png 250w,
+/static/b12c43c0aa457c15cd0798cf3f9d7cc4/f3583/paypal-2-.png 1200w\\" sizes=\\"(max-width: 125px) 100vw, 125px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 125px) 100vw, 125px\\" srcset=\\"/static/b12c43c0aa457c15cd0798cf3f9d7cc4/b44cd/paypal-2-.png 31w,
+/static/b12c43c0aa457c15cd0798cf3f9d7cc4/72176/paypal-2-.png 63w,
+/static/b12c43c0aa457c15cd0798cf3f9d7cc4/62d80/paypal-2-.png 125w,
+/static/b12c43c0aa457c15cd0798cf3f9d7cc4/231da/paypal-2-.png 188w,
+/static/b12c43c0aa457c15cd0798cf3f9d7cc4/e1953/paypal-2-.png 250w,
+/static/b12c43c0aa457c15cd0798cf3f9d7cc4/f3583/paypal-2-.png 1200w\\" src=\\"/static/b12c43c0aa457c15cd0798cf3f9d7cc4/62d80/paypal-2-.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="companyImage gatsby-image-wrapper"
+                style={
+                  Object {
+                    "maxHeight": null,
+                    "maxWidth": null,
+                    "overflow": "hidden",
+                    "position": "relative",
+                  }
+                }
+              >
+                <div
+                  aria-hidden={true}
+                  style={
+                    Object {
+                      "paddingBottom": "80.64516129032258%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <img
+                  alt=""
+                  aria-hidden={true}
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABMUlEQVQ4y9WTu0pDQRCGz8VKE1KKQipTRIL4AlZaSbCUEEm8gMRabASxTUQJklRBLGyidpa+0jlv4TdxNqyTDYqVHvj4/53ZnT17i6I//+V5HmVZ9kV9Qv1DhArGXod4XkEzeezadsY4MKvEEhkA4lMvnnr9Es1/FpaANjbhjmQPXXcd/G0wvozu2m1yZglGJKtoDVagBG0owrJ48gtQwdfRFpzj12DDFpRgX/0hPNP5CW3AAH+vBUdoFzowpv0Ir/gH/anI379rkhfoEdzALRzAkPhAPCoDL2EfP0Zf4B0vEyz6f+jYI9lEZWklOJGlo6vosQ46pf0GV/gCugXb09O2pxu6i3rSLrcDZ7q3M3kbSNyV0MHOT65K4AEkjmnBn74mc+9Su5pfPdFvn92/+D4AwAdGyxmOA5EAAAAASUVORK5CYII="
+                  style={
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "objectFit": "scale-down",
+                      "objectPosition": "center",
+                      "opacity": 1,
+                      "position": "absolute",
+                      "top": 0,
+                      "transitionDelay": "500ms",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <source
+                    sizes="(max-width: 125px) 100vw, 125px"
+                    srcSet="/static/504034c2fc8d3355c380256959a74ddf/b44cd/google.png 31w,
+/static/504034c2fc8d3355c380256959a74ddf/72176/google.png 63w,
+/static/504034c2fc8d3355c380256959a74ddf/62d80/google.png 125w,
+/static/504034c2fc8d3355c380256959a74ddf/231da/google.png 188w,
+/static/504034c2fc8d3355c380256959a74ddf/e1953/google.png 250w,
+/static/504034c2fc8d3355c380256959a74ddf/a0394/google.png 844w"
+                  />
+                  <img
+                    alt=""
+                    loading="lazy"
+                    onLoad={[Function]}
+                    sizes="(max-width: 125px) 100vw, 125px"
+                    src="/static/504034c2fc8d3355c380256959a74ddf/62d80/google.png"
+                    srcSet="/static/504034c2fc8d3355c380256959a74ddf/b44cd/google.png 31w,
+/static/504034c2fc8d3355c380256959a74ddf/72176/google.png 63w,
+/static/504034c2fc8d3355c380256959a74ddf/62d80/google.png 125w,
+/static/504034c2fc8d3355c380256959a74ddf/231da/google.png 188w,
+/static/504034c2fc8d3355c380256959a74ddf/e1953/google.png 250w,
+/static/504034c2fc8d3355c380256959a74ddf/a0394/google.png 844w"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "objectFit": "scale-down",
+                        "objectPosition": "center",
+                        "opacity": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "transition": "opacity 500ms",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </picture>
+                <noscript
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<picture><source srcset=\\"/static/504034c2fc8d3355c380256959a74ddf/b44cd/google.png 31w,
+/static/504034c2fc8d3355c380256959a74ddf/72176/google.png 63w,
+/static/504034c2fc8d3355c380256959a74ddf/62d80/google.png 125w,
+/static/504034c2fc8d3355c380256959a74ddf/231da/google.png 188w,
+/static/504034c2fc8d3355c380256959a74ddf/e1953/google.png 250w,
+/static/504034c2fc8d3355c380256959a74ddf/a0394/google.png 844w\\" sizes=\\"(max-width: 125px) 100vw, 125px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 125px) 100vw, 125px\\" srcset=\\"/static/504034c2fc8d3355c380256959a74ddf/b44cd/google.png 31w,
+/static/504034c2fc8d3355c380256959a74ddf/72176/google.png 63w,
+/static/504034c2fc8d3355c380256959a74ddf/62d80/google.png 125w,
+/static/504034c2fc8d3355c380256959a74ddf/231da/google.png 188w,
+/static/504034c2fc8d3355c380256959a74ddf/e1953/google.png 250w,
+/static/504034c2fc8d3355c380256959a74ddf/a0394/google.png 844w\\" src=\\"/static/504034c2fc8d3355c380256959a74ddf/62d80/google.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                    }
+                  }
+                />
+              </div>
+              <div
+                className="companyImage gatsby-image-wrapper"
+                style={
+                  Object {
+                    "maxHeight": null,
+                    "maxWidth": null,
+                    "overflow": "hidden",
+                    "position": "relative",
+                  }
+                }
+              >
+                <div
+                  aria-hidden={true}
+                  style={
+                    Object {
+                      "paddingBottom": "19.35483870967742%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <img
+                  alt=""
+                  aria-hidden={true}
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAECAYAAACOXx+WAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAsklEQVQY003QuwrCQBCF4cVCrGzEWydYaSdpYiEYvKCiwUKwVkEL8Rl8uTS5kryR/4ERUnxMcnZ2sxOXZVkbYzizwA5bDJTlea7cp4Y48tyxTAIcbE9fQRehFpMk0fsHZ7ywqR34wA3TsixdmqYuiiLlT3g4YalgjrU2qon65oAAV/uqK4pC+Z3sQp1Qm1VVuTiO/xdQ31eTKtAIrdoIvjWs0Kv9ihn2Zmg3b1BHtq5e7wfiN8yR56iDiAAAAABJRU5ErkJggg=="
+                  style={
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "objectFit": "scale-down",
+                      "objectPosition": "center",
+                      "opacity": 1,
+                      "position": "absolute",
+                      "top": 0,
+                      "transitionDelay": "500ms",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <source
+                    sizes="(max-width: 125px) 100vw, 125px"
+                    srcSet="/static/7d33a7a1179bff65d1027a316e8d93eb/b44cd/uber.png 31w,
+/static/7d33a7a1179bff65d1027a316e8d93eb/72176/uber.png 63w,
+/static/7d33a7a1179bff65d1027a316e8d93eb/62d80/uber.png 125w,
+/static/7d33a7a1179bff65d1027a316e8d93eb/231da/uber.png 188w,
+/static/7d33a7a1179bff65d1027a316e8d93eb/e1953/uber.png 250w,
+/static/7d33a7a1179bff65d1027a316e8d93eb/bc59e/uber.png 512w"
+                  />
+                  <img
+                    alt=""
+                    loading="lazy"
+                    onLoad={[Function]}
+                    sizes="(max-width: 125px) 100vw, 125px"
+                    src="/static/7d33a7a1179bff65d1027a316e8d93eb/62d80/uber.png"
+                    srcSet="/static/7d33a7a1179bff65d1027a316e8d93eb/b44cd/uber.png 31w,
+/static/7d33a7a1179bff65d1027a316e8d93eb/72176/uber.png 63w,
+/static/7d33a7a1179bff65d1027a316e8d93eb/62d80/uber.png 125w,
+/static/7d33a7a1179bff65d1027a316e8d93eb/231da/uber.png 188w,
+/static/7d33a7a1179bff65d1027a316e8d93eb/e1953/uber.png 250w,
+/static/7d33a7a1179bff65d1027a316e8d93eb/bc59e/uber.png 512w"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "objectFit": "scale-down",
+                        "objectPosition": "center",
+                        "opacity": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "transition": "opacity 500ms",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </picture>
+                <noscript
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<picture><source srcset=\\"/static/7d33a7a1179bff65d1027a316e8d93eb/b44cd/uber.png 31w,
+/static/7d33a7a1179bff65d1027a316e8d93eb/72176/uber.png 63w,
+/static/7d33a7a1179bff65d1027a316e8d93eb/62d80/uber.png 125w,
+/static/7d33a7a1179bff65d1027a316e8d93eb/231da/uber.png 188w,
+/static/7d33a7a1179bff65d1027a316e8d93eb/e1953/uber.png 250w,
+/static/7d33a7a1179bff65d1027a316e8d93eb/bc59e/uber.png 512w\\" sizes=\\"(max-width: 125px) 100vw, 125px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 125px) 100vw, 125px\\" srcset=\\"/static/7d33a7a1179bff65d1027a316e8d93eb/b44cd/uber.png 31w,
+/static/7d33a7a1179bff65d1027a316e8d93eb/72176/uber.png 63w,
+/static/7d33a7a1179bff65d1027a316e8d93eb/62d80/uber.png 125w,
+/static/7d33a7a1179bff65d1027a316e8d93eb/231da/uber.png 188w,
+/static/7d33a7a1179bff65d1027a316e8d93eb/e1953/uber.png 250w,
+/static/7d33a7a1179bff65d1027a316e8d93eb/bc59e/uber.png 512w\\" src=\\"/static/7d33a7a1179bff65d1027a316e8d93eb/62d80/uber.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          id="section-2"
+        >
+          <h1>
+            Usos más comunes de 
+            MERN
+          </h1>
+          <div
+            className="use-cases"
+          >
+            <div
+              className="use-case"
+            >
+              <div
+                className="use-case-img gatsby-image-wrapper"
+                style={
+                  Object {
+                    "maxHeight": null,
+                    "maxWidth": null,
+                    "overflow": "hidden",
+                    "position": "relative",
+                  }
+                }
+              >
+                <div
+                  aria-hidden={true}
+                  style={
+                    Object {
+                      "paddingBottom": "66.5%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <img
+                  alt=""
+                  aria-hidden={true}
+                  src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAECAwT/xAAWAQEBAQAAAAAAAAAAAAAAAAADAQL/2gAMAwEAAhADEAAAAcTU3KkRi//EABoQAAICAwAAAAAAAAAAAAAAAAACARAREjH/2gAIAQEAAQUCXA2tL14IP//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/AWf/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPwEZ/8QAFxAAAwEAAAAAAAAAAAAAAAAAABARIf/aAAgBAQAGPwIyqP8A/8QAGhABAAIDAQAAAAAAAAAAAAAAAQAhETFBUf/aAAgBAQABPyHZkd8gBAKol15jHZYzgn//2gAMAwEAAgADAAAAELM//8QAFhEBAQEAAAAAAAAAAAAAAAAAARAh/9oACAEDAQE/EDpP/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAECAQE/EGxm/8QAGhABAQADAQEAAAAAAAAAAAAAAREAIUExUf/aAAgBAQABPxBwJXY6wkO22gYxx3qZflCtO4QbqHd5B+j6Z//Z"
+                  style={
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "objectFit": "cover",
+                      "objectPosition": "center",
+                      "opacity": 1,
+                      "position": "absolute",
+                      "top": 0,
+                      "transitionDelay": "500ms",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <source
+                    sizes="(max-width: 800px) 100vw, 800px"
+                    srcSet="/static/2bd94659bc13511a9ee87d95872f2b17/f836f/aplicationes.jpg 200w,
+/static/2bd94659bc13511a9ee87d95872f2b17/2244e/aplicationes.jpg 400w,
+/static/2bd94659bc13511a9ee87d95872f2b17/14b42/aplicationes.jpg 800w,
+/static/2bd94659bc13511a9ee87d95872f2b17/47498/aplicationes.jpg 1200w,
+/static/2bd94659bc13511a9ee87d95872f2b17/0e329/aplicationes.jpg 1600w,
+/static/2bd94659bc13511a9ee87d95872f2b17/b2131/aplicationes.jpg 3000w"
+                  />
+                  <img
+                    alt=""
+                    loading="lazy"
+                    onLoad={[Function]}
+                    sizes="(max-width: 800px) 100vw, 800px"
+                    src="/static/2bd94659bc13511a9ee87d95872f2b17/14b42/aplicationes.jpg"
+                    srcSet="/static/2bd94659bc13511a9ee87d95872f2b17/f836f/aplicationes.jpg 200w,
+/static/2bd94659bc13511a9ee87d95872f2b17/2244e/aplicationes.jpg 400w,
+/static/2bd94659bc13511a9ee87d95872f2b17/14b42/aplicationes.jpg 800w,
+/static/2bd94659bc13511a9ee87d95872f2b17/47498/aplicationes.jpg 1200w,
+/static/2bd94659bc13511a9ee87d95872f2b17/0e329/aplicationes.jpg 1600w,
+/static/2bd94659bc13511a9ee87d95872f2b17/b2131/aplicationes.jpg 3000w"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "objectFit": "cover",
+                        "objectPosition": "center",
+                        "opacity": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "transition": "opacity 500ms",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </picture>
+                <noscript
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<picture><source srcset=\\"/static/2bd94659bc13511a9ee87d95872f2b17/f836f/aplicationes.jpg 200w,
+/static/2bd94659bc13511a9ee87d95872f2b17/2244e/aplicationes.jpg 400w,
+/static/2bd94659bc13511a9ee87d95872f2b17/14b42/aplicationes.jpg 800w,
+/static/2bd94659bc13511a9ee87d95872f2b17/47498/aplicationes.jpg 1200w,
+/static/2bd94659bc13511a9ee87d95872f2b17/0e329/aplicationes.jpg 1600w,
+/static/2bd94659bc13511a9ee87d95872f2b17/b2131/aplicationes.jpg 3000w\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" srcset=\\"/static/2bd94659bc13511a9ee87d95872f2b17/f836f/aplicationes.jpg 200w,
+/static/2bd94659bc13511a9ee87d95872f2b17/2244e/aplicationes.jpg 400w,
+/static/2bd94659bc13511a9ee87d95872f2b17/14b42/aplicationes.jpg 800w,
+/static/2bd94659bc13511a9ee87d95872f2b17/47498/aplicationes.jpg 1200w,
+/static/2bd94659bc13511a9ee87d95872f2b17/0e329/aplicationes.jpg 1600w,
+/static/2bd94659bc13511a9ee87d95872f2b17/b2131/aplicationes.jpg 3000w\\" src=\\"/static/2bd94659bc13511a9ee87d95872f2b17/14b42/aplicationes.jpg\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                    }
+                  }
+                />
+              </div>
+              <h3
+                className="text-light"
+              >
+                Aplicaciones de gran escala con conectividad de usuario
+              </h3>
+            </div>
+            <div
+              className="use-case"
+            >
+              <div
+                className="use-case-img gatsby-image-wrapper"
+                style={
+                  Object {
+                    "maxHeight": null,
+                    "maxWidth": null,
+                    "overflow": "hidden",
+                    "position": "relative",
+                  }
+                }
+              >
+                <div
+                  aria-hidden={true}
+                  style={
+                    Object {
+                      "paddingBottom": "59.5%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <img
+                  alt=""
+                  aria-hidden={true}
+                  src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEFAgP/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAP/2gAMAwEAAhADEAAAAdNzhrQOQb//xAAaEAACAgMAAAAAAAAAAAAAAAABAgAREiEz/9oACAEBAAEFAlGgZcXnkUa5/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Bp//EABYRAAMAAAAAAAAAAAAAAAAAAAEQMf/aAAgBAgEBPwERf//EABgQAAMBAQAAAAAAAAAAAAAAAAABEBEx/9oACAEBAAY/AjmRmJz/xAAbEAACAgMBAAAAAAAAAAAAAAAAAREhQVGRof/aAAgBAQABPyGB3pFCfOy+TxwWkgkz/9oADAMBAAIAAwAAABDD7//EABcRAQEBAQAAAAAAAAAAAAAAAAEAETH/2gAIAQMBAT8QQdsL/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAECAQE/EBqtb//EABsQAQEBAQADAQAAAAAAAAAAAAERACFBgaHw/9oACAEBAAE/EIEcR1S9CLVffupqPjP13VfJ9HW+JscyK9hv/9k="
+                  style={
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "objectFit": "cover",
+                      "objectPosition": "center",
+                      "opacity": 1,
+                      "position": "absolute",
+                      "top": 0,
+                      "transitionDelay": "500ms",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <source
+                    sizes="(max-width: 800px) 100vw, 800px"
+                    srcSet="/static/a65b23e058eeb4beed131f5fc4ec2bac/f836f/phone.jpg 200w,
+/static/a65b23e058eeb4beed131f5fc4ec2bac/2244e/phone.jpg 400w,
+/static/a65b23e058eeb4beed131f5fc4ec2bac/14b42/phone.jpg 800w,
+/static/a65b23e058eeb4beed131f5fc4ec2bac/42364/phone.jpg 1100w"
+                  />
+                  <img
+                    alt=""
+                    loading="lazy"
+                    onLoad={[Function]}
+                    sizes="(max-width: 800px) 100vw, 800px"
+                    src="/static/a65b23e058eeb4beed131f5fc4ec2bac/14b42/phone.jpg"
+                    srcSet="/static/a65b23e058eeb4beed131f5fc4ec2bac/f836f/phone.jpg 200w,
+/static/a65b23e058eeb4beed131f5fc4ec2bac/2244e/phone.jpg 400w,
+/static/a65b23e058eeb4beed131f5fc4ec2bac/14b42/phone.jpg 800w,
+/static/a65b23e058eeb4beed131f5fc4ec2bac/42364/phone.jpg 1100w"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "objectFit": "cover",
+                        "objectPosition": "center",
+                        "opacity": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "transition": "opacity 500ms",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </picture>
+                <noscript
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<picture><source srcset=\\"/static/a65b23e058eeb4beed131f5fc4ec2bac/f836f/phone.jpg 200w,
+/static/a65b23e058eeb4beed131f5fc4ec2bac/2244e/phone.jpg 400w,
+/static/a65b23e058eeb4beed131f5fc4ec2bac/14b42/phone.jpg 800w,
+/static/a65b23e058eeb4beed131f5fc4ec2bac/42364/phone.jpg 1100w\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" srcset=\\"/static/a65b23e058eeb4beed131f5fc4ec2bac/f836f/phone.jpg 200w,
+/static/a65b23e058eeb4beed131f5fc4ec2bac/2244e/phone.jpg 400w,
+/static/a65b23e058eeb4beed131f5fc4ec2bac/14b42/phone.jpg 800w,
+/static/a65b23e058eeb4beed131f5fc4ec2bac/42364/phone.jpg 1100w\\" src=\\"/static/a65b23e058eeb4beed131f5fc4ec2bac/14b42/phone.jpg\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                    }
+                  }
+                />
+              </div>
+              <h3
+                className="text-light"
+              >
+                Desarrollo de Back-End de aplicaciones móviles
+              </h3>
+            </div>
+            <div
+              className="use-case"
+            >
+              <div
+                className="use-case-img gatsby-image-wrapper"
+                style={
+                  Object {
+                    "maxHeight": null,
+                    "maxWidth": null,
+                    "overflow": "hidden",
+                    "position": "relative",
+                  }
+                }
+              >
+                <div
+                  aria-hidden={true}
+                  style={
+                    Object {
+                      "paddingBottom": "43%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <img
+                  alt=""
+                  aria-hidden={true}
+                  src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAJABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMCBAX/xAAWAQEBAQAAAAAAAAAAAAAAAAADAQL/2gAMAwEAAhADEAAAAc0VFSsiC5//xAAYEAADAQEAAAAAAAAAAAAAAAAAECIBIf/aAAgBAQABBQKThKxf/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAEREv/aAAgBAwEBPwGmYf/EABYRAQEBAAAAAAAAAAAAAAAAAAASAf/aAAgBAgEBPwGla//EABQQAQAAAAAAAAAAAAAAAAAAACD/2gAIAQEABj8CX//EABoQAAIDAQEAAAAAAAAAAAAAAAABEUFRcTH/2gAIAQEAAT8hjTF2Tpirh7LZ/9oADAMBAAIAAwAAABDT3//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/EEw//8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQIBAT8QFD//xAAeEAABBAIDAQAAAAAAAAAAAAAAAREhMVGxQcHw8f/aAAgBAQABPxBq1nqCTHEOJ8wt65NC6NnSH//Z"
+                  style={
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "objectFit": "cover",
+                      "objectPosition": "center",
+                      "opacity": 1,
+                      "position": "absolute",
+                      "top": 0,
+                      "transitionDelay": "500ms",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <source
+                    sizes="(max-width: 800px) 100vw, 800px"
+                    srcSet="/static/6cb97222b88d24e2f5a56ea937f237e1/f836f/network.jpg 200w,
+/static/6cb97222b88d24e2f5a56ea937f237e1/2244e/network.jpg 400w,
+/static/6cb97222b88d24e2f5a56ea937f237e1/14b42/network.jpg 800w,
+/static/6cb97222b88d24e2f5a56ea937f237e1/16310/network.jpg 1024w"
+                  />
+                  <img
+                    alt=""
+                    loading="lazy"
+                    onLoad={[Function]}
+                    sizes="(max-width: 800px) 100vw, 800px"
+                    src="/static/6cb97222b88d24e2f5a56ea937f237e1/14b42/network.jpg"
+                    srcSet="/static/6cb97222b88d24e2f5a56ea937f237e1/f836f/network.jpg 200w,
+/static/6cb97222b88d24e2f5a56ea937f237e1/2244e/network.jpg 400w,
+/static/6cb97222b88d24e2f5a56ea937f237e1/14b42/network.jpg 800w,
+/static/6cb97222b88d24e2f5a56ea937f237e1/16310/network.jpg 1024w"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "objectFit": "cover",
+                        "objectPosition": "center",
+                        "opacity": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "transition": "opacity 500ms",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </picture>
+                <noscript
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<picture><source srcset=\\"/static/6cb97222b88d24e2f5a56ea937f237e1/f836f/network.jpg 200w,
+/static/6cb97222b88d24e2f5a56ea937f237e1/2244e/network.jpg 400w,
+/static/6cb97222b88d24e2f5a56ea937f237e1/14b42/network.jpg 800w,
+/static/6cb97222b88d24e2f5a56ea937f237e1/16310/network.jpg 1024w\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" srcset=\\"/static/6cb97222b88d24e2f5a56ea937f237e1/f836f/network.jpg 200w,
+/static/6cb97222b88d24e2f5a56ea937f237e1/2244e/network.jpg 400w,
+/static/6cb97222b88d24e2f5a56ea937f237e1/14b42/network.jpg 800w,
+/static/6cb97222b88d24e2f5a56ea937f237e1/16310/network.jpg 1024w\\" src=\\"/static/6cb97222b88d24e2f5a56ea937f237e1/14b42/network.jpg\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                    }
+                  }
+                />
+              </div>
+              <h3
+                className="text-light"
+              >
+                Interactividad multiusuario en tiempo real
+              </h3>
+            </div>
+          </div>
+        </section>
+        <section
+          id="section-3"
+        >
+          <h1>
+            Características de 
+            MERN
+          </h1>
+          <div
+            className="features"
+          >
+            <div
+              className="feature"
+            >
+              <div
+                className="feature-img gatsby-image-wrapper"
+                style={
+                  Object {
+                    "maxHeight": null,
+                    "maxWidth": null,
+                    "overflow": "hidden",
+                    "position": "relative",
+                  }
+                }
+              >
+                <div
+                  aria-hidden={true}
+                  style={
+                    Object {
+                      "paddingBottom": "100%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <img
+                  alt=""
+                  aria-hidden={true}
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADuElEQVQ4y2VUS4gcVRS9XdUdHdGoEVxJFroxI24UgsSIWWQRwYViJC4UshAXgpuAO0XQ4M6tGAgkmZ70VNVMQGLioIkZSdBoXESNEBlj1avOtPNr8zHjTLo+7+WcV697GvLgUlWv3j3v3HM/IkFbakEqfqD8RqhEJtpSD9QOL1AtP0g7jTAt8dT1IDV472H/D9injSDZTD8Zw/lQ1fzQYogF84LU58eGSG3C4alaoAxAjLSUkbHEyDismWiY3fesqVX4vI8zcm+UiG9BAUhmdYIF8eM4FNcmUjoVclTlD021y/2XbuiZhTX91dz/5vVzSxrgJQAzbx24KcGijEzGlqk0IiX3hOrhIbAebtUbJ9vm4rWeNsbQ+kt/+Nt1yxQSlN6EyhAhfNQBaSH8VupBM4asQoLh2YNOCDPWH8CRCGuFNoXWJisdLt63nOhoRMDLNfxyz0qk3vCoKcJ9gRv4UWBD8xD1mu6sWv8CQFpXljvQt35cpraal8O3cGRmH4yuNMiu6TZyalIPLaCZTFesczYE2Gf58veLTBKzrj3LsvIFy1cI2MYGBabY9lYefu3s0kA4MuuDpSu5eQD6SuWjbWIA6LT8nCVTOEDepB1LI4dj894v/65rh/Xnzcw8cXzOyKGYSbFZrnwGYV+UPkj/yZsp+IunF8ybPyyb57+dN3uh2W4w3nFq3nz0+3Wz+9xSVaN9IoHSjlRXXEK0t36jOfz3rQGr2f8ys+vMgnnn5+4gKVzN+Ja92IVdOsAOQ17jR53ZHU/0NjCqqkPbkuHae37ZfHb5pn1fzUv7j+upkx12EduyqFVFfoYMf2X8SEbBctk1szgol3woq+9e6N6V9a3f/EMSJNMv8E8I+LFXNX7G7O78bkEP1x/X6ImO2e6Ys8jLqib1M9MWkAy1K+5nZUOYPIaPFWaNffr01x0z3G49AG+aapvNX86Z4RakPYmLoGNWDQx1kpOKGnJA7HNJydjHp+dXnYwVxfPLt82F7u3qAlBcAb0xJAX157RLM3TcFg4ZkebVmhy1/XzEq0ZWfn+UFmCqn0OYL80s6rd/6mq0m95+al6PIhGPHrvKXs5c2TDUPfAnhm9HzkgUi0S2hL4Y1OJ4kltrJqUcibW1ZoKxljCKsgKyg2EPmLKefTmUCAejBb0vuiIclpwaODhLTeuuaxrO6hVI36YR4iiZ1VrKf+R4KiPHUjtgOXEEI73GeUZNN4Z/NbD/Kuwgvi/BbsCW4HwWe/thW3k5/aChLwcTGZlKpR6lcgeBLyvft8KoFAAAAABJRU5ErkJggg=="
+                  style={
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "objectFit": "contain",
+                      "objectPosition": "center",
+                      "opacity": 1,
+                      "position": "absolute",
+                      "top": 0,
+                      "transitionDelay": "500ms",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <source
+                    sizes="(max-width: 109px) 100vw, 109px"
+                    srcSet="/static/07d0fbe0c82fcee34dbade3508905b9d/75a8a/empleabilidad.png 109w"
+                  />
+                  <img
+                    alt=""
+                    loading="lazy"
+                    onLoad={[Function]}
+                    sizes="(max-width: 109px) 100vw, 109px"
+                    src="/static/07d0fbe0c82fcee34dbade3508905b9d/75a8a/empleabilidad.png"
+                    srcSet="/static/07d0fbe0c82fcee34dbade3508905b9d/75a8a/empleabilidad.png 109w"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "objectFit": "contain",
+                        "objectPosition": "center",
+                        "opacity": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "transition": "opacity 500ms",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </picture>
+                <noscript
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<picture><source srcset=\\"/static/07d0fbe0c82fcee34dbade3508905b9d/75a8a/empleabilidad.png 109w\\" sizes=\\"(max-width: 109px) 100vw, 109px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 109px) 100vw, 109px\\" srcset=\\"/static/07d0fbe0c82fcee34dbade3508905b9d/75a8a/empleabilidad.png 109w\\" src=\\"/static/07d0fbe0c82fcee34dbade3508905b9d/75a8a/empleabilidad.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                    }
+                  }
+                />
+              </div>
+              <h3>
+                Empleabilidad
+              </h3>
+              <p>
+                Cada vez más empleadores necesitan ingenieros familiarizados con el stack MERN y otras tecnologías basadas en JavaScript.
+              </p>
+            </div>
+            <div
+              className="feature"
+            >
+              <div
+                className="feature-img gatsby-image-wrapper"
+                style={
+                  Object {
+                    "maxHeight": null,
+                    "maxWidth": null,
+                    "overflow": "hidden",
+                    "position": "relative",
+                  }
+                }
+              >
+                <div
+                  aria-hidden={true}
+                  style={
+                    Object {
+                      "paddingBottom": "99.05660377358491%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <img
+                  alt=""
+                  aria-hidden={true}
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADzElEQVQ4y11UTWhUVxS+Mdb/ijqZeTMao5v6g1JpqSi4EeqiC0u76coWoeBCdF1wpYhCqYoLQQqCjRozM5mxarRYUaFVtKUIjRqRiJn35seMScxMoqNm5s27p9859z5NfXC47/599zvf+VFO2lNOylg0nW+JYYwnc0sx/xE2AAti6TzF0p52UnnCvAq7DPsqkn3KZxX2W6OZomr7dUiFYC3Lup7wBv/vgtViKQYxhkc1HsKY1064xvOUdw2AS7CmYj0GVMUBiMsAErBjfNCA5BvMjkFCsATW42buY+5b4JF4t7vWSQqxVqFrme2T11NeA2OwuEdA+bJmtrz34VmXFnZ7eonZ47N1C1oGU4fdty67G4UZLoNBwIxmnsnptqQnLmKN5gHsyMNx2nZzmNTJQW3PTgXNRjMlhUAUGPQKs8ABvw1gYKcP3KvS6vNFiiQ9WgRbc6FIWhNtvzVCP9wdo7UXi3oB2CbEi3xTNE26mzhKqxyjCSUANON0Tp/zalStB9SRKQg7rNG+vgoVaj7N6XKpb6xO9yt1mn/WFX1xpmFZ/szsvrdgfuupnD54rwoeRJ9eKolmrCWPAxMNOgqXVecgLc8WaGyySVk8/AEIsOaOAXzAgIcSRiP/u1sjAvbNH8OsIbVnjHZbrpapEWhaf7kk7vMDG357Sk2s7e+raJyRDEB6VRXonmDa0M6fqAe6x62x6LQ0I6xpOtw99eQl/TM6SbPPuCJBB/bUL4O0998Kv08rzxc1P4S9SWZ4JGS4869RYbj1+jOa3WUuc4pU4N7uv5/TDLDmh5jhJ70letPUdLh/XGMuEQfDcQbcIRqmjYbHHk1ofPTxxZLoteP2KL1oBKJbFJ5w1Pn80CufrpReQRpX2wJgDR8iyshyu8BVMAsHfsfB52DFLG8MvRbx2XVmi1QR9x8jSAuRp1ETZT9m6vykiiAZ8XM9zENmsCxb0If6x+mLa2Vitl/eeEbzAM6PtgOUo72ut6Tnm2Bw6jRtbW+WSomn3M22UoK4bQAQXW+5OkSp3Etx1dazjJyrCML7ldIbyaLbRHsKYS3/NLWW2T2w1XO7XD0FjB/TnJvvgY1BunapZbBTikjZbtEZdpsQOGEY6xDM4REu8r4FexFPeuttG2x92w8TSZfZ8v8eLsV3vVDGJlKC14K36yYId8Dqo//1wykdu2XRubL0xnh3bgXmx2F5KzbZKLLVYH/Cvp17aZizBBgAyxZV5EJZySeBwUbYztE1pHsnunNzsP4Z9rcC8GuMn2Pewa2f76gqS+VOi8EzBlzcOaD+A5Dl5bRDMLO1AAAAAElFTkSuQmCC"
+                  style={
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "objectFit": "contain",
+                      "objectPosition": "center",
+                      "opacity": 1,
+                      "position": "absolute",
+                      "top": 0,
+                      "transitionDelay": "500ms",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <source
+                    sizes="(max-width: 106px) 100vw, 106px"
+                    srcSet="/static/32def71621f58f8c18ec9a21cdc96d3b/1b8fb/frame-10.png 106w"
+                  />
+                  <img
+                    alt=""
+                    loading="lazy"
+                    onLoad={[Function]}
+                    sizes="(max-width: 106px) 100vw, 106px"
+                    src="/static/32def71621f58f8c18ec9a21cdc96d3b/1b8fb/frame-10.png"
+                    srcSet="/static/32def71621f58f8c18ec9a21cdc96d3b/1b8fb/frame-10.png 106w"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "objectFit": "contain",
+                        "objectPosition": "center",
+                        "opacity": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "transition": "opacity 500ms",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </picture>
+                <noscript
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<picture><source srcset=\\"/static/32def71621f58f8c18ec9a21cdc96d3b/1b8fb/frame-10.png 106w\\" sizes=\\"(max-width: 106px) 100vw, 106px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 106px) 100vw, 106px\\" srcset=\\"/static/32def71621f58f8c18ec9a21cdc96d3b/1b8fb/frame-10.png 106w\\" src=\\"/static/32def71621f58f8c18ec9a21cdc96d3b/1b8fb/frame-10.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                    }
+                  }
+                />
+              </div>
+              <h3>
+                Simple y rápido
+              </h3>
+              <p>
+                Crear sitios web y aplicaciones en torno a un idioma, JavaScript, es relativamente sencillo.
+              </p>
+            </div>
+            <div
+              className="feature"
+            >
+              <div
+                className="feature-img gatsby-image-wrapper"
+                style={
+                  Object {
+                    "maxHeight": null,
+                    "maxWidth": null,
+                    "overflow": "hidden",
+                    "position": "relative",
+                  }
+                }
+              >
+                <div
+                  aria-hidden={true}
+                  style={
+                    Object {
+                      "paddingBottom": "99.05660377358491%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <img
+                  alt=""
+                  aria-hidden={true}
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD2ElEQVQ4y11VXWxURRSeuiYoAgrbvfcuRRASf2KiEsTEBAJGeDKSIPHB+GB85IFXfVETE2OIDyoPJhKQyk+7f90CW34soZRgYtRoxARICnZ37727XbqhYm13K+x25/CdM3MLcZOTuXPunW++882Zb5Wb9ZWb8ZWHSGTDLicbKC9V7EFuL2IMMY8cORlfuxgxn0acRby1YnBCeemyQj6WyFdU/ERNCRiia026pBwDvhsxK4vvh45GATfAHCNeqrQaeeXkwlhioKLArKwSuUqXY4D38cIEPu5O+63ujN9BaDxzTkCFacZvOxwGeAosX7TEYmAVxrhMTD6yC9rJXNBZmw/pqXyoMep1gyGtysk7w9KMDHbXgtaTqZLnocqo5Ff4g3ja188cr3TOT8zRyaChj/uIoEHp0iz9VP+PXj9Xo6X9ZVqZE1D9P9ACKlUoN2TAIQ/Jx1N+6+VTVcoDyDMbkJEgoN6/Zmj3z7do0bEyrUDey1pQBADnWVOUvpVP6WnehQGeSPl6w6mqZkbLwOSloSpl8HxkfJaY9Qmw7SvO0qazE7KZt1D+gp69zO49Qc8G7QgwV27Qo31lOnB9hvb8MiWMwJ4eQ+6LK/9IXn03zqVHmnYs4Jhy0+XPeBIBcslHwUgdKtL+sX9pyw81UoeL9O6PddZVGF6ozdGnf96WjayW2gI2GHBfBLgcgC8UKvTH1B368uo0/XbrDm1A2TsuTNIIQFgClgKtRN9is6+uTdMj0DQpfcrgQYsBP3dM03JvabSMALxzqS4gz5+siIavDdfo4SMl6smZw1oC4ELYpPVDVc1E7Ik3WcP3WUPuP6uHZhaqt0gf/P43nak0abjaJN4oaTSTnmSNvwbDXRcnNZ47SQN4gxk+59quj/RIGglE9J2jkzR6c44242RjYMg5MJJ+PF1pajDkedsyPKq6B6rMctiK2nYfMAIGVd8X6Y2RmzSK8vnAWL9VAwEdujGjceIaGrJM0ocgtz26KZuk7GzQcR+8sxhZM26Xty/WRbPD4zNyiz65fFtzK+Ew7lp2w/F8VYlLOOa27LVO0nKjvrKasgSL++SGcIn6STBcdKzE71uRpeEer5G7zD64pDClrEEctEz5IwEGgwhU9OVehfPMQ8sIrOGl/VfdTCC+uOCHPf0lGKyAfshgke9ZpvO2CzqRRzrGD38Fq2cZw2GTZT9kc7Su3RXPsi8G0f3+BhFYI+WmjUy1gbjEVzZ2rmEcGz7IYMsLk0p+5i+grJIILIzhtEQCeNxiLNiI928ivxPjNsxXxwdrikvc9XE/Az7E3yYGQrWyr6juATg838MhxeULAAAAAElFTkSuQmCC"
+                  style={
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "objectFit": "contain",
+                      "objectPosition": "center",
+                      "opacity": 1,
+                      "position": "absolute",
+                      "top": 0,
+                      "transitionDelay": "500ms",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <source
+                    sizes="(max-width: 106px) 100vw, 106px"
+                    srcSet="/static/9590b5a31ea0933f3c0ba0c053623a6a/1b8fb/frame-11.png 106w"
+                  />
+                  <img
+                    alt=""
+                    loading="lazy"
+                    onLoad={[Function]}
+                    sizes="(max-width: 106px) 100vw, 106px"
+                    src="/static/9590b5a31ea0933f3c0ba0c053623a6a/1b8fb/frame-11.png"
+                    srcSet="/static/9590b5a31ea0933f3c0ba0c053623a6a/1b8fb/frame-11.png 106w"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "objectFit": "contain",
+                        "objectPosition": "center",
+                        "opacity": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "transition": "opacity 500ms",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </picture>
+                <noscript
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<picture><source srcset=\\"/static/9590b5a31ea0933f3c0ba0c053623a6a/1b8fb/frame-11.png 106w\\" sizes=\\"(max-width: 106px) 100vw, 106px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 106px) 100vw, 106px\\" srcset=\\"/static/9590b5a31ea0933f3c0ba0c053623a6a/1b8fb/frame-11.png 106w\\" src=\\"/static/9590b5a31ea0933f3c0ba0c053623a6a/1b8fb/frame-11.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                    }
+                  }
+                />
+              </div>
+              <h3>
+                Adaptabilidad
+              </h3>
+              <p>
+                Debido a la versatilidad del lenguaje de programación de MERN, JavaScript, es altamente adaptable para una amplia gama de aplicaciones web.
+              </p>
+            </div>
+            <div
+              className="feature"
+            >
+              <div
+                className="feature-img gatsby-image-wrapper"
+                style={
+                  Object {
+                    "maxHeight": null,
+                    "maxWidth": null,
+                    "overflow": "hidden",
+                    "position": "relative",
+                  }
+                }
+              >
+                <div
+                  aria-hidden={true}
+                  style={
+                    Object {
+                      "paddingBottom": "99.05660377358491%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <img
+                  alt=""
+                  aria-hidden={true}
+                  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAADx0lEQVQ4y3WVbWhbZRTHT1YEu01rm7T3ZlT8oqDuRaedoiIiCCIIKqKwibp929iQOVAnzr3J9kHm/KIIoiAjy0s727RpZ6FDtylT1705HXZly71Jbvq6pnEsxSS9z/F/ntywLNTCj/v25Pecc57nOaXg4askLDs0Sq2dmQYjlqL2QyO3G1F7AzgK0uBfI5oq4zoNToFdZti6pw1jVx08SUbU8uEdtUVTRMEQhKEr1Nw36ZMB+PASSELMbbdg3/KMMXNg5+K+HJkRi4yItUik1P7dCPm7s77AEUde7jAxOFihBMrABaqGee8bmxXxD4HO1G2GSKO2jzBbg5jx4l2J6q6w7TaGrPklIYuB8uD658Uhy1162CoiTZEO+HvHiXJMZMRsqcEakfkjNj+acNzXjk/yyz9OqFcqcD3y7dWfJvj5oXGFKCG1Rbpdp+zvykqog5ICZiztuzjL7/x+Ta09Mclv/TzFby7A2+D145Pq68vXeWVvxm1GIGbMzgfDSZPMqLUSQplJIV31/pkZdXdXij+/lOeBTIHjqQL3Z26SSBf42Ngcr+h1eOOv06qj35EylYxKPbdJdFuNSoHLTWGbPzw7ozArP9af5WcHx7gj4fD9PRl+oIbl8YxIeDvGrk44EkjZEw6K8NsaoUTIayD76FyOtw3PaGlP6gZ3exyxb/BQdo7XoSQojUwoQtcTjkKYitcLJboDf+V51/mcruNCf/tRa6SMyXXKVeGERBirCr0a8uMQHkQN9174f+HeC7O8qSKsjVCfjP21NZRFkZT34Acif2FonP/Ol/jSbFFzMVdkp1Dmzb9d4y2goyKc94TDInzRE85Lyh9AKAux7uQUb/hlimVPyhaSmq31WI/3D/U5/N7wjHokoVOuLsqX1B4abcSNbXqnRCJcEc+o3UhX6vgZOFDDp3/m+auRf2SxFKJUdRE+TV5D2Opt7KKI9v0xqz4+l1NSpz0L8Am+y8TfjF7nB+OZUotsbJxp//djRMu/OEVL49MiPdGKI3Rfd7r41NGs3jpAYcWVd6+pPDvqiYEsr+5zqhu6gI5zr3QdEaHtIMpwMoD7y3Ke78ARbApbqKml6mDv6t6JbGRz4xwr/O453WCidgNVb4xIkszQlWacyQHTa01yHGX163Bvfkfto9aTVUdrZ5p0l/Xa1yIznKRALC3Pb4DThnQRaaj6Kh1FpyfYYDca8xLdqdECA10O0aBLtEwviqVBDXwtnY5u5009sumth3G/HuyAbCeumzHxM8GI1YgOrv91YMKGVgTR0j1BwchV+g+IyATMQUTeXAAAAABJRU5ErkJggg=="
+                  style={
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "objectFit": "contain",
+                      "objectPosition": "center",
+                      "opacity": 1,
+                      "position": "absolute",
+                      "top": 0,
+                      "transitionDelay": "500ms",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <source
+                    sizes="(max-width: 106px) 100vw, 106px"
+                    srcSet="/static/b3c95dc8e1dad79d60846aae0b435aa7/1b8fb/frame-7.png 106w"
+                  />
+                  <img
+                    alt=""
+                    loading="lazy"
+                    onLoad={[Function]}
+                    sizes="(max-width: 106px) 100vw, 106px"
+                    src="/static/b3c95dc8e1dad79d60846aae0b435aa7/1b8fb/frame-7.png"
+                    srcSet="/static/b3c95dc8e1dad79d60846aae0b435aa7/1b8fb/frame-7.png 106w"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "objectFit": "contain",
+                        "objectPosition": "center",
+                        "opacity": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "transition": "opacity 500ms",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </picture>
+                <noscript
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<picture><source srcset=\\"/static/b3c95dc8e1dad79d60846aae0b435aa7/1b8fb/frame-7.png 106w\\" sizes=\\"(max-width: 106px) 100vw, 106px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 106px) 100vw, 106px\\" srcset=\\"/static/b3c95dc8e1dad79d60846aae0b435aa7/1b8fb/frame-7.png 106w\\" src=\\"/static/b3c95dc8e1dad79d60846aae0b435aa7/1b8fb/frame-7.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                    }
+                  }
+                />
+              </div>
+              <h3>
+                Comunidad activa de desarrolladores
+              </h3>
+              <p>
+                MERN Stack se ejecuta en JavaScript, el lenguaje de programación más común del mundo con una de las comunidades de desarrolladores más activas, lo que facilita encontrar y tener acceso a soluciones para diversos problemas de desarrollo.
+              </p>
+            </div>
+          </div>
+          <div
+            className="bottom-image gatsby-image-wrapper"
+            style={
+              Object {
+                "maxHeight": null,
+                "maxWidth": null,
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            <div
+              aria-hidden={true}
+              style={
+                Object {
+                  "paddingBottom": "29.000000000000004%",
+                  "width": "100%",
+                }
+              }
+            />
+            <img
+              alt=""
+              aria-hidden={true}
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAGCAYAAADDl76dAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB8UlEQVQY0wHmARn+AAAAAADt//8A4ZVqAL6ciwCzxtWRoLnMNP///yX///8A2OHike3v7//o7/Dt6O3t/uDn6GDK2NQA////I7jBxxg+fKGfMHGYTjGDsQAqfq4CAAAAAABfXF4BU09RAFJNThqNlJxv4vj/Gvv17wre4OBD6Ovr4OTh4P/c7fD/4+jp/+vy8mf6//8A////Dpuqsg9MiKRwP3uZOT2TugA1jrgBAGZAHABeV1cDXVZVAF1WVldeVlWa////BP///wDt6uqb8/Hy/+r095vm7e3K6urqqZt/hJKlpH8A9fn5IABXZgB4sL4AZpOnAHKqwAJpqMAAAGZAHQApJykBJCElACQiJSMxMTJmXmpvFFdTUxPU4OQtw8G7gKukmJqera/AiJOWiJ+Lg6LjxKY6////FFKMkTJ5n5yIq6GfIKuinwCVnp4BAGZAHQA4NDABNC4qADcuKiA2NjThPD48jf///xH507AAyKeLZ9Oylv+Wnp/Jf5CWusqniMjvt4uKrnpGAHKKjDWBk5OQmJGCOZqUhACXlocCAGdAHQBOOigAUj0oAFU9Jw9APjo4PzYvKP//9wTpHx4A5TEzYOg8N3/gWVwA4mRjAOczMoTmNDRn7CwqAAD//wCPs7MA//PRAP/qygDf2cAAQED2POnPMKsAAAAASUVORK5CYII="
+              style={
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "contain",
+                  "objectPosition": "center",
+                  "opacity": 1,
+                  "position": "absolute",
+                  "top": 0,
+                  "transitionDelay": "500ms",
+                  "width": "100%",
+                }
+              }
+            />
+            <picture>
+              <source
+                sizes="(max-width: 800px) 100vw, 800px"
+                srcSet="/static/10b7884113ba3f610b0489965ca341e5/69585/mern-bottom.png 200w,
+/static/10b7884113ba3f610b0489965ca341e5/497c6/mern-bottom.png 400w,
+/static/10b7884113ba3f610b0489965ca341e5/ee604/mern-bottom.png 800w,
+/static/10b7884113ba3f610b0489965ca341e5/f3583/mern-bottom.png 1200w,
+/static/10b7884113ba3f610b0489965ca341e5/0c5bf/mern-bottom.png 1480w"
+              />
+              <img
+                alt=""
+                loading="lazy"
+                onLoad={[Function]}
+                sizes="(max-width: 800px) 100vw, 800px"
+                src="/static/10b7884113ba3f610b0489965ca341e5/ee604/mern-bottom.png"
+                srcSet="/static/10b7884113ba3f610b0489965ca341e5/69585/mern-bottom.png 200w,
+/static/10b7884113ba3f610b0489965ca341e5/497c6/mern-bottom.png 400w,
+/static/10b7884113ba3f610b0489965ca341e5/ee604/mern-bottom.png 800w,
+/static/10b7884113ba3f610b0489965ca341e5/f3583/mern-bottom.png 1200w,
+/static/10b7884113ba3f610b0489965ca341e5/0c5bf/mern-bottom.png 1480w"
+                style={
+                  Object {
+                    "height": "100%",
+                    "left": 0,
+                    "objectFit": "contain",
+                    "objectPosition": "center",
+                    "opacity": 0,
+                    "position": "absolute",
+                    "top": 0,
+                    "transition": "opacity 500ms",
+                    "width": "100%",
+                  }
+                }
+              />
+            </picture>
+            <noscript
+              dangerouslySetInnerHTML={
+                Object {
+                  "__html": "<picture><source srcset=\\"/static/10b7884113ba3f610b0489965ca341e5/69585/mern-bottom.png 200w,
+/static/10b7884113ba3f610b0489965ca341e5/497c6/mern-bottom.png 400w,
+/static/10b7884113ba3f610b0489965ca341e5/ee604/mern-bottom.png 800w,
+/static/10b7884113ba3f610b0489965ca341e5/f3583/mern-bottom.png 1200w,
+/static/10b7884113ba3f610b0489965ca341e5/0c5bf/mern-bottom.png 1480w\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 800px) 100vw, 800px\\" srcset=\\"/static/10b7884113ba3f610b0489965ca341e5/69585/mern-bottom.png 200w,
+/static/10b7884113ba3f610b0489965ca341e5/497c6/mern-bottom.png 400w,
+/static/10b7884113ba3f610b0489965ca341e5/ee604/mern-bottom.png 800w,
+/static/10b7884113ba3f610b0489965ca341e5/f3583/mern-bottom.png 1200w,
+/static/10b7884113ba3f610b0489965ca341e5/0c5bf/mern-bottom.png 1480w\\" src=\\"/static/10b7884113ba3f610b0489965ca341e5/ee604/mern-bottom.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                }
+              }
+            />
+          </div>
+        </section>
+        <section
+          id="section-4"
+        >
+          <h1>
+            Nuestra aproximación a 
+            MERN
+          </h1>
+          <h4
+            className="text-light"
+          >
+            Estos son los tópicos y tecnologías para que te conviertas en un desarrollador de 
+            MERN
+          </h4>
+          <div
+            className="block-wrapper"
+          >
+            <div
+              className="lang-image gatsby-image-wrapper"
+              style={
+                Object {
+                  "maxHeight": null,
+                  "maxWidth": null,
+                  "overflow": "hidden",
+                  "position": "relative",
+                }
+              }
+            >
+              <div
+                aria-hidden={true}
+                style={
+                  Object {
+                    "paddingBottom": "93.33333333333334%",
+                    "width": "100%",
+                  }
+                }
+              />
+              <img
+                alt=""
+                aria-hidden={true}
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAYAAACQjC21AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEVklEQVQ4y3WT21NTVxTGV5LHPsh7+090+tROq2+d6fS104fOVGvHS7kHULmFWkY7CtrWwY5CQEFT1ClUJCiGnJBALpAbBEHEERWkChq5qAmBnJO9vu4Tgeq0rplv1j57r/3ba521N9Eb5ne5yCele6/iNEnRgHLz/UGlr/aTxh1y7NDnjT5FoU290/xy0b8Bk4EmCSG30psTcPWPBF0DkPNtkX4v9Tt79XXjRtz/Q1tRSfbpFnKOdJAS7TAFbnpIcfbkDLs8MYezC3X22jWvokDCbSNuL7Vfn6OpAZvxoddKieBhQsT8BowrqQ1VdGW5nrofWk1KpJO8Lue2QVdfLOzy4kiPRd1u+xhnrzWo4X4vvEqfLdJvpxlfI8UDJ4zpUPnbwDZsAFfqTJdfHKOue43bZBmjfsUF6dV9nXuwo/UzlLQX86jbrw1mM3XaTl0VhMlPKR2qMCJSQpuiC6iWqjK1ooLOrhzcJg8Y7Z5pgr/XrQb7B2C+WswfNn3EP122IOoO8IA8JB6oByKFf2LyC0K0WAdtQfXsTBclVCrHBkusOX0IzShT7Y+sCDt83Om4xAXt+/lG7zUMuTwcDxxnRPNVES6BCJk7F/ryCaOlG1DzZobVOfJfxn6LF6FuLlete5SHhmQRy0w56BjkkNsnu+zmxaE6xkiBzK5U+hJVgrLQp878jZLNBmpOl39wEZaRhmUzfn6wX/31WaHuuXZqD1tFGXfPyvIdPfxch0ULEPxjLzwtuzH51z4OXPheXQsUQ8I7Vn1F72VLbhWVtTJDnFosXjs5X4CK6LeojO2UwL1sXS/DORzmiVk7I1yIVX8R2o59w/bTO/nGmV04XfO1kBBNChw2f5UF6iYzvHAmUQbL+HeaLJmPz+ah5vYunNMOcTA9znfWgWdzbiCcxzPXc/lu1w944sgTciySviLI0qsweYAQLjFkr8wl/Kh32taYOoD6v/O1+se53Kwe5IH0BA++BIZeaVCS4MdzHr0hQKxUSIiQXi/XgjHZFNza6rLxnFZOV1BLNtTYznM5zqNCC6m3eUjCjsYzXPlU8AnpB1eB+JxH8HCukCUiE5KwmIRNlBnUoNmQ7bKeoeywsR6fkx2nqI0tbd71MdxKQDuzlGHzAqNggblU+paljIisQSzo5QfzqjG8l9bHjmZBWYU3gLo6M1ZDC4qpA0doKomm0aRA0xJrufPMu58wChdYtC4JEZPz4+uoXp7pofvPZ4ypiZObV+Y1cPP5dWtXyJX2GXAXpK2BHqSE1feK8ctz1o7EWTQssvDL75mUqJnNgDLjx41PZx2GxOTvb7/lLJCryLMepVDqMQVT8wYkQDJDiiXZ6nrJGE5wRvdjSWGZXBV058WKcTo+bZibH6Hle+20dV3etIkk08SqLrlhVRigCQommKZToklCcD8lqsdkTCTBhim5rsdl90i908YlcFwG3pPSN0kIlS2w8VaSv9QPQObf+deH/xf2D/BjrOMvm66zAAAAAElFTkSuQmCC"
+                style={
+                  Object {
+                    "height": "100%",
+                    "left": 0,
+                    "objectFit": "cover",
+                    "objectPosition": "center",
+                    "opacity": 1,
+                    "position": "absolute",
+                    "top": 0,
+                    "transitionDelay": "500ms",
+                    "width": "100%",
+                  }
+                }
+              />
+              <picture>
+                <source
+                  sizes="(max-width: 121px) 100vw, 121px"
+                  srcSet="/static/722938e0e4fb99f5b518095c0e3fd8f6/a74cd/mern.png 30w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/e4945/mern.png 61w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/e6da4/mern.png 121w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/3df8b/mern.png 182w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/34b50/mern.png 242w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/c8fbe/mern.png 447w"
+                />
+                <img
+                  alt=""
+                  loading="lazy"
+                  onLoad={[Function]}
+                  sizes="(max-width: 121px) 100vw, 121px"
+                  src="/static/722938e0e4fb99f5b518095c0e3fd8f6/e6da4/mern.png"
+                  srcSet="/static/722938e0e4fb99f5b518095c0e3fd8f6/a74cd/mern.png 30w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/e4945/mern.png 61w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/e6da4/mern.png 121w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/3df8b/mern.png 182w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/34b50/mern.png 242w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/c8fbe/mern.png 447w"
+                  style={
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "objectFit": "cover",
+                      "objectPosition": "center",
+                      "opacity": 0,
+                      "position": "absolute",
+                      "top": 0,
+                      "transition": "opacity 500ms",
+                      "width": "100%",
+                    }
+                  }
+                />
+              </picture>
+              <noscript
+                dangerouslySetInnerHTML={
+                  Object {
+                    "__html": "<picture><source srcset=\\"/static/722938e0e4fb99f5b518095c0e3fd8f6/a74cd/mern.png 30w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/e4945/mern.png 61w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/e6da4/mern.png 121w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/3df8b/mern.png 182w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/34b50/mern.png 242w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/c8fbe/mern.png 447w\\" sizes=\\"(max-width: 121px) 100vw, 121px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 121px) 100vw, 121px\\" srcset=\\"/static/722938e0e4fb99f5b518095c0e3fd8f6/a74cd/mern.png 30w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/e4945/mern.png 61w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/e6da4/mern.png 121w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/3df8b/mern.png 182w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/34b50/mern.png 242w,
+/static/722938e0e4fb99f5b518095c0e3fd8f6/c8fbe/mern.png 447w\\" src=\\"/static/722938e0e4fb99f5b518095c0e3fd8f6/e6da4/mern.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                  }
+                }
+              />
+            </div>
+            <div
+              className="info"
+            >
+              <h3>
+                Tecnologías
+              </h3>
+              <ul>
+                <li
+                  className="text-light"
+                >
+                  MongoDB
+                </li>
+                <li
+                  className="text-light"
+                >
+                  Express
+                </li>
+                <li
+                  className="text-light"
+                >
+                  React
+                </li>
+                <li
+                  className="text-light"
+                >
+                  Node.js
+                </li>
+                <li
+                  className="text-light"
+                >
+                  JS
+                </li>
+                <li
+                  className="text-light"
+                >
+                  Socket.IO
+                </li>
+                <li
+                  className="text-light"
+                >
+                  NPM
+                </li>
+              </ul>
+              <h3>
+                Temas que abordamos
+              </h3>
+              <ul>
+                <li
+                  className="text-light"
+                >
+                  POO en JavaScript
+                </li>
+                <li
+                  className="text-light"
+                >
+                  Solicitudes Ajax
+                </li>
+                <li
+                  className="text-light"
+                >
+                  Creación de framework en MVC
+                </li>
+                <li
+                  className="text-light"
+                >
+                  Creación de bibliotecas JS personalizadas
+                </li>
+                <li
+                  className="text-light"
+                >
+                  Creación de aplicaciones en tiempo real
+                </li>
+                <li
+                  className="text-light"
+                >
+                  Diseño de bases de datos NoSQL
+                </li>
+                <li
+                  className="text-light"
+                >
+                  Implementación de aplicaciones
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section
+          id="section-5"
+        >
+          <h1>
+            ¿Estás listo para aprender 
+            MERN
+            ?
+          </h1>
+          <button>
+            Postula ahora
+          </button>
+        </section>
+      </div>
+      <div
+        className="nav-wrapper"
+        style={
+          Object {
+            "position": "absolute",
+            "top": undefined,
+          }
+        }
+      >
+        <ul
+          className=""
+          style={Object {}}
+        >
+          <li
+            className=""
+          >
+            <a
+              className="text-light"
+              href="#section-1"
+            >
+              ¿Qué es 
+              MERN
+              ?
+            </a>
+          </li>
+          <li
+            className=""
+          >
+            <a
+              className="text-light"
+              href="#section-2"
+            >
+              Usos más comunes de 
+              MERN
+            </a>
+          </li>
+          <li
+            className=""
+          >
+            <a
+              className="text-light"
+              href="#section-3"
+            >
+              Características de 
+              MERN
+            </a>
+          </li>
+          <li
+            className=""
+          >
+            <a
+              className="text-light"
+              href="#section-4"
+            >
+              Nuestra aproximación a 
+              MERN
+            </a>
+          </li>
+          <li
+            className=""
+          >
+            <a
+              className="text-light"
+              href="#section-5"
+            >
+              ¿Estás listo para aprender 
+              MERN
+              ?
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>
+`;
+
+exports[`Language page renders correctly 2`] = `
+<main>
+  <nav
+    className=""
+  >
+    <a
+      className="logo-link"
+      href="/"
+    >
+      <img
+        alt="coding-dojo-logo"
+        className="logo"
+        src="https://cutecdn.codingdojo.com/images/global/coding_dojo_logo_white_new.png"
+      />
+      <img
+        alt="CodingDojo"
+        className="responsive-logo"
+        src="test-file-stub"
+      />
+    </a>
+    <ul
+      className="nav-option"
+    >
+      <li>
+        <a
+          className="nav-link"
+          href="/"
+        >
+          Mock Link
+        </a>
+      </li>
+      <li>
+        <a
+          className="nav-link"
+          href="/"
+        >
+          Mock Link
+        </a>
+      </li>
+      <li>
+        <a
+          className="nav-link"
+          href="/"
+        >
+          Mock Link
+        </a>
+      </li>
+      <li
+        className="dropdown"
+      >
+        <span
+          className="nav-link"
+        >
+          Currículum
+           
+          <svg
+            className="dropdown-icon"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 320 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z"
+            />
+          </svg>
+        </span>
+        <ul>
+          <a
+            className="text-light"
+            href="/languages/mern/"
+          >
+            MERN
+          </a>
+          <a
+            className="text-light"
+            href="/languages/python-1/"
+          >
+            Python
+          </a>
+        </ul>
+      </li>
+    </ul>
+    <button>
+      ¿Quieres aclarar dudas? Agenda aquí
+    </button>
+    <svg
+      className="burger-icon"
+      color="white"
+      fill="currentColor"
+      height="1em"
+      onClick={[Function]}
+      rotate={null}
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": "white",
+        }
+      }
+      viewBox="0 0 448 512"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+      />
+    </svg>
+    <ul
+      className="nav-option-mobile"
+    >
+      <li>
+        <a
+          className="nav-link"
+          href="/"
+        >
+          Mock Link
+        </a>
+      </li>
+      <li>
+        <a
+          className="nav-link"
+          href="/"
+        >
+          Mock Link
+        </a>
+      </li>
+      <li>
+        <a
+          className="nav-link"
+          href="/"
+        >
+          Mock Link
+        </a>
+      </li>
+      <li
+        className="accordeon "
+      >
+        <div
+          className="text-wrapper"
+          onClick={[Function]}
+        >
+          <span
+            className="text-bold"
+          >
+            Currículum
+          </span>
+          <svg
+            className="drop-icon"
+            fill="currentColor"
+            height="1em"
+            rotate={null}
+            stroke="currentColor"
+            strokeWidth="0"
+            style={
+              Object {
+                "color": undefined,
+              }
+            }
+            viewBox="0 0 192 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"
+            />
+          </svg>
+        </div>
+        <div
+          className="drop"
+        >
+          <a
+            className="text-light"
+            href="/languages/mern/"
+          >
+            MERN
+          </a>
           <a
             className="text-light"
             href="/languages/python-1/"
@@ -269,7 +2518,6 @@ exports[`Language page renders correctly 1`] = `
           }
         />
       </div>
-      )
     </div>
     <div
       className="scrollspy"
@@ -385,7 +2633,7 @@ exports[`Language page renders correctly 1`] = `
                 ?
               </h1>
               <p>
-                Python es uno de los lenguajes de programación más requeridos por la industria. Es preferido por empresas como Instagram, YouTube y Spotify. Su diversidad, versatilidad y elegancia en los conceptos básicos y fáciles de dominar que posee lo distinguen de otros lenguajes de programación. Por esa razón es el más popular para su uso en desarrollo web, aprendizaje automático, ciencia de datos, computación e infraestructura en la nube.
+                Python es uno de los lenguajes de programación más requeridos por la industria. Es preferido por empresas como Instagram, YouTube y Spotify. Su diversidad, versatilidad y elegancia en los conceptos básicos y fáciles de dominar que posee lo distinguen de otros lenguajes de programación. Por esa razón es el más popular para su uso en desarrollo web, aprendizaje automático, ciencia de datos, computación e infraestructura en la nube. 
               </p>
               <div
                 className="technologies-container"
@@ -409,14 +2657,14 @@ exports[`Language page renders correctly 1`] = `
                           "height": 33,
                           "overflow": "hidden",
                           "position": "relative",
-                          "width": 30,
+                          "width": 29,
                         }
                       }
                     >
                       <img
                         alt=""
                         aria-hidden={true}
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFUUlEQVQ4y4VUe1BUVRz+8RIQRQQfhLTkk4xqymhsaqacqSat6Q9qhExAWFj23n2yLLnLvpB1QbIGjQzHRyqiYzUpjk4IIzUYAxqMZgIZqSg1WJgao6DC7p6vc++SjE4znZnfPfeee853ft/v8dEUpbqKNEZGon6ARMO1B00/YWrdhAn6h0wn7RnkZ67TNJ3VHiQaEawp9HPDfRMLEaIxIURrQqi2CHHFVszgFme2YHqRBbHmB006w3FuUYzZJXBkacHLF1gQ91aaORAjlYaRUsUoX2Cx5rUsyeZiC5xl7Imycvb4Oo9si8s80pqfn0O0aOmkUI1u+b8eyoD8XfKK8tRIstrwfEUlkkrsSHGX4+WqzXjM7sJcRykWr/MguXS9PCdaHX7JqWmipYMUQllqhGi+w+PIaRr9Ej3KF7HI4cRn37eh/mw3/H4/RsbGII3G7h4ku9xYNA4m2aMlDl8Qpzw5X/slzRXKlnDAYekG7pk/XMcBV61G+vbP8e2589jR3CoDgQWm4dv3sKxyMxJkryuQwukrSpwyYJRS2EKKVblJYWr9lWCZpuCjvHwEqQXMK3Hg8Omf0HSuCztOtOLa3zdlwKs3hpBavhEKSyketbow37kOCRa7l3iootWFbnr69TdiIwRDN6lEpLo3+L7pOs86+/vRcuES6k51oLatHbta2zB4+5YM2HG5HyVfHUHvwF84erYLSyoq2SRd0RgJBkw3OwrI8bY2PEpX/ANl56KqscmL/xk9A3+g5tiJ+9/Ze2p5JYi+EK0R4Tp9GtFT82lKofUYrVFi/ddHJEA26g3gDty4ifa+izh15RI6+i+j++oA7IePoq7tdCCsjCFrtwQoIEJb7IsVbC8SrVZRuMFUKwMeDABKm5t7zmPljp3wHGtEWUMDPmxqRnVTKw6cPD2RIT4yd+/xU56IKI35+gKVI4VidCU00+DcQNl52Hi4wSftHh4dRda2Wvx45bf/pO33M3h5KUlDubfOJwFGiIa+xJUZiTRDsJFC6zJQTj5Uu2r98vX8qd93EL2Df8qH7twbxdDwCIbujuDm7eEJYB9jyz+p5oCcsmjsXZiWEU9Tc9UUk5P/XjDPUpCgYcurt7C0mm1YsWkrrg2NZ7a3D8Vf1GNrcxtK6xug3LcflvojyNi+G3MsDl8or11eemcyXnkziqblFFBstiothNeR1Ho8wIzS07HU8zHG7nrh54Ef4R7eGB5G+4U+tP96Se6USIMJSXYXU9hcXqlkwnXmBpJG3BoVPZKpfIm3nU9SjAh9sSQGWOreADxURBWNTTj1y0WsrNkJBe/pZzyVbI7V6SO1niuSYQ+teJco0foRLXLWpHCp8o2LhCwQwWoRBbv24tPvjvMMN2BLSwsOdZ6Bpu4A4i02cKXBk+4KyUOf5GGEpmhzqFBIpCjh3eLelBCsMQ4GjdMOgBpAOXmMsnJBmbmckomLgAsJVrukMiy51MOVp5RFGsw+STvjRad1pmjnnAtyiVTpk7ji/i41ONc17zh9f5iuiLeVGZP0ZjaPS9Z8roWcIhfYtSxUa+JARqmH/XxGTI46e6pSIHoubyOtyK4JiRSLT0o/pNsCwJJqG8dkcO4194RJ8kZqwxhXJkYBNlzVubKLxnszs/Jem84TTLPLqynlUCe9WnU8Kr7A/Fa0+EFFmKBvCRX01+UQaAJG998LMUk0IVws7AnRFu2fkW/WLtRok+QMR8Xzh8dBtG8vPWurpXjdWqL3Bfo5dVloVGZOcqTRqo5Wm+rDRNMAaQzeyYK5K1ptcM/S2Za9sMYSRxnv0CyNjWarBcq0V9IAGP0D45/Yf23OsFMAAAAASUVORK5CYII="
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFSUlEQVQ4y4WVeWxUVRTGT0t3pAVbKFDAgiwtGGM04l8mRtEYIjFUEiEwGVo6b+a9Wd4sbWfaTlcKLWBMWCwC2gRDhcpekIqAsli21hIKWJYSpSiWlrYCRaRv+bzvzaOCMfElZ859k3t/95xz7/kexS+2lJMgqsQ7fyXedZv5/zYbM6sjZLZ/mf6fPq+TRjj8rjBeRLjgVplh0PiQH2L3IIz5ODEHiT4/Rnj9GO7JQwKzQe/NQ7wnF2FsDY3KW7bIAErMq4/N2EAlTtAt1ulRJwVL1MlFpWp6aYWaVrp00NLLKtSJhSUKyxAU43C+rg20xQZMj4xsIshiw0hvDoY6XIiyi0gNluK5wmKM9hcgrbQC00o0Wwq2AZLzCkLAsVzxtBje18fqqKWphAsGMJsDt+VL7G5tw/mbv6G9qxs3enpxtes2zJu/wFh/IaaXLRsEjtaBLIg0vmrqUD73jhGlEunwgTgew90+nGy/joy1m9Df/wBPPoda2jA+EMSM8uU61ADKOnDyQmF0tNV1WSs8g8pkzgKZzcwysfVkEzq7enH+Rgc6urogy7IO3N/cilinF6Ny8pGSX6QB1eTHwJlvzRoWzTlOaSlH2ZxSxvpNKD/QgOJ9XyN/zz7m94Gv3YqaxsbBCKu/PwFu8zbUHD2L+Rtr9LrGunwS2VgN91JMxDDefZAyLZizZq3E5qtP5af886oY45rjp3DyYrs+7rl/Hy9WVLKb4NDrT/RGGiV4CurInI0F1RsGNNwjltojSX6Cqhq/ioZFwc79OHz+SgjY34+ZVatUyhYQafdIRPNMNMydu5YWZ2Pe6mqJzVcVNQTY1tQE8avtyK/fi9w9u/DRN0eQV1ePFQ3fQjLm9D7ox6tVKxUNGG/3dxNxTnrGlVOgAT9YXS2rxsx6VnitPi03O3ClswuXbv2O9s47+Pl2r1EG1YjwPgOuksliRxwvXqBxQhlNESstZOYwf92nyuOZJXsa9FP+v+ehNIDXKqtkWsIzoOscjcp0UorFPZsswkCyNxf1ra1qz717KN7RgI0nftAXPZIkNP50DUfaLuPwhTY0Xr2Ojt4+dN3tx/bTLerIHL9+wjGc4yglmbIocVHmmxG8+JAsPMhqV0e4PYhmotB4KXSSD/8awGdHG7Hm0HHsOnORdcoWTGBXhaWK1MISjA0EJe0ex9jcByjlQxOlzDe9MsTmuhvOIOGCR6ElFoRb7Wi5dkMHSrKi+1t/9KGuqRknLl5lyhPAhIIivFC+XE3MyZfI6mR3kR1uuomnNBM/iUXYHRbqY0UDa728+8y5p+r1S3cvNhw7jh2nfsT4/CDSWdvNKFumJhnACLuzkubWtNCcTaeTIuy+W7rS8KIyRGtDTkAyU5p5n1QjY/06vF9djZwduxDcWY/nDdXR+tiIUCariATB76YL5y5T7cFjkeGCq8mQLjmkhyxKzq5qF55MS1jEvCZRGBMoxOTiMnVqyVJ1IgMn5QR03YzkPRhnDS6kGGdeWKwzj5iUn9WALG3JEFuZqbUaxdRH888ytZ7CQGP8QU211RinV2EnKzFBGNB0gJ2BnGjKnEUkuMLI4aZ43v85S1WJYDIeAuufAJmVQIMrEQzKWktltZIZaIBCm+ufCm1NpM3VPn6BeQbNXFFHrN6kPalC/ktJXK4QxYu1UZzjUhjTSG2Rbrz4xEYedkU8PVGC57sowbdyXJZ3ztwCe1zCnHeIXq6sHQROcgVpuFkksjho4ruzk6LFwNvxvPfjoVZfM9PKP1kGfQmcd3eCXTSncoXTm4uORFAWRxMsAZodsFFcxnv0N3+3IDfP7bQaAAAAAElFTkSuQmCC"
                         style={
                           Object {
                             "height": "100%",
@@ -433,15 +2681,15 @@ exports[`Language page renders correctly 1`] = `
                       />
                       <picture>
                         <source
-                          srcSet="/static/b6b6021f6cbc521a46c8f93089b906fd/07469/frame-1.png 1x"
+                          srcSet="/static/b6b6021f6cbc521a46c8f93089b906fd/9735e/frame-1.png 1x"
                         />
                         <img
                           alt=""
                           height={33}
                           loading="lazy"
                           onLoad={[Function]}
-                          src="/static/b6b6021f6cbc521a46c8f93089b906fd/07469/frame-1.png"
-                          srcSet="/static/b6b6021f6cbc521a46c8f93089b906fd/07469/frame-1.png 1x"
+                          src="/static/b6b6021f6cbc521a46c8f93089b906fd/9735e/frame-1.png"
+                          srcSet="/static/b6b6021f6cbc521a46c8f93089b906fd/9735e/frame-1.png 1x"
                           style={
                             Object {
                               "height": "100%",
@@ -455,13 +2703,13 @@ exports[`Language page renders correctly 1`] = `
                               "width": "100%",
                             }
                           }
-                          width={30}
+                          width={29}
                         />
                       </picture>
                       <noscript
                         dangerouslySetInnerHTML={
                           Object {
-                            "__html": "<picture><source srcset=\\"/static/b6b6021f6cbc521a46c8f93089b906fd/07469/frame-1.png 1x\\" /><img loading=\\"lazy\\" width=\\"30\\" height=\\"33\\" srcset=\\"/static/b6b6021f6cbc521a46c8f93089b906fd/07469/frame-1.png 1x\\" src=\\"/static/b6b6021f6cbc521a46c8f93089b906fd/07469/frame-1.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                            "__html": "<picture><source srcset=\\"/static/b6b6021f6cbc521a46c8f93089b906fd/9735e/frame-1.png 1x\\" /><img loading=\\"lazy\\" width=\\"29\\" height=\\"33\\" srcset=\\"/static/b6b6021f6cbc521a46c8f93089b906fd/9735e/frame-1.png 1x\\" src=\\"/static/b6b6021f6cbc521a46c8f93089b906fd/9735e/frame-1.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
                           }
                         }
                       />
@@ -479,14 +2727,14 @@ exports[`Language page renders correctly 1`] = `
                           "height": 33,
                           "overflow": "hidden",
                           "position": "relative",
-                          "width": 30,
+                          "width": 29,
                         }
                       }
                     >
                       <img
                         alt=""
                         aria-hidden={true}
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFOElEQVQ4y6VVaWwUZRh+u+12S+mGFgQRKJQWobZF+GEjMUSjifFICEYIP/CKImqIiYnGPzRFsQW63e1ud3vasrItchmwHHKVxgOtYBCIKCm1HG13zt0etqXb7u7M+/rOLEf0h3+c5Mn3zZeZZ573egaUGlu56AaNMcAY/l/wQBgkp70k6AYKVoHOoP+CUG0l0ZvGsP0LaSR4kkl2ggjBiqz3hQRhnFcUPBYU3EnI9yaMvXlebUXli0WoBh5BdVf+PxEo0KXGmSSVw2VQK1Kfk1xMaLzE6Hfwnu+Nj5gf4r1xJrAS5YvFxISkBPLvrIxdvG8p1KWGGSS5LKcgXALFogMmgx5+icNWahew/CkUdIIJwT2FlJpsPrMw4SImKjBJFGO9Sxgo0MTaaaT40tpgwJ2VL3qSVUOF6Jum01g/TXTtwb7PAPu2Ak5070O6LZJYnYFy7SxUW4sShE3zSPGbHzDSoIm+dJK91noY8S/Mk3ypQv82ILl5iR4VOykud1KodQWHUkza4EWK3Oyg4eOvYfSXMpI/n0Nq66MUv3WEBvYWk7xzIRMWxsXqVJKqbFtgLJA7Q/SmXDUIFX+RNt69H4e/eRkjXXtZ3QFzP3rRh2MXHBiXOlGsmUoKq8RICMN7ilFunm/kMCZ6U+nWjoxNQF6HVfSk/NxfwQobc7RozwEUnOk42XOQon1nSHBmYPTP/Rg+8CRFfgtQ9I9mjHYFSB9TKNyyjBUuQCVQqItuCwmVaWuBOgH6XdZ2s6qe5LjotFPvVi7Idm4bA5Wc28pkDseC4x2bMHqliaK/+zHaexJVfx630mKU/Qv5GYgNlsLjgA0Akiu51WwRJ8Tl2odw6NR6HG5/mwaPrCLRk4ahvU/RX+1vYPSSGyOnN9DImbe4OIV3wl2qy01zSHTCcKjctgzk7RYIbYOy4A5WUjdbo9AFHO14l4bPbMTBg09j5Pw20oWznMs1HHI9TbK62PU2HD35OspNcym0e7lmrFJ1St9oIDcHFKcFFIf1o6DRvJ50PXKlASev1NPtzlJUG/NQ6zlCQ6c3YM97QOruJ3QMX0at9ycaO/Eqtxn3qD9XkxpncSSWi5P7lmdAqH4ahBunvylwUnkqUGnK5gK8QCPfl5A+1IXajaM4cq4MB756Hicu+TDafRg18TzdPldOoS8fw6Fja2NGKwku+JWOrUmHUIPdIFxnJr8mCyNX/TjedRgj3Ydw8NAqntUijFzbj5N93yFyg09wlQe/fhEne3/AiZvfYkw4G1NbllDfdmi/dhwAlBpWWZe5gouimYVxWFH0ZKFQacO+cp7jHSYwWAFM/jANHV1t5A7lhpmoND6ISvP8uFRjJ9UBDWMuJpTLskHZUlAYrEqKmzbFYZtzbBiEJ8l0n8Teyj2XgzwZRiPz+C0xzYJXTfROoXA5OOQyJuwtnw/XtyzNZpsaCCYc5r5luU3DINPGvDZUdrHbtBShOb8thcbIMfI1sTqNpK2wWfqUCbXNSaB/nGRVK+FGMEFgKDXC14WqBGmCMNVQY5IqO3ORC6GJdZlx9kndeCZcl/lOqNYOQG0lYFyKO/Wo6cpV91QZHmmYrmYSelJQqpuus9KYmQbjuXu+mRQN1Wc+qxqEyoc5IK1ZCf2l69NC7gdekiosTn75R8mdPCgkSO/j7q+Ac8zzf0vlCRuoy1x3wzUvj1QW18vKpA/sILwyG2TvSv6/zIQRH5+1ea1jPnu+4rBvlKtsJ0QXKIyY6kntELxTPwmW2Z4Z37lgrlwKEGZVN50zYPXsKmYj+BvQclTLJHp8AQAAAABJRU5ErkJggg=="
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFUUlEQVQ4y6VVW2xUVRTdM20ptkCp9qGBkIrBQqsxRhSjokQS/cAE+FBDJMQIvo38iGIitBRKp51n3522tBSIPEIoFAEhQCDQwFhpJxIwCqSd152ZzqOdznSm87h7u8+dloQPvvxY2Wfu3LPuPnetvS54mmZvdxkgzvAzgv8TY+DW5n3n0AMx5On6eBiAXKasx2AWOY1qAkd10SZxo1MPSacB8CH001B+q5AJUWp5Cr3dS9HT9Tx6uqfRlQZfl13NeQRSbe7bUvrpyuaZbpjkkSogtRaRd385Y9kj8IjaUy67WvIJgj9DqaSBcYdRIZWdGjU5NLzWCTJea7lqMhlAbnOhQujpLuVaxiQv8HqpAu9+7rAxl8BfPafEpVPbHXoV2WtAjllbKH6/F526XBypAPLsK0d5dAjHz24k225AZXMPk3YuVjr2zHTZXZpy1c8miBwqK5Yasu866rirGkjF3TcQoz4au/AlDW8HjN7dT0Qyhf4w4PiRVRTqW0/u9gUU6FtH0es/kqdjEZOW8XtcknIaMwiiPeX5Un3WLXE0R21GKnq/l8bOfITx4T70HX2fEiMnMHjmEwxZdJQYPokTV7bS8E7AsUvfEk4Mo7vlSRRdsjBJlymTgGJhtVSfeVYhrIFkwmtBb+cyOWypRUpNUODUBhz7/TN58k4XhfsrcOpeH4XOb8DYvWOYsF8jd3O+eAVKh+xDAttJAKc2+6iwDguRGO9diy5TAUqNT1Po4la0s0i+A69g4NAK9PLxEncPYdzaRLL/Nnd/Ed3N85HFkd2dJSTVQQxSXQB23SyzU3jRCInhX9g6WjW5GvLQvlesAVkMslcDhU6tx7hlD8b6d2D42jb0H1+N7o5FCqFkLiKXBvwQrAXwadQ/uYTKWkiFz32KsSEDRqwmiv3TQ4Fjb2HkehXG/z2Ik1YdJm+308TpDyli2YWe9oXC3MI+Kam1kCRjxn1wVwJ4dsEXzlom3ANyKmDFmGUvBXrXoOhy7PAqorAdRzuXsi/n4dTIeUw++I1k9yAFf30N3V1LyHvgpTShKeMG+OrnCaxjE6eEMGwDnByowahFg9G/9uHU9SqKOy4LT6J9B2Bk0CTLI5coaetHX/sCdJqy0N2+MCE15ZHLqDoHgfYiRvEaJkwIQv+J9zBw5nPyn9pCqeAdjN6sxoTrKk1YdJhy96PsvU2TN2so5bVSZLCNwgMGnBw0xCUeO6cWzjJZAQQ6Cpc79aqQIBy7sFmODJoZLbLv6Gq0VQGOHn6DJm7WYai/EpPuGxQ8vRZ9R97ByK1mOfynSY4MaBJS81yya6AVAg3PMkpKOAS8rDIxgWyrZGUr0+qKUOCRJBsf2VHLo7dvMY0efFkcE6X6bJSa5iCnTFIyZVNAA9th9KuN4P3m4wKHLkNSYsyokhmUhjodX+nK4fCMCIW0siJ1OBy8PS+ip6dMdhkyaXQXfA8XNtfBla+3zXbp1UPOdC7KIgenI0vJQXFdycPWAlRShkmV6RDB0F0qvMh7MshTBZtgRJ+lsulnsRfhqjItBkgKMElKIRYPmc5Jqa0YRbLwVIgjy1JzftLZ8ERS/McKU8Bc9AFPCajY0OA15exlpUVKiy5nIl9Wkjz9eWBf5gpwqqiT06NKTiU3VSne+yDQVlgO3h9WAhHA5GUAv/G55Z6ajK1OfeYRyZT5t6RLf0ceYibNRUc6VZDvGfBrM3f6zUUrrRUr8oLm+dzZttdZa4KJ47zWLwG/DoAaAKYOLir27cl5122Y2yjVqax87IRHq3J4GnM6bNqcLaO7c8pTfW/OZULwmwthqOJVCLbNh/8AdCCaInCFG2cAAAAASUVORK5CYII="
                         style={
                           Object {
                             "height": "100%",
@@ -503,15 +2751,15 @@ exports[`Language page renders correctly 1`] = `
                       />
                       <picture>
                         <source
-                          srcSet="/static/0aaa915ce085f37d8b2e7b32c388a3c9/07469/frame-2.png 1x"
+                          srcSet="/static/0aaa915ce085f37d8b2e7b32c388a3c9/9735e/frame-2.png 1x"
                         />
                         <img
                           alt=""
                           height={33}
                           loading="lazy"
                           onLoad={[Function]}
-                          src="/static/0aaa915ce085f37d8b2e7b32c388a3c9/07469/frame-2.png"
-                          srcSet="/static/0aaa915ce085f37d8b2e7b32c388a3c9/07469/frame-2.png 1x"
+                          src="/static/0aaa915ce085f37d8b2e7b32c388a3c9/9735e/frame-2.png"
+                          srcSet="/static/0aaa915ce085f37d8b2e7b32c388a3c9/9735e/frame-2.png 1x"
                           style={
                             Object {
                               "height": "100%",
@@ -525,13 +2773,13 @@ exports[`Language page renders correctly 1`] = `
                               "width": "100%",
                             }
                           }
-                          width={30}
+                          width={29}
                         />
                       </picture>
                       <noscript
                         dangerouslySetInnerHTML={
                           Object {
-                            "__html": "<picture><source srcset=\\"/static/0aaa915ce085f37d8b2e7b32c388a3c9/07469/frame-2.png 1x\\" /><img loading=\\"lazy\\" width=\\"30\\" height=\\"33\\" srcset=\\"/static/0aaa915ce085f37d8b2e7b32c388a3c9/07469/frame-2.png 1x\\" src=\\"/static/0aaa915ce085f37d8b2e7b32c388a3c9/07469/frame-2.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                            "__html": "<picture><source srcset=\\"/static/0aaa915ce085f37d8b2e7b32c388a3c9/9735e/frame-2.png 1x\\" /><img loading=\\"lazy\\" width=\\"29\\" height=\\"33\\" srcset=\\"/static/0aaa915ce085f37d8b2e7b32c388a3c9/9735e/frame-2.png 1x\\" src=\\"/static/0aaa915ce085f37d8b2e7b32c388a3c9/9735e/frame-2.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
                           }
                         }
                       />
@@ -549,14 +2797,14 @@ exports[`Language page renders correctly 1`] = `
                           "height": 33,
                           "overflow": "hidden",
                           "position": "relative",
-                          "width": 30,
+                          "width": 29,
                         }
                       }
                     >
                       <img
                         alt=""
                         aria-hidden={true}
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFAElEQVQ4y3WUa2xTZRjHHxjr2o21QMfYBrsB67m13dq5jYBjGwNhHUwSDFHDN1BJUBONJphAIjIuy9qe3gbrLmwdk6EgSCQjLMQPBPggEwwxgQ9qZFGCSkDkg4xzzvv4vKcsmQpv8s97TnvO7/zf5wahDOkV1SpiJFucULPF30h3/6sI321cwrNE7wh3wlniQzVLfAShWdImEpL09C7i0/tpElHNlFC1yBjOfIbM3yUMcyC5awtncoj4JDxLYvQAC1skRvd0LZni1zGrxAaXNrFBOcAGpXX/UsrdaiQXrUTVVvEDRB3CGiJzJ0Yo08UOQCGGMkTTDXeWBkoYzRIJuIqlPOsxpbSwlBKgneByCx71bjB6Sxowmuu6BIk8sUG1Sdg5w8US9kp24+N9GHYIuJ/AEauHgOI0YBN3gwQxQek9gENKQO92eDHoeGEE+iuUykiO+Kdq8eAnMNe4ursDb4+cYh2QjwehhGLn5kf+H5A7NIFKGnjY7uHATyHo2VSqzvb9zF8+5n9Jv//NOENak7cn8Gzra3gAFlJMlecCzaPLLZqapWC/U+mA862rnYk5vu/3wny81X9U5zDt78cm9OF31zGYUc5CGfLzgFNx1EKU5d4i7w7AYGN2l90z3kkOJ06e0zjI0DQT+OTeA0wW1NLxyzFmlZ8PlFp01SrhgWL/RuCra27V2F5YgGNbtnMgM3QdTaJu4MnmANtL8YxbPWxgSeOzjmwMCOswkiM/7s6vqIXTBAzNdQ/yWjwIRdrtsxc4i2mTkxyJl9/5gO0GO3bPqWTDYjMloZXHbLpDY0BqwViu/KhvscsPkQIPJJzinojNjfugUB/wrGDsr/tph7R+vzTO9s9wYjy7go2417IBOTAdyIY8641k4XIM29x3YvKaCjg8X4DuQvGjsIX62VppUOmwM+s2mrCnUPbt/jjuAQdLFtWzYf9GHPKu5yBMuQNsyLtB7yuoxYhNudnftCUfIvm1EClc9ga1G/LWC1E222Ehjm3ejuzB/ac+kd3sGcaR6laM2RR2KK+G9ZQ2kihJSqsec1RT0lzX9A9fzIVE0XLoKl3ZFp7WarymeF0O+5rwRvwIe/zL3bRhXWO/fjWKV3aF8es3d+HYqzvwRP1mLWr3E1C8SM8AfFaqwJcupVG1UC+nJwsLUYJUq5uKupi6Jw+TJTI707IVxw924cSpL9gfo2fZj12H2ZVt77KTKzdrMbsPg7nS8V5eMicoMedq6hQC6lMO+SgyR5bFTWCFBkYZdkAxS+bXsh6nj/XM87Iji5axvsXN5pET86pRzVnaGc9YCPD5ah+c31q3IEIDlDuk8qGpI05B0yOMWi+erbCUiwDelzHlbcOhyjazqKkuCejHLueSnZHccoBkqQsGJcFKE3kiPVxFjSA6yQinweZwiFGyUq7VbJgyfKSswegta9Ljdp9G/+k8/vGCqvdi8ysphmsFGH1fmBmzS5fT01cy5yEXwabgLJghsGhulXFonv+JOktgnVBBHxf4iVDNkiYHFi9r7iuuAbgg1cFPdX64Vl/t6Cmrb0sskNsTdvkiFeo9nhwTboZCwuBMATvBhWGrZERne2/GZkvHeork7ecaq5fgXZ6REMCZghq4WlYFo5IXepcuh3YQAO+8ZVFLVrh6nd63Y07/6WiOOEFOtLhDut5X4G7vLvM0nFj7et42KIfUIgWOu72AOwHwFsA/wf9KSLOsCIIAAAAASUVORK5CYII="
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE6UlEQVQ4y3WVDWxTZRSGTxldS0th64YMJuN36+3tXVsczIxtccYNxjYgKsREEWeMAQNqogYkisE5xLm2d13303VaWLehEg0Gg2LQGDCAI0Yw/oaQGKKLgwSiQjRb7z3H8912E2J6k5Mvt7ff0/ee77xvIZjlvle1SNRhly6rNmmswyb9nqnUzM/GeP9oyCLdgOB09z1cxKWnVonS9/+rkHnyeeYCplaHzJL4cjJollDN9mAo2438EPnzdPF9lgtj+cv1A9IaPOBafVvFS1bjQXmt3ju3gqAzx7VCtRp0Y2Mr3EGBaSWkWjzGLwpVaSBFncsxUdqIA54GGlAakIuM4vtB/3o9Or+KIOKU7mKgLja2QzGefPwpii4sp1aYS+EZvkmoAexjIG8WaojrlrWBEp56LZrjIzjokpaFZ0pXVLMiIPpnm7fTr+99SPvBSS2Qz0oVEq89BVT+AwplBlAoltZoXTaZX7lsw1zV4fspOM1Fqq1EO/3MS8QXXhs5T5888Ci1wSIKWWQGShmBxiqt1jqtDBx+aJsj4lx59jV+xWMPPqYJmKbrZFw3/6LhFTX0OhTxYcmZgNzHRooX1yXbTS4CulhjjuZ5T+yH+fTN3nBScLTxCUyOjxvME827aB/MQ3FIGRUqjchAPgcGiiuW5z/SysATD2+bEBBdR9QnDDZdeLOLezsLg2ZWmJdRIb69rI5Uq2scusEEHXP8kUDWMgqYFybHvjiNKZUphaNHP6K2rDwMZLkzAYVCPc7AsF0ag35rEai50u7wDOOUtcHyegFETHWR9LEr1FNQasznu0uqpoADtyvU+xbUsH3do9BTpEBfobtZDLearfBGJ555/gUDpmmpw/k2HMO9MJMH24dD/vViuOngLfM4UNqk9Tn9FLD5z0O00APROz1bVKtwhIwBswtbwE7fqzGaunSkUzv2YMC0hGJFNfTW0lpMeJsoUdpkOIbXZPdsP0Xs8kkILK4XVRu0KP8YrhA+NlyzmL7e3UraH9eNuTT6+fFxPLbhSeovKMPovEpkOPYvqRXWS4aspdRjl47DIaUChj0VZapV/jOdGDpDeZXZLYUUd62iMy+24c0L54mSLJU0vHHxZ7p85FP6MdxPI0/vxMOVGydC7KiuWfIgnL7bD1+W+11hq/ta2rf6VCgw+A1W2sL9C1oW4YGSNfR58w4699wu/O6VFjy1eSserdmECd+6ZNimUHuupw2utjbAby/X53ZY3aOTwMncE6sYaPYzChdEc7zYV1hN0bwy7MlZjvHFNRiX1ooe6p0OL0VyircD0bNcW8xhh3QuDdGMDEyFLaY+S63CKYPeJhzwbaChsvtp0LeeLVcrhpqBpRSdV9wMql02qQ4ZOMJH0j3URNimwG4G3xJfPNgJ7zoadN2H0YIKvbdgVZKTfCJgKhEBQl0LyjdBENwm1SRBt9MdUzlVQpZ0zHO6hKYbOZlM9xUDXJ0OvxaxeSYCUCzy0+izynvCNvnSYV+VG0aqKoFaStjRQzCs1K3oKvRt7XVKhzrs3h8MeJY09T8j2hDgXgZYbcdM5WrE4TsVme1qSyxVmn5pqZ7V7tkNcLZiFdBOAWyFQ/46iOQqRmD0V2/M68+X63vmrOwM53q+CmVLf6szpOvRfPmD+ALliW7XSgnfj1n2WT3wTrEHLu2phFcLH4F/ASCNf3jjNMACAAAAAElFTkSuQmCC"
                         style={
                           Object {
                             "height": "100%",
@@ -573,15 +2821,15 @@ exports[`Language page renders correctly 1`] = `
                       />
                       <picture>
                         <source
-                          srcSet="/static/435d90dfd3e47a95dff910230f342a47/07469/frame-3.png 1x"
+                          srcSet="/static/435d90dfd3e47a95dff910230f342a47/9735e/frame-3.png 1x"
                         />
                         <img
                           alt=""
                           height={33}
                           loading="lazy"
                           onLoad={[Function]}
-                          src="/static/435d90dfd3e47a95dff910230f342a47/07469/frame-3.png"
-                          srcSet="/static/435d90dfd3e47a95dff910230f342a47/07469/frame-3.png 1x"
+                          src="/static/435d90dfd3e47a95dff910230f342a47/9735e/frame-3.png"
+                          srcSet="/static/435d90dfd3e47a95dff910230f342a47/9735e/frame-3.png 1x"
                           style={
                             Object {
                               "height": "100%",
@@ -595,13 +2843,13 @@ exports[`Language page renders correctly 1`] = `
                               "width": "100%",
                             }
                           }
-                          width={30}
+                          width={29}
                         />
                       </picture>
                       <noscript
                         dangerouslySetInnerHTML={
                           Object {
-                            "__html": "<picture><source srcset=\\"/static/435d90dfd3e47a95dff910230f342a47/07469/frame-3.png 1x\\" /><img loading=\\"lazy\\" width=\\"30\\" height=\\"33\\" srcset=\\"/static/435d90dfd3e47a95dff910230f342a47/07469/frame-3.png 1x\\" src=\\"/static/435d90dfd3e47a95dff910230f342a47/07469/frame-3.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                            "__html": "<picture><source srcset=\\"/static/435d90dfd3e47a95dff910230f342a47/9735e/frame-3.png 1x\\" /><img loading=\\"lazy\\" width=\\"29\\" height=\\"33\\" srcset=\\"/static/435d90dfd3e47a95dff910230f342a47/9735e/frame-3.png 1x\\" src=\\"/static/435d90dfd3e47a95dff910230f342a47/9735e/frame-3.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
                           }
                         }
                       />
@@ -619,14 +2867,14 @@ exports[`Language page renders correctly 1`] = `
                           "height": 33,
                           "overflow": "hidden",
                           "position": "relative",
-                          "width": 30,
+                          "width": 29,
                         }
                       }
                     >
                       <img
                         alt=""
                         aria-hidden={true}
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFNUlEQVQ4y22Va0xTZxjH321ZsmTJsg9L/LJkWbIPzmRmcW7OeYENCz1tEUWnmzpwqMwLZlnCdE6dAbRg7wje0KHcJKJDp1N0CqU955RSaBEvQYduchEvSK2ITml7/nveUzCG7CRP3rc9p7/zvM/zf/5lC6X1mwSx8JlOtN+luD82hBfWsfsx0U/3gkx31rxekOzQibaoINmgoxDGhhj7XkfPxfb2/w2CPmLaMzvSRz4M0xuU0aAfKnrJrhgkh7rOkYuUTH+Z8m1LqbKs9YCyrOWAumbQuqL1YGRB024kSiYv0zntOoLxDKICh72QRaLbghmNBfi4IQ/TnPlY4N2D5f6DWB2owKoXYnWgMvplDNjENE0FkwTJOkRZ8eNFOYwyQpJoRbJUiMIrf+LUzQBOdAVQfaMZ2YEjWNpSqoJW+svVoD1luAcasaCGJXryPyTgw1HgKCzRbYPvTicw+BTNt67Bd7sTTwcGMRQaRN7lk1ji24c1gUoOUwgamS3vgFY2VrN4OeddrWTtVoHUGKoZvnCZsLi5BI+HHuEwZTWpPhdTGraiqtMDPI6grqsdi+j+6NEJGOYlmt2Qt4Wta5n4RrJUcEEQHbyOEd4ADdUurXkf7oUGUN4pYapzK1IoA2oIzJfPYK3/EJa3Pq+l8p2/fFgv26E5XZTJns5grxhcJmlEOmF+ZBVIRxoIBXGk04d413ZMdxqR3XYY/YMPUXndg1TPThCIH1tJ9/0a4Y3V19tT2QpkMK3TUafqT7QT0KEkuMxYQkcKhh7gKAEnntuMzZd+R/iZAvWi5XTvFZBk1AwJyOsfTvKYp7JZV3YyncteIcTkEua6m95oxFxPMQYeBnHgLxETzm1CbY8f/ww+wHA0gntPhtDx4DbWth0CaTPKgVrJ0q/x5E1ggmhhWtmyjWdIx43McpuV8k6ZOnsdXXd60dJ3A76eq+BN+95frSZ4rCeA+fJOrPCXIautMpLm2w+taLn5ufzLOyzJs50lyQVZQgwYJTErWf4qhIIDiPSHgNATHP67CXEk8PXtR1Xg0W4/uJB5/agxBCylhpquzvVkjmMaKZ/CuDg2s7FR+8y5DUu8+9DV14WSjnPUZSMSSEob2mtV4G/dASzylqg6pAjzCTK4t3lRx15lBmkLS5Y3pegkK2IjaOezSzWx4cdADRZ7SpDgNoNKgewLR0aAfnzt3ctlo2QFqsLzmoqhqbedTsP7jKW7VrNMV9pHetEa5o3hGc5szMeGi7VqNzuCfdC4rJh8PgeWjjMqsLa7DQtp1Na0VXINhud4iqB12ipm9FkYS6jZxeJL976nuk2sjqqwU6QduBjsUQH3Hz9CW38XEFEQHQZyL/+hThI1hJymLJIsF/JxLdRIZsYMx+1sdoX9LW6wI96n2lWiaIFedCiOq/U4easd7rvXcKr3Ira0H+fmoGS1VXGXUTJby6IcqJHzsxMkI2O6hiImnC1+jYB9qomSuIXYxEQpU+WT+lxlSn2eMpPbV9Nu5RuSCEGU9Jb9EapjmPSqOhQBl2qkAjpyaw6L61j3sla0yvxGzKUdaoMIOkxvV+eb6sTNlXxv1zC3tSR6lodAzqQXLf8ukH6Imyf+xNg0Sw37IKWdTd5a83rCeZOBFG9Mdm+vFyTLwIiTPzdcvucQcieyOdM1g2itSZbzlmecWPU2g4nNgYGxeFst+zSjlU2r3stmnbUx/aVchjfZSzpvznhNXfHKJNF0jLLuJRj955gvpLpyNiY2OuLmN6ePGy+LLFXeyL6q+5mB0QWw/wDKCIc0e3+ouwAAAABJRU5ErkJggg=="
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFCklEQVQ4y42Va2xTZRjH35iYGOM31G9+Mn4whg8aUcEoFejZeraBjKswYIByk0QUDIYNFm3ZpV3bjcEkDNgYM2FMZMMQLqO79Jy2sHvH2MKCCBmwjVEK21ixl/P3ed9zisbwwZP8c9605/z6XP7PU2ZRSqdkxT1CGrM8R7Khf5+fJ+P5ELOobsiKK2FRXfivZH5X/qf484p7kukvuWMkTTYkzqquDLVESyOtvFKhfdlRpWXRfV37UW2toWzS+vbKRKb/ACTVrjICcHpCB/3ziwRDiuLEzOa9mOH5Can03PqOSnzdVYMtXcexmbTFEJ0Tiwho5kCL6gw9gxKEw9LVEphai7DE/zOK+s7C2X8eroGLyAnWgyLExs5qAdxEd10cWA6zUlDDUlXnaBLIYZQeZrcU4YdgHR4+CmMq9Bi3wyOYfDSOSTqfu9WLVW2Hn0G5NnYeSyzw7aMIC6oIWHzdAMZ1oBuzmvOhDA9ganwC33bV4rNWO7Z31mLi4SMgkoCt73dktVWI9AlIta2Mp9C7md49eSxNLfJTE3hHYzxlLrPXCc+dXtwMDYM/+DHVcWFgP8oGPKgZ9GNHTx2oQc8i/KrjWIx3OaWhbCX7XLGesVCaZJ2Y0VkCFuPiUBChUJjqWC7sI9GP/NjbgLO3ekQdqcPJhmir2w6L7NLPl8gs1VNSK+seiiZT5vdGinAs9BDLqDEzm23Y0V2HSOQp+HVl5A+KqppUxdPWVlw+RC6ggFrd7zG52b3fokOiBNPmUL3eJ5tcvBNEOPwYs5rysfzKQSTiRNKAvxIxAW0fuw3yJgcmVhIwRS0ekS7nv8ksXneuXkN3XFKc2hrq4LauE2ge6sONB3fxPdVrGxU/p/c01NEbAlb7Zxus184kI4zzCFMUR5/Zn/s6k/xF63hByXvaHK9dywn+hqfjU7g/Ooqh4XvARBQHyYPTG/NwabhfALd3n8QCXxnVUJhcACXF0Wvy736VST6bTOaOcutw6CcthbBebQBC40B4CjU3FJi8dqTR95fISvza3VtvNKVGI2BsOQEzVGvj1UH2Ipur7jUT8Kmsp63xpsxosmFP968o778gPJlsVBKYEzwN6mwywuh8MnVaS0E9AxhbHVg7PU11hA0vimnJ8JXC3n8OFQOtyPTtJ+he8GZduHdNAHMpQgMoIpzvL4W5sfTAEmxjbHPD0jfSlOIRi25qAUzxujD25Il4ufqmH2QHbGqvxq3JB+KzncFTAri1u4Y2T2WMjyu5xT63p4yxd7IuvWJpdQ8Zuy+hz3IhRXEKociUAExEIohG4+LcdPe6mOUNncd4uhwY5yUh23wjeR2M5bGNL8hed4exaLnj+f6DqaVQW0xTYr12FmWDHlTeVGClGc5uO6LRhtG2dv8ipiS77ShNl0sz+wu+mOfPZ4zS5Tux05iWOB9BgsZ5x/kK+6jJqn0g9qGLRuwI7cQqvlgTyy8fjNEOjKarpaCNpZl9VonEmKVlH984FWRw42+Ad1R0lVIpiVGDEhxOXqOtfSieoZYKi0lU61SxjJ1IVxyD2eqat9aqqxhdYLvwITPVO9+V/PYtGa2O47SB+vQmuZJwodSkVOfYfLXQR9k4F/l2Snts8kuLAxuYHMjVgbthYp+e2sfS2/PYtPtDbFnPimnm8+WS5HG6U32OdoooYlFKHmf4bCcyPbYsk+p8e1fgtZdnKxVsqe87lpu/kM0L5DFToIj9DdS70M0S9QAoAAAAAElFTkSuQmCC"
                         style={
                           Object {
                             "height": "100%",
@@ -643,15 +2891,15 @@ exports[`Language page renders correctly 1`] = `
                       />
                       <picture>
                         <source
-                          srcSet="/static/ca9442399681a3b97be19eaf0f90361c/07469/frame-4.png 1x"
+                          srcSet="/static/ca9442399681a3b97be19eaf0f90361c/9735e/frame-4.png 1x"
                         />
                         <img
                           alt=""
                           height={33}
                           loading="lazy"
                           onLoad={[Function]}
-                          src="/static/ca9442399681a3b97be19eaf0f90361c/07469/frame-4.png"
-                          srcSet="/static/ca9442399681a3b97be19eaf0f90361c/07469/frame-4.png 1x"
+                          src="/static/ca9442399681a3b97be19eaf0f90361c/9735e/frame-4.png"
+                          srcSet="/static/ca9442399681a3b97be19eaf0f90361c/9735e/frame-4.png 1x"
                           style={
                             Object {
                               "height": "100%",
@@ -665,13 +2913,13 @@ exports[`Language page renders correctly 1`] = `
                               "width": "100%",
                             }
                           }
-                          width={30}
+                          width={29}
                         />
                       </picture>
                       <noscript
                         dangerouslySetInnerHTML={
                           Object {
-                            "__html": "<picture><source srcset=\\"/static/ca9442399681a3b97be19eaf0f90361c/07469/frame-4.png 1x\\" /><img loading=\\"lazy\\" width=\\"30\\" height=\\"33\\" srcset=\\"/static/ca9442399681a3b97be19eaf0f90361c/07469/frame-4.png 1x\\" src=\\"/static/ca9442399681a3b97be19eaf0f90361c/07469/frame-4.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                            "__html": "<picture><source srcset=\\"/static/ca9442399681a3b97be19eaf0f90361c/9735e/frame-4.png 1x\\" /><img loading=\\"lazy\\" width=\\"29\\" height=\\"33\\" srcset=\\"/static/ca9442399681a3b97be19eaf0f90361c/9735e/frame-4.png 1x\\" src=\\"/static/ca9442399681a3b97be19eaf0f90361c/9735e/frame-4.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
                           }
                         }
                       />
@@ -689,14 +2937,14 @@ exports[`Language page renders correctly 1`] = `
                           "height": 33,
                           "overflow": "hidden",
                           "position": "relative",
-                          "width": 30,
+                          "width": 29,
                         }
                       }
                     >
                       <img
                         alt=""
                         aria-hidden={true}
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFaElEQVQ4y02VWUxUZxTHvyf70MQHn9qXxpcmjUmTpkkb0za1aVL3ahVlmGFGFltstEbqgpVNRUwUWYe5c1lE6oIgO9iKYiK0RsAQChZry1KdGZh7L6AwM3dggJl7/z3fBWInOTn3u8vvO9//LMPMTnknGcyC4iMfNAtkTmXJC6/XMeQNc/zPlu+ZHLJK7y1aBPkRixGUKDLEOOXwkicTaAPy1hLF8CZaJ16exLcVU4YlXl7xk0goN+7rFpHeFeQuZhXHtpqdEkGUMEWoE0y3OBV9b7Gsb87xGmuC6seqA/qpOlU/Wu3X0xtV/WRtQD/bEjQsvSEQMTsnECe46lhC+dCXseI4B2ocSDBEFclIuDKByh4/lwL8XsvgLLrdi2gemMX5VhXVvUFkNgZwpjmIE7d8xuliS8cEFuuQPuQ6LR9V48fclONFUfsM+C+1YQZ77BJcvgUUP/Djt5E5PHaH0Dc2j7R6H043B/WUWn+Yb7ynxJ3JrA7pAwL6V4Bcvz0UYce/8yjqmEHb01lEFSsYkOYhELCTgN2uEDpH55Fe7+cR6idq/JpFlLCruDeJJTv611qFcbcRsqhEtudJSKl7BSWgIafNh+lQGIdvTqHfG8If0gKan8wh546KAYowtc4HruGBypeUuHEtrvTPLSyp+ukaog8aWhHwqwte/cHwHB665pF/T0WfaxHtg7T2hJDZ6sORGwFcJOCQdw4/1fmR1RrUkggYXSz54pxT77N3W0rfMInex+alI4ct4gRON84g2iFjQ7YXthJaN/lR2K4SKGgk4fwvKoo7VWQ2qRwY2U8lZHaMuY+L/WtZVj2YyeFpXQHyTO8okIzMxpcpoPLB9jwvjlb7cK41aNiZZhWn6gIcpmc0qpF9pZNUv96nB2ufrWG2ErBY0V31OkJF55n+Ol/CllyJdJ2gKBVQrRFExbFqvxFZ9u0g6afqdB2OK5vEXmG8++PO8lUs1umi4h7P4tnlGn5TKOmbc704dHUKvw+HcOGeD9suSUhr8qHHs4Brj4OGdsdrSL+WICjCcFzpFKLsrg4sgvGyYTbH+GEL9fNuu6ydqJnW7w3NYXBsAdV9KuKovaLsMkECuEKwv6RFjE4uomlgDmdbVeogX5jrHSt6qhLLCLjfOcK+cw6ZrKKMjTmSXvkwqAMaLnep2J4rYwsVua1UMXRLvuFH9q8qvIEF+BYjOHvHrydX+cImQSK9nxfZSkYYi6kYYzGV7i94MriOvIdTbr3Eo5EQvEENp2/PYCsdObPZj7+nFuBVw7jZZ+jHE6Qn35zReIRWp5xqERTGTBUeFl3p+oymjcZrkQ8C0hFbLsk4SQWeXDOF3YUyTjX4cK1nFukE/rHKTy2nGkX9/c+vNBM/siCn0PhibGN+D9uQe38dJWV+OdM6dQxPEDiYDwp+fbLWj9R6FRkNRmRGQniEh65N6yaHhCTniG2/MMpYlOMu21ZY8zaJarQfHV1bGVkENjzfKLU+QAUd1DmE65nWENCP1/h0Khk+4rS4CtcmW7mbsSPXu1lGbfsqW4lbfg1UIktFrmjL85EDeJT6wauvNIJElt7hz43hjB3lz9bvKhtmLPFFKbPiCLOUei7S1JH4Q+MvwTj+SvcoWnzZJIdH9pJeyxvzCU3eG9onvmj8JOP6m9uy2xj7IW+UVWSAxTt6WZRYtzqmbGyHVXTbo52eDvpIMQtLYJPx8QRinfK0RRwfsJZ4CuIczxM2F9x9562sAFt37jpbn9vJ2KHcUZZ2foIdyO9jMc4eFi26WXz5BEMemNnpfm+3MJxsFuU2myB1mYr/SbfY+z86XPNkdYLgYTbBxXbauxhbD/ZpwX32ub2X/QdXI851nLKhpwAAAABJRU5ErkJggg=="
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFgklEQVQ4y31Va2xTZRj+FqP+Un8YE/9hDDEmJiRGYyTxx2KiorgxHFtvWzcGRBFBLkbGNsfGiChMGGt72sI6LmNMGNu4y0VkZOLYUIThxnXraLtzurVl7WnXdb2cx/c7LRD/+OPNl3OS7znP+zzP+x6mE6T3qKCzeIN0RnQWKsGbPi3/fdb+X5mlMGHMMK3Fm00FrSAl1dMiPa4imxd6a/qdXvBiicOHsqYJLN79pEp2pausyafQh8EM1rG5nCGBJenkLxUCUAhAmV8vKvmNkvq81OFXNrSHlbVtsrL+sKxUdoSV8nZZqTkaVqu8PZTUECFW1nTrLYPVzQEVDsjZ8C99tlPCxpMBrDwwgdztIio7Azg9GKOaxrZfZGw5FYa1O4zKIzLqjkewunUyqTFLYMWC+zW9IPoz7ab0GbBFjRLiSOLX2zHMrfXgUH8Id/wzaL8WwYAYw293orh0N4qvDwQ5oJIGJIZ6k3c2iTmuVduWUly3eVvHYOuWcf5+FJedURjtE8QmhDNDBNAawJA3hl73NE4ORLH2YBpwzcEgdSiCrTIPvFxk8dzWEjNqNakn4Hn1EoakBGqOB3F2IAxHL7V14iECMwkMTsRx7PoU2vqiuHg7Sq0GsflERFnS5Cfj3HFW3tz9XJHg6eUtE7vkx9vGlKouP4LJlKrXP2ICNz3T2E+gF13T+PZQCKtaZbT3TaH//hRprAKmjPZxkIY+9mbk6FMam3iO2uYRSeSQAY3nZDRcCKpM8xvHcbB3CgeuRNHSF0Flh4yqzggcv0fQ1h8BOc4Bk0aKjt7sucvqfwYrMI+2cmdJw7jB6lUKTF4s2CGq+dNQfVIvEnsfao+GsYkcrT1GwJ0yNnSkHa44IicN1nEYLO4+VmIH01lGzSqgIMXVDFKYjXavCsbd5nFYvi+AjV0RVHWEVZC6DPCmYxHKp5ww0H3q9CwBjrFim7OSO/Qo3Bwk+3uPClTdNQltZkp2nJ/CtjNhfLF/krSUUcMZc7ZH5HiRdQL5JmcH05tFKm+pOl68XZqMQqK/+1IIYohyOBzDp6Rrid2H5itT8JLTfaMzMF0Ig5iRflPKurbJuM4yjgKzcy9bZrnHlprv5RRZRdWQ9YeCSjiewlVXjDLnJ2NECrqIlS0PUUHtVnaGcGpgGikliZ7RaZR3yMqKfYFEoXkMpbtGatky+xBbarv1rsEqhvMaSKu9fuUvCvPfUgyOHmpvj081aMX+ALaejmB39xS6R6JwTs7gBMWqsktW6GPJNODoalbQ5uL1OhkS4GNXYJJSOdtpjjsCuDoaR49rBrkNIpnkQzsF2jdDwb4RRUVXCOWHVYOUZc1+pZD0NljGS1nengGW13xztjYzzwSa4tuH6zb/JxGLm9Ju03rC5pMRMknGipYgqjvTbld3hRW+ujRm0lnw6Nisqmr26nebX9RYPM5MFlP8pDyCjyF3utDEpQiQqxGKzpPYZDJJgH5ozWPTXwmD77M36hh7e8vsp4tszss6dZ6lJG1ndQemn71qO5/v9T8CUTgohZncDSpf7gukMvcChpYHc1i+yZOVb3KxYruzj7esU9eYN0WVUMEFPjlqsJUqapOY0iLw0TKVyFkpxeXgdzSCGP7A3jOLGUy+rKLGANM3PSjRW8R+Lf+vCOklq0v/GjjbBEmQokoWmERirDJSJaFuEnqr21Uq3K+NAYzlWkNsgek0KzZfY3XdNNeOe3OKre51GsHZSkZd0z9mrf4mCGRcMQhjw3qb+7jR6l5jNA1++GzFwmeytw8y9gJj7CN7lOWazzOj+UZWzR9gGscI01tH2A+tYEVtw88v3HkrR2NzNRDw1WLLaGvezuuLlgt/vvINAzPaXczYOMheqilj2TuGs9750cH+Bb6ZE4WR0wKyAAAAAElFTkSuQmCC"
                         style={
                           Object {
                             "height": "100%",
@@ -713,15 +2961,15 @@ exports[`Language page renders correctly 1`] = `
                       />
                       <picture>
                         <source
-                          srcSet="/static/2931dee19369d257719f80962760cc8b/07469/frame-5.png 1x"
+                          srcSet="/static/2931dee19369d257719f80962760cc8b/9735e/frame-5.png 1x"
                         />
                         <img
                           alt=""
                           height={33}
                           loading="lazy"
                           onLoad={[Function]}
-                          src="/static/2931dee19369d257719f80962760cc8b/07469/frame-5.png"
-                          srcSet="/static/2931dee19369d257719f80962760cc8b/07469/frame-5.png 1x"
+                          src="/static/2931dee19369d257719f80962760cc8b/9735e/frame-5.png"
+                          srcSet="/static/2931dee19369d257719f80962760cc8b/9735e/frame-5.png 1x"
                           style={
                             Object {
                               "height": "100%",
@@ -735,13 +2983,13 @@ exports[`Language page renders correctly 1`] = `
                               "width": "100%",
                             }
                           }
-                          width={30}
+                          width={29}
                         />
                       </picture>
                       <noscript
                         dangerouslySetInnerHTML={
                           Object {
-                            "__html": "<picture><source srcset=\\"/static/2931dee19369d257719f80962760cc8b/07469/frame-5.png 1x\\" /><img loading=\\"lazy\\" width=\\"30\\" height=\\"33\\" srcset=\\"/static/2931dee19369d257719f80962760cc8b/07469/frame-5.png 1x\\" src=\\"/static/2931dee19369d257719f80962760cc8b/07469/frame-5.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                            "__html": "<picture><source srcset=\\"/static/2931dee19369d257719f80962760cc8b/9735e/frame-5.png 1x\\" /><img loading=\\"lazy\\" width=\\"29\\" height=\\"33\\" srcset=\\"/static/2931dee19369d257719f80962760cc8b/9735e/frame-5.png 1x\\" src=\\"/static/2931dee19369d257719f80962760cc8b/9735e/frame-5.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
                           }
                         }
                       />
@@ -759,14 +3007,14 @@ exports[`Language page renders correctly 1`] = `
                           "height": 33,
                           "overflow": "hidden",
                           "position": "relative",
-                          "width": 30,
+                          "width": 29,
                         }
                       }
                     >
                       <img
                         alt=""
                         aria-hidden={true}
-                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAWCAYAAADAQbwGAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFB0lEQVQ4y4WVe1DUVRTHzz5/+/ptuoKyIA/jYYgJSiqOBH8wvbMm34qjY06TlU06NJavMVIzZWF/v2UX0GQxKbU/FHNEanJAECHDRfqnwkkrJo0pNZHIZHfv6dy7C43NNN2Z7/zub/fu537PPeeehdr4uL0VshHddmmQ9Od/yfU/csukMeZB8Mc6XG49oGKEEAn/LbcB0CMBHrXohI7Q/MjIu1mLR2gNl0rrKmTpLziUMH5LBS1QJAi6JWAjUvjTSE8TsDIA9hnpLKndAKxND6x55N2iZc1mbVjlUDnuKhzISHi5wqLnbiJAo4CLp0qwPfSjD6fnY5/Hw657fexMdjZ2zcrB/poa7H1jHZ6zaPGUBGEeidfhbIfK2NwCxWJD4SbiDEegXlmPOwGwbe3rDKPj4uKF+G3JBjEP9v+G5+0SNhoJaOTACV1wILUg22Oz3eY7KFLkC+5MMWmRh/o26XjRs4gszKGsZ95T2Dn3EexvOIY/le3BdtnAmqTo+TuST8KBSXm5Hpv1Dw4kWFg1aViZFvB9cnYoZzo7tXjZvSu19dyQAH6zZAGepiQ2Z2VgS2oi0hlig0kTquAhj0vyg5q5Ik2x2a9xIDkLc9hei3zvsr+O4XBwJFJGQ0y6n3kCLy1fhOGhIRxobcVOu5H56fzLyGFdgn09+PPeilNt8mVxbmZtiDsTMILcufIjNj6/hHW9s3vUYffTj+Gl1SsF/PdAADtsenaQgC5yumtKSjHw4bUbmhWTBimjwdqps1l46C6GBwfwk5kF7E3a4ORzC0ecksPHMVC8VMxvdnbgeQLWUQ2Xmyz4XnreUjhHwLI4+zEP7bCbgPWz5iKGQ3i3r4/VJE7C7ZSUM6tevA/YvWJZxOGFL/GsVc/2UW26LXasiplTCF0EdMU8eFiVtFhugGC5fiy7cf4rcWDtG7exrdzhvEViEwF8sgi7Vy4X81udndhi1YVrKElu2TZQm/poDnitKVD5wGSXIulQNUOIXLKDOfnsbt91cW53envx3s/XRh32FC/Bi5RpPu4EuvGszRCKAOXLH81e7wTfhFSock7eqJh0kbIxA+OJqZk4iZ15aQMGdnkxUOrCK+9uxaulW7DFYcWr27cJ4GDP14wDqwlYaTd1D79aIoPPmQXVSTPnR4Hi/qpmDXMRdAe5LY088RTpC7pFFxe/gMGbNwTw2q4deAIgVEafV9ukAJaUW+FoSiI0ZKQXUkGH77vH1El4osgxeqx0X3WAl/Jzcfj2bQEboIRciHewEzqqQaoQX6ytUZTM0eRkaJicma9K9wNHJUXaWCNt0EqhdeU+jD9s3YRtdIc7aG2jRRN0GbXodjxU18CBn+ZkQvOc3GmqbBgaBfIm8c9cAE+bADvI8Tly2sJbF71/btayD+geu+m4fI70UjUuA6A+Pw9OLigYr8jyrWiDGFb4ZadGEe08TCVwM4XVRGd7nJwetuhYpaThDSFYTuKNpMaZvrk6NhmgqvBXWLcWNZVjEtoFgMqnItqpoz2Sg9n+SAdnlAAOEc1AREQwxWxAT/yMVZ64LEodjxsRal9ZFOt3Zq7xjE36uGqMpUu1mod5J492ISw3RpuviMJMiZK/98VYmiqdU0tqZ8yZuhr0sAayI0CuqvlF9HeQDmuBKK/tt+7PzMr3Txy32eeIb1Ps1l/cPNtjY77zxiaorrRpC6pmbZrIvfgcabBvShbsdPWQL4S/AboLUgQciYqCAAAAAElFTkSuQmCC"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFOUlEQVQ4y3WVe0xTdxTHT1va29tCS6GIFBTiiynIlJg4H1vmdDPZK2SJxpHFZDMx+2NxM07/WbLFZT549d4+gIIuoKNANPMRHQ+pKCpbVBAdiW4aIk6RKYw4LOho7+/s/O5tt2VzN/nml9/tuZ/fefzOKbhtJpRswmPSxP+pglRGKn+G4u/JblJyWMZBMgLKJlBI+Cy5SftFPTZbErCB1gbaB816bKR90KzDIH1/kN5xDkGfgFugDwWISgKwf8tDKjUBqwNgXaQzpAtmbe0knSV1WwysXdQxfrAnyTUIbmsC90QFyhocJZO2cg9LTFZsf3sd3tm+Fa9ueBfb7BbsX7sKB7Ztxd6XluE58uyoWadU0FrlnNEJssXGARzG4jB1T+FUJADzprjYZH8/0sPCA4N4atZMfHSmk+9x5NsjSF7iMUuCBkzN7AafLXlYzaMAiqQBmUfUk4DtJeM9+kQcam1nHDBx+SKezkjFXyo9ODUyivcltwo8bjEoPGSfM+c4Ae0P40BZg2EJGZWADmWH7Y/g/KXRse7vNQ97e/C8KxVbkowYmpuDp9OTkef0iKCLcqCcNr8GPDbHoFohKgyH7QSI1i1YEL1VH8Sp0RHumeodXyev9qke/rRtC46EQpTHT5CKhTWiPspDPpjp/BQkW9oVmTYeiyFaSj/W5+VFldHRKCc8vn4Df95/AJ/++kAL+Uovhgg40tqinjAcbOAhs4BoiFaIOiwvyH4Dqm1ieyzkyG4wsoHGw6rxUEsH89pduFdnZUNtHaqHEz09GJqegvcIxJ/BSh+eU4E6xW0R8PMlL7wJUnpiQBZ06DbAVIV9Ghu/eVMNM1S8Eb8gY39aBo5eOKcCJno14FBzk7q/G6jCENlUUQHdZgeWZq9dCXtnZPlkuvlU3UiJ3soetnWo4fXuKWefUQrIaxzuUD3EcM/l/wBbARSfmV9q+1h91op5UJGyaJcsCJRDiHxFpx15dZ1WhKjCzny8A4/RpR7ruap52NeHIZfzb2CVH9uoiH4CyraUgcDz72dBYNr8Dz2iiXuo8Lu3i7xq2bCJTQ7cRlSIHQ4jG3+MTIngxI/X1KLcb2pUgQ8aGlg7QIQDffakTtz/VAD/zKXrZVFgsXZTO2Y3Qd3mJPb1vJVYl/cinigoxCvLC7DDIWJ3jgun7g1phfNI7DgBeVdV2y2n8WSfCRrz1yzyiMZHsZZTePuRp8jv1R4Cf0mqJZ3VA14qeh1/v3FDy8h4GK8V5GKDASI0QHBfsvkk8OdUYWG+12IYi3mo/HM4eCkUieAH6MJ30f7WR5tRmXyCkd/G8PoH7+F5PbBmURcpE/Toz8yo3MGB3ctfnu0TDSNxYBwmxeZhOamO1GU18CuCPYX52Eui8YUXk4ysyQyRciqq5Fi88xuYDjBQXJThTTHf/gvI82hSW1GdPhx4kNYL1Ak/2IzYpQMWIp2ifj6k2SoyFTUwPW+Tb+ZiOgYRZLuzPza5p0iR+MDlwDIaGE20dpp1rJkGQZDCrxX1Ch0UcXMZ+UAxYiBr4aaazHyAfS4Av3NOrUc0oGw2qiM/Bo+DFS9B/SSCK+UCTMVtJOow2UwD2ioOe7JfWeXJWc2zaIDt4U6heW7hao8jt6zaafvOl5R4100HqB8ZtXy64/8z/DAxedJnS7xUlZG8zzdj5YajG99J9aYvAf+0hWqhYQvegUO5hVBqnc1ToKsveG12fW56ca0zI+hNSe+XLPqonGgKe1Oz2yuzXFt35b+14trmE9b19G3NrGVwuLgIKtOeg2rnHPgT9QiNPQ61SF4AAAAASUVORK5CYII="
                         style={
                           Object {
                             "height": "100%",
@@ -783,15 +3031,15 @@ exports[`Language page renders correctly 1`] = `
                       />
                       <picture>
                         <source
-                          srcSet="/static/c51df4757d951457d40964836656f8db/07469/frame-6-1-.png 1x"
+                          srcSet="/static/c51df4757d951457d40964836656f8db/9735e/frame-6-1-.png 1x"
                         />
                         <img
                           alt=""
                           height={33}
                           loading="lazy"
                           onLoad={[Function]}
-                          src="/static/c51df4757d951457d40964836656f8db/07469/frame-6-1-.png"
-                          srcSet="/static/c51df4757d951457d40964836656f8db/07469/frame-6-1-.png 1x"
+                          src="/static/c51df4757d951457d40964836656f8db/9735e/frame-6-1-.png"
+                          srcSet="/static/c51df4757d951457d40964836656f8db/9735e/frame-6-1-.png 1x"
                           style={
                             Object {
                               "height": "100%",
@@ -805,13 +3053,13 @@ exports[`Language page renders correctly 1`] = `
                               "width": "100%",
                             }
                           }
-                          width={30}
+                          width={29}
                         />
                       </picture>
                       <noscript
                         dangerouslySetInnerHTML={
                           Object {
-                            "__html": "<picture><source srcset=\\"/static/c51df4757d951457d40964836656f8db/07469/frame-6-1-.png 1x\\" /><img loading=\\"lazy\\" width=\\"30\\" height=\\"33\\" srcset=\\"/static/c51df4757d951457d40964836656f8db/07469/frame-6-1-.png 1x\\" src=\\"/static/c51df4757d951457d40964836656f8db/07469/frame-6-1-.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                            "__html": "<picture><source srcset=\\"/static/c51df4757d951457d40964836656f8db/9735e/frame-6-1-.png 1x\\" /><img loading=\\"lazy\\" width=\\"29\\" height=\\"33\\" srcset=\\"/static/c51df4757d951457d40964836656f8db/9735e/frame-6-1-.png 1x\\" src=\\"/static/c51df4757d951457d40964836656f8db/9735e/frame-6-1-.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
                           }
                         }
                       />

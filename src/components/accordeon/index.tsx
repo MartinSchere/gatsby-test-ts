@@ -3,8 +3,7 @@ import "./styles.scss"
 
 import { Link } from "gatsby"
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCaretLeft } from "@fortawesome/free-solid-svg-icons"
+import { FaCaretLeft } from "react-icons/fa"
 
 import { DropdownItem } from "../dropdown/index"
 
@@ -25,12 +24,7 @@ const Accordeon = ({ items, children }: AccordeonProps) => {
         }}
       >
         <span className="text-bold">{children}</span>
-        <FontAwesomeIcon
-          icon={faCaretLeft}
-          rotation={isDropped ? 270 : null}
-          className="drop-icon"
-          // size={""}
-        />
+        <FaCaretLeft rotate={isDropped ? 270 : null} className="drop-icon" />
       </div>
       <div className={isDropped ? "drop show" : "drop"}>
         {items.map(({ node }, idx) => (

@@ -34,7 +34,6 @@ describe("Language page", () => {
       ]
       for (let i = 0; i < checkList.length; i++) {
         const img = checkList[i]
-        console.log(img)
         expect(img).toHaveProperty("childImageSharp")
       }
     })

@@ -49,7 +49,6 @@ const LanguagePage = ({ data }) => {
           fluid={language.featuredImg.childImageSharp.fluid}
           className="featured-img"
         />
-        )
       </div>
       <div className="scrollspy">
         <div className="scrollspy-content">
@@ -131,7 +130,7 @@ export const query = graphql`
         technologies {
           icon {
             childImageSharp {
-              fixed(width: 30, height: 33) {
+              fixed(width: 29, height: 33) {
                 ...GatsbyImageSharpFixed
               }
             }

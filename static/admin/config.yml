@@ -61,6 +61,7 @@ collections:
         label: Usos comunes
         hint: Insertar imagen y texto de los usos comunes del lenguaje
         widget: list
+        max: 4
         fields:
           - name: title
             label: Título

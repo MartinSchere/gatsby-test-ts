@@ -21,10 +21,12 @@ const IntroSection = ({ id, language }: LangSectionProps) => {
             <ul className="technologies-list">
               {language.technologies.map((tech, index) => (
                 <div key={index} className="tech text-light">
-                  <Img
-                    fixed={tech.icon.childImageSharp.fixed}
-                    className="tech-icon"
-                  />
+                  {tech.icon.childImageSharp && (
+                    <Img
+                      fixed={tech.icon.childImageSharp.fixed}
+                      className="tech-icon"
+                    />
+                  )}
                   {tech.name}
                 </div>
               ))}

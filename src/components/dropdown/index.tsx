@@ -3,8 +3,7 @@ import "./styles.scss"
 
 import { Link } from "gatsby"
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCaretDown } from "@fortawesome/free-solid-svg-icons"
+import { FaCaretDown } from "react-icons/fa"
 
 export type DropdownItem = {
   node: {
@@ -26,12 +25,7 @@ const Dropdown = (props: DropdownProps) => {
   return (
     <li className="dropdown">
       <span className="nav-link">
-        {props.children}{" "}
-        <FontAwesomeIcon
-          icon={faCaretDown}
-          className="dropdown-icon"
-          size={"sm"}
-        />
+        {props.children} <FaCaretDown className="dropdown-icon" />
       </span>
       <ul>
         {props.items.map(({ node }, idx) => (
