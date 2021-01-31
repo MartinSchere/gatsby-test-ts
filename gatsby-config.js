@@ -26,14 +26,8 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-remark-images",
     "gatsby-plugin-testing",
-    {
-      resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
-      options: {
-        analyzerMode: "server",
-        analyzerPort: "3001",
-        devMode: true,
-      },
-    },
+    "gatsby-plugin-preact",
+    "gatsby-plugin-webpack-bundle-analyser-v2",
     {
       resolve: `gatsby-transformer-remark`,
       options: {
