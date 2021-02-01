@@ -26,7 +26,8 @@ collections:
       - name: whatis
         label: ¿Qué es el lenguaje?
         widget: text
-        hint: Un texto descriptivo que responda a la pregunta, por ejemplo ¿Qué es Python?
+        hint: Un texto descriptivo que responda a la pregunta (100-700 caracteres)
+        pattern: ["^.{100,700}$", "Debe tener entre 100 y 700 caracteres"]
 
       - name: languageImg
         label: Imagen del lenguaje
@@ -35,7 +36,7 @@ collections:
 
       - name: featuredImg
         label: Imagen de portada
-        hint: Tiene que tener un ancho de 1920 píxeles
+        hint: Tiene que tener un ancho de 1920 píxeles y un alto de ~300 píxeles
         widget: image
 
       - name: technologies
@@ -84,13 +85,16 @@ collections:
           - name: image
             label: Imagen
             widget: image
+            allow_multiple: false
 
       - name: bottomImage
         label: Imagen inferior
-        hint: Imagen que se adjuntará después de la sección de características
+        hint: Imagen que se adjuntará después de la sección de características, en formato panorámico
         widget: image
+        allow_multiple: false
 
       - name: topics
         label: Temas abordados
         hint: Una lista de cada tema que se aborda en el curso
         widget: list
+        max: 10

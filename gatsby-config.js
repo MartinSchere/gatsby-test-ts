@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Coding Dojo",
+    title:
+      "Bootcamp de programación - Aprende programación y ciencia de datos | Coding Dojo",
     description:
       "¿Interesado en comenzar una nueva carrera en tecnología? Aprende a programar en una de los mejores academias del mundo. Crea tu primer sitio web y aplicación en cuestión de semanas. Enseñamos Python, Java, .NET, iOS, Javascript y más. Opciones de aprendizaje en línea y becas disponibles. ¡Inscríbete hoy!",
     image: "/images/ninjas.png",
